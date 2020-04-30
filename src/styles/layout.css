@@ -1,5 +1,5 @@
 html {
-  font-family: "Inter";
+  font-family: "Yekan";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -195,8 +195,9 @@ html {
   box-sizing: inherit;
 }
 body {
+  direction: rtl;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Inter", serif;
+  font-family: "Yekan", serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
