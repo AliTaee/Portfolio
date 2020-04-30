@@ -10,7 +10,7 @@ $secondary_light: #0466c8;
 $white: #ffffff;
 
 // sizes
-$container_width: 960px;
+$container_width: 800px;
 
 /*
 * Header and navigation
@@ -29,6 +29,10 @@ $container_width: 960px;
   .header__link {
     color: $white;
     text-decoration: none;
+  }
+  .header__title {
+    font-size: 1.6em;
+    margin: 0;
   }
 
   .main-nav {
