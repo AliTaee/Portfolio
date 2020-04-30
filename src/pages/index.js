@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Home</h1>
-    <p>Ali Taee Portfolio.</p>
+    <SEO title="خانه" />
+    <h1>خانه</h1>
+    <p>علی طائی</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>

@@ -14,12 +14,12 @@ const Header = ({ siteTitle }) => (
         <ul>
           <li className="main-nav__item">
             <Link className="header__link" to="/">
-              home
+              خانه
             </Link>
           </li>
           <li className="main-nav__item">
             <Link className="header__link" to="/about/">
-              about
+              درباره
             </Link>
           </li>
         </ul>

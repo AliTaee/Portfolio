@@ -25,6 +25,7 @@ $container_width: 800px;
     padding: 1.45rem 1.0875rem;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
   }
   .header__link {
     color: $white;

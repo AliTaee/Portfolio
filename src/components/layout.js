@@ -15,8 +15,8 @@ import Footer from "./footer"
 import "../styles/layout.css"
 import "../styles/main.scss"
 
-// Load Inter typeface
-require("typeface-inter")
+// Load Yekan typeface
+import "yekan-fontface";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
