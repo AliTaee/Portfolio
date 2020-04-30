@@ -2,10 +2,15 @@
 * Main color
 */
 
+// colors
 $primary: #5e7ce2;
 $primary_light: #92b4f4;
 $secondary: #0a369d;
 $secondary_light: #0466c8;
+$white: #ffffff;
+
+// sizes
+$container_width: 960px;
 
 /*
 * Header and navigation
@@ -16,14 +21,14 @@ $secondary_light: #0466c8;
   .header__cont {
     display: flex;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: $container_width;
     padding: 1.45rem 1.0875rem;
     align-items: center;
     justify-content: space-between;
   }
   .header__link {
-	color: white;
-	text-decoration: none;
+    color: $white;
+    text-decoration: none;
   }
 
   .main-nav {
@@ -45,6 +50,6 @@ $secondary_light: #0466c8;
 */
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: $container_width;
   padding: 0 1.0875rem 1.45rem;
 }
