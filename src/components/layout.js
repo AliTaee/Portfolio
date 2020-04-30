@@ -15,6 +15,9 @@ import Footer from "./footer"
 import "../styles/layout.css"
 import "../styles/main.scss"
 
+// Load Inter typeface
+require("typeface-inter")
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
