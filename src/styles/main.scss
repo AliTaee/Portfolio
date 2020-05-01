@@ -11,6 +11,17 @@ $white: #ffffff;
 
 // sizes
 $container_width: 800px;
+$border_radius: 4px;
+
+$padding_xs: 5px;
+$padding_sm: 10px;
+$padding_me: 20px;
+$padding_mx: 30px;
+
+$margin_xs: 5px;
+$margin_sm: 10px;
+$margin_me: 20px;
+$margin_mx: 30px;
 
 /*
 * Header and navigation
@@ -44,9 +55,26 @@ $container_width: 800px;
     }
     .main-nav__item {
       text-transform: capitalize;
-      margin: 0 10px 0 0;
-      padding: 5px;
+      margin: 0 $margin_sm 0 0;
+      padding: $padding_xs;
     }
+  }
+}
+
+/*
+* Main Page
+*/
+.intro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  .intro__welc {
+    width: 69%;
+    padding: $padding_mx;
+  }
+  .intro__card {
+    width: 30%;
   }
 }
 
@@ -57,6 +85,35 @@ $container_width: 800px;
   margin: 0 auto;
   max-width: $container_width;
   padding: 0 1.0875rem 1.45rem;
+}
+
+/*
+* Images
+*/
+.img-round {
+  border-radius: 100%;
+}
+
+/*
+* Card
+*/
+.card {
+  background: $primary_light;
+  border-radius: $border_radius;
+  padding: $padding_sm;
+  margin-bottom: 1.45rem;
+  text-align: center;
+  color: $white;
+  .card__title {
+    margin: $margin_sm 0;
+  }
+  .card__desc {
+    margin: 0;
+  }
+}
+
+.card--small {
+  max-width: 250px;
 }
 
 /*
