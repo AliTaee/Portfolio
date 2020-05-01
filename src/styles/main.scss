@@ -58,3 +58,14 @@ $container_width: 800px;
   max-width: $container_width;
   padding: 0 1.0875rem 1.45rem;
 }
+
+/*
+* Footer
+*/
+.footer {
+  .footer__gatsbyjs {
+    color: #542c85;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
