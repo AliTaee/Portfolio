@@ -22,6 +22,11 @@ const Header = ({ siteTitle }) => (
               درباره
             </Link>
           </li>
+          <li className="main-nav__item">
+            <Link className="header__link" to="/blog/">
+              بلاگ
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

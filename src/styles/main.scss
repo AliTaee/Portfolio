@@ -23,6 +23,8 @@ $margin_sm: 10px;
 $margin_me: 20px;
 $margin_mx: 30px;
 
+$card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
+
 /*
 * Header and navigation
 */
@@ -99,6 +101,7 @@ $margin_mx: 30px;
 */
 .card {
   background: $primary_light;
+  box-shadow: $card_shadow;
   border-radius: $border_radius;
   padding: $padding_sm;
   margin-bottom: 1.45rem;
