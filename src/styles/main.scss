@@ -69,9 +69,12 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  .intro__welc {
+  .intro__welcome {
     width: 69%;
     padding: $padding_mx;
+  }
+  .intro__about-me {
+    text-align: justify;
   }
   .intro__card {
     width: 30%;

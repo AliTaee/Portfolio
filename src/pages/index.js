@@ -9,22 +9,24 @@ const IndexPage = () => (
   <Layout>
     <SEO title="خانه" />
     <div className="intro">
-      <section className="intro__welc">
+      <section className="intro__welcome">
         <h1>
-          سلام دنیا! من علی طائی هستم. <Emoji emoji="👋" label="Hand waving" />
+          Hello World, I'm Ali Taee <Emoji emoji="👋" label="Hand waving" />
         </h1>
-        <p>
-          من توسعه دهنده فرانت اند هستم و به موضوعات جاوا اسکریپت و برنامه نویسی
-          علاقه دارم. این سایت انعکاس لذت یادگیری و اشتراک دانش با شماست.
+        <p className="intro__about-me">
+          I am a Front-end and WordPress developer who started learning web
+          programming back in 2016. Reading the Web sites practicing and
+          learning through the implementation of the projects and new challenges
+          also my daily habits. My career passion is JavaScript, React and User
+          interface and my interests are reading books, music, and photography.
+          The strengths of my work are learning, ideas, user experience (UX),
+          and user interface (UI).
         </p>
       </section>
       <section className="card intro__card card--small">
         <Image className="img-round" />
         <h2 className="card__title">Ali Taee</h2>
-        <p className="card__desc">
-          توسعه دهنده فرانت اند و وردپرس، علاقه مند به عکاسی، کتاب، پادکست،
-          سورئال، سفر
-        </p>
+        <p className="card__desc">Front-end developer</p>
       </section>
     </div>
   </Layout>
