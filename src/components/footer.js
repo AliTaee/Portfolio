@@ -3,9 +3,7 @@ import Emoji from "../components/emoji"
 
 const Footer = () => (
   <footer className="footer">
-    © {new Date().getFullYear()} | ساخته شده با{" "}
-    <Emoji emoji="❤️" label="love" />، <Emoji emoji="☕" label="coffee" /> و
-    {` `}
+    Design and Develop by Ali Taee with
     <a
       className="footer__gatsbyjs"
       href="https://www.gatsbyjs.org"
