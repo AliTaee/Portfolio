@@ -15,9 +15,6 @@ import Footer from "./footer"
 import "../styles/layout.css"
 import "../styles/main.scss"
 
-// Load Yekan typeface
-import "yekan-fontface";
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
