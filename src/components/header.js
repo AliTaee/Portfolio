@@ -27,11 +27,6 @@ const Header = ({ siteTitle }) => (
               Works
             </Link>
           </li>
-          <li className="main-nav__item">
-            <Link className="header__link" to="/blog/">
-              Blog
-            </Link>
-          </li>
         </ul>
       </nav>
     </div>
