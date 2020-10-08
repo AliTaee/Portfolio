@@ -5,6 +5,8 @@ import Image from "../components/image"
 import Emoji from "../components/emoji"
 import SEO from "../components/seo"
 
+import "typeface-inter"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
