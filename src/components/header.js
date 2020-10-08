@@ -23,6 +23,11 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li className="main-nav__item">
+            <Link className="header__link" to="/works/">
+              Works
+            </Link>
+          </li>
+          <li className="main-nav__item">
             <Link className="header__link" to="/blog/">
               Blog
             </Link>
