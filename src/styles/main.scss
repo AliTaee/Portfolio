@@ -87,7 +87,6 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 .container {
   margin: 0 auto;
   max-width: $container_width;
-  padding: 0 1.0875rem 1.45rem;
 }
 
 /*
@@ -124,9 +123,12 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 * Footer
 */
 .footer {
+  text-align: center;
+  background: $primary;
+  color: $white;
   .footer__gatsbyjs {
     margin-left: 6px;
-    color: #542c85;
+    color: $primary_light;
     text-decoration: none;
     font-weight: 500;
   }
