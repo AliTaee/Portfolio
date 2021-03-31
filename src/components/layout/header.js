@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <div className="header__cont">
+    <div className="header__container">
       <span className="header__title">
         <Link className="header__link" to="/">
           {siteTitle}

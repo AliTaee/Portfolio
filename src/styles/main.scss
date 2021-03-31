@@ -1,5 +1,6 @@
 @import "./var.scss";
 @import "./animation.scss";
+@import "./resume.scss";
 
 /*
 * Header and navigation
@@ -7,11 +8,11 @@
 .header {
   background: $primary;
   margin-bottom: 1.45rem;
-  &__cont {
+  &__container {
     display: flex;
     margin: 0 auto;
     max-width: $container_width;
-    padding: 1.45rem 1.0875rem;
+    padding: 1.45rem 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -69,6 +70,14 @@
 .container {
   margin: 0 auto;
   max-width: $container_width;
+}
+
+.flex {
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
 /*
