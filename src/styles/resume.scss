@@ -1,0 +1,15 @@
+.resume__sidebar {
+  width: 30%;
+}
+
+.resume__main {
+  width: 66%;
+  margin-left: 4%;
+}
+
+.resume__category {
+  color: $primary;
+  border-bottom: 3px solid $primary;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
