@@ -1,6 +1,9 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout/layout"
+
+// Resume component
+import Badge from "../components/resume/badge"
 import CategoryTitle from "../components/resume/category-title"
 
 const Resume = () => (
@@ -13,6 +16,9 @@ const Resume = () => (
     </article>
     <aside className="resume__sidebar">
       <CategoryTitle title="skills" />
+      <Badge title="React" />
+      <Badge title="JavaScript" />
+      <Badge title="CSS" />
     </aside>
   </Layout>
 )
