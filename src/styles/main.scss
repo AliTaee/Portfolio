@@ -89,7 +89,7 @@
 * Card
 */
 .card {
-  background: $primary_light;
+  background: linear-gradient(45deg, $primary_dark, $primary);
   box-shadow: $card_shadow;
   border-radius: $border_radius;
   padding: $padding_sm;
