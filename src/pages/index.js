@@ -1,8 +1,8 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import Emoji from "../components/emoji"
+import Layout from "../components/layout/layout"
+import Image from "../components/common/image"
+import Emoji from "../components/common/emoji"
 import SEO from "../components/seo"
 
 import "typeface-inter"
@@ -12,8 +12,11 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="intro">
       <section className="intro__welcome">
-        <h1>
-          Hello World, I'm Ali Taee <Emoji emoji="👋" label="Hand waving" />
+        <h1 className="intro__title">
+          Hello World, I'm Ali Taee{" "}
+          <span className="hand-wave">
+            <Emoji emoji="👋" label="Hand waving" />
+          </span>
         </h1>
         <p className="intro__about-me">
           I am a Front-end and WordPress developer who started learning web

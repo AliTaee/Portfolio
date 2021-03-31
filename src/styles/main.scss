@@ -3,8 +3,9 @@
 */
 
 // colors
-$primary: #292841;
-$primary_light: #7289da;
+$primary: #003566;
+$secondary: #ffd60a;
+$primary_light: #001d3d;
 $white: #ffffff;
 
 // sizes
@@ -23,13 +24,48 @@ $margin_mx: 30px;
 
 $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 
+.hand-wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /*
 * Header and navigation
 */
 .header {
   background: $primary;
   margin-bottom: 1.45rem;
-  .header__cont {
+  &__cont {
     display: flex;
     margin: 0 auto;
     max-width: $container_width;
@@ -38,11 +74,11 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
     justify-content: space-between;
     flex-direction: row-reverse;
   }
-  .header__link {
+  &__link {
     color: $white;
     text-decoration: none;
   }
-  .header__title {
+  &__title {
     font-size: 1.4em;
     margin: 0;
   }
@@ -53,7 +89,7 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
       display: flex;
       margin: 0;
     }
-    .main-nav__item {
+    &__item {
       text-transform: capitalize;
       margin: 0 $margin_sm 0 0;
       padding: $padding_xs;
@@ -69,14 +105,18 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  .intro__welcome {
+  height: calc(100vh - 140px);
+  &__welcome {
     width: 69%;
     padding: $padding_mx;
   }
-  .intro__about-me {
+  &__title {
+    font-weight: 400;
+  }
+  &__about-me {
     text-align: justify;
   }
-  .intro__card {
+  &__card {
     width: 30%;
   }
 }
@@ -87,6 +127,13 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 .container {
   margin: 0 auto;
   max-width: $container_width;
+}
+
+/*
+* Main layout container
+*/
+.main {
+  height: calc(100vh - 160px);
 }
 
 /*
@@ -107,10 +154,10 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
   margin-bottom: 1.45rem;
   text-align: center;
   color: $white;
-  .card__title {
+  &__title {
     margin: $margin_sm 0;
   }
-  .card__desc {
+  &__desc {
     margin: 0;
   }
 }
@@ -123,12 +170,13 @@ $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 * Footer
 */
 .footer {
+  padding: 10px 0;
   text-align: center;
   background: $primary;
   color: $white;
-  .footer__gatsbyjs {
+  &__gatsbyjs {
     margin-left: 6px;
-    color: $primary_light;
+    color: $secondary;
     text-decoration: none;
     font-weight: 500;
   }
