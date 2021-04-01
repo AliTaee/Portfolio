@@ -100,5 +100,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Resource I used for this Portfolio
 
-- https://type-scale.com/ (For Typography)
-- https://coolors.co/ (For Palette Color)
+- [type-scale.com](https://type-scale.com/) - For Typography
+- [coolors.co](https://coolors.co/) - For Palette Color
+- [favicon-generator](https://favicon.io/favicon-generator/) - Text favicon
