@@ -7,12 +7,12 @@
 */
 .header {
   background: $primary;
-  margin-bottom: 1.45rem;
+  margin-bottom: $margin-lg;
   &__container {
     display: flex;
     margin: 0 auto;
     max-width: $container_width;
-    padding: 1.45rem 0;
+    padding: $margin-lg 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -48,7 +48,6 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 140px);
   &__welcome {
     width: 69%;
     padding: $padding_mx;
@@ -80,11 +79,17 @@
   flex-direction: row-reverse;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*
 * Main layout container
 */
 .main {
-  height: calc(100vh - 160px);
+  min-height: calc(100vh - 186px);
 }
 
 /*
@@ -102,7 +107,7 @@
   box-shadow: $card_shadow;
   border-radius: $border_radius;
   padding: $padding_sm;
-  margin-bottom: 1.45rem;
+  margin-bottom: $margin-lg;
   text-align: center;
   color: $white;
   &__title {
@@ -121,6 +126,7 @@
 * Footer
 */
 .footer {
+  margin-top: $margin-lg;
   padding: 10px 0;
   text-align: center;
   background: $primary;

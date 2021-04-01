@@ -6,7 +6,7 @@ import Emoji from "../components/common/emoji"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout classStyle="flex-center">
     <SEO title="Home" />
     <div className="intro">
       <section className="intro__welcome">

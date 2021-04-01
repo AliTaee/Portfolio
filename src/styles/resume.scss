@@ -31,7 +31,7 @@
 .resume__badge {
   background-color: $primary;
   color: $white;
-  border-radius: 6px;
+  border-radius: $border_radius;
   margin: 0 6px 6px 0;
   text-transform: capitalize;
   padding: 6px 8px;
