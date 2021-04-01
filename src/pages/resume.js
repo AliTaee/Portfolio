@@ -8,14 +8,26 @@ import Layout from "../components/layout/layout"
 import CategoryTitle from "../components/resume/category-title"
 
 const skills = [
+  { id: 9, title: "Agile Development" },
+  { id: 6, title: "Scrum" },
+  { id: 8, title: "Trello" },
+  { id: 11, title: "Communication" },
+  { id: 10, title: "Team Work" },
+  { id: 7, title: "Jira" },
+  { id: 13, title: "CSS Processors" },
+  { id: 12, title: "SPA" },
   { id: 5, title: "JavaScript" },
   { id: 1, title: "jQuery" },
   { id: 0, title: "React" },
   { id: 2, title: "CSS" },
-  { id: 3, title: "SCSS" },
   { id: 4, title: "HTML" },
-  { id: 6, title: "Bootstrap" },
-  { id: 6, title: "Material-UI" },
+  { id: 15, title: "Redux" },
+  { id: 20, title: "E2E" },
+  { id: 16, title: "TypeScript" },
+  { id: 14, title: "Responsive Web Design" },
+  { id: 17, title: "WordPress Development" },
+  { id: 18, title: "WP Theme Development" },
+  { id: 19, title: "WP Plugin Development" },
 ]
 
 const Resume = () => (
