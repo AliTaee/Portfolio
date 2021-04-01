@@ -8,7 +8,7 @@ import Layout from "../components/layout/layout"
 import CategoryTitle from "../components/resume/category-title"
 
 // Resume source
-import { skills } from "./resume-source"
+import { skills } from "../resume-source"
 
 const Resume = () => (
   <Layout classStyle="flex row-reverse">
