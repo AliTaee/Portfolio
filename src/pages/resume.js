@@ -7,6 +7,17 @@ import Badge from "../components/resume/badge"
 import Layout from "../components/layout/layout"
 import CategoryTitle from "../components/resume/category-title"
 
+const skills = [
+  { id: 5, title: "JavaScript" },
+  { id: 1, title: "jQuery" },
+  { id: 0, title: "React" },
+  { id: 2, title: "CSS" },
+  { id: 3, title: "SCSS" },
+  { id: 4, title: "HTML" },
+  { id: 6, title: "Bootstrap" },
+  { id: 6, title: "Material-UI" },
+]
+
 const Resume = () => (
   <Layout classStyle="flex row-reverse">
     <SEO title="Resume" />
@@ -27,9 +38,11 @@ const Resume = () => (
         (UI).
       </p>
       <CategoryTitle title="skills" />
-      <Badge title="React" />
-      <Badge title="JavaScript" />
-      <Badge title="CSS" />
+      <article className="resume__skills">
+        {skills.map(skill => (
+          <Badge key={skill.id} title={skill.title} />
+        ))}
+      </article>
     </aside>
   </Layout>
 )
