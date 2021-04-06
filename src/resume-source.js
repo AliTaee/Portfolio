@@ -78,3 +78,14 @@ export const workExperience = [
     ],
   },
 ]
+
+export const certificates = [
+  {
+    id: 0,
+    mainTitle: "Responsive Web Design",
+    secondaryTitle:
+      "Developer Certification, representing approximately 300 hours of coursework",
+    time: "12/2017 – 07/2018",
+    list: [],
+  },
+]

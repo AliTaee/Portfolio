@@ -8,7 +8,7 @@ const ResumeSection = ({ mainTitle, secondaryTitle, time, list }) => (
       <span className="resume-section__secondary-title">{secondaryTitle}</span>
     )}
     {time && <time className="resume-section__time">{time}</time>}
-    {list.length && (
+    {list.length > 0 && (
       <ul>
         {list.map(listItem => (
           <li key={listItem.id}>{listItem.detail}</li>

@@ -10,7 +10,7 @@ import ResumeSection from "../components/resume/resume-section"
 import CategoryTitle from "../components/resume/category-title"
 
 // Resume source
-import { skills, workExperience } from "../resume-source"
+import { skills, certificates, workExperience } from "../resume-source"
 
 const Resume = () => (
   <Layout classStyle="flex row-reverse">
@@ -29,7 +29,19 @@ const Resume = () => (
         ))}
       </ul>
       <CategoryTitle title="projects" />
+
       <CategoryTitle title="certificates" />
+      <ul className="unbulleted-list">
+        {certificates.map(certificate => (
+          <ResumeSection
+            key={certificate.id}
+            list={certificate.list}
+            time={certificate.time}
+            mainTitle={certificate.mainTitle}
+            secondaryTitle={certificate.secondaryTitle}
+          />
+        ))}
+      </ul>
     </article>
     <aside className="resume__sidebar">
       <Image className="img-round resume__img" />
