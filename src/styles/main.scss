@@ -111,6 +111,36 @@ html {
   justify-content: center;
 }
 
+.unbulleted-list {
+  list-style: none;
+}
+
+.heading-title {
+  color: $primary;
+  font-weight: 400;
+  margin: 0;
+}
+
+/*
+* Resume section
+*/
+.resume-section {
+  margin-bottom: $margin-lg;
+
+  &__secondary-title {
+    font-weight: 500;
+  }
+
+  &__time {
+    display: block;
+    margin-top: $margin_sm;
+    color: $primary;
+    font-style: italic;
+    font-weight: 400;
+    font-size: $font_small;
+  }
+}
+
 /*
 * Main layout container
 */
