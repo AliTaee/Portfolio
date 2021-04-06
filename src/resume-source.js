@@ -15,6 +15,7 @@ export const skills = [
   { id: 15, title: "Redux" },
   { id: 20, title: "E2E" },
   { id: 16, title: "TypeScript" },
+  { id: 21, title: "Parcel.js" },
   { id: 14, title: "Responsive Web Design" },
   { id: 17, title: "WordPress Development" },
   { id: 18, title: "WP Theme Development" },
@@ -87,5 +88,45 @@ export const certificates = [
       "Developer Certification, representing approximately 300 hours of coursework",
     time: "12/2017 – 07/2018",
     list: [],
+  },
+]
+
+export const projects = [
+  {
+    id: 0,
+    mainTitle: "Iran bank card ",
+    secondaryTitle: "Customizable Iran bank card.",
+    time: "02/2021 – Present",
+    list: [
+      {
+        id: 0,
+        detail: "TypeScript, React, SCSS, Unit-test",
+      },
+    ],
+  },
+  {
+    id: 2,
+    mainTitle: "HTML Banner",
+    secondaryTitle:
+      "HTML banners with focusing on pure CSS and JavaScript animation and interaction with the user's events also performance and size matters.",
+    time: "09/2020 – Present",
+    list: [
+      {
+        id: 0,
+        detail: "HTML, SCSS, pure CSS and JavaScript, Parcel.js",
+      },
+    ],
+  },
+  {
+    id: 1,
+    mainTitle: "Iran Map - WordPress Plugin",
+    secondaryTitle: "",
+    time: "09/2018 – Present",
+    list: [
+      {
+        id: 0,
+        detail: "WordPress Development, PHP, HTML, CSS",
+      },
+    ],
   },
 ]

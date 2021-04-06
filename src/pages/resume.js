@@ -10,7 +10,12 @@ import ResumeSection from "../components/resume/resume-section"
 import CategoryTitle from "../components/resume/category-title"
 
 // Resume source
-import { skills, certificates, workExperience } from "../resume-source"
+import {
+  skills,
+  projects,
+  certificates,
+  workExperience,
+} from "../resume-source"
 
 const Resume = () => (
   <Layout classStyle="flex row-reverse">
@@ -29,6 +34,17 @@ const Resume = () => (
         ))}
       </ul>
       <CategoryTitle title="projects" />
+      <ul className="unbulleted-list">
+        {projects.map(project => (
+          <ResumeSection
+            key={project.id}
+            list={project.list}
+            time={project.time}
+            mainTitle={project.mainTitle}
+            secondaryTitle={project.secondaryTitle}
+          />
+        ))}
+      </ul>
 
       <CategoryTitle title="certificates" />
       <ul className="unbulleted-list">
