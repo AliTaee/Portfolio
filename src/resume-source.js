@@ -15,6 +15,7 @@ export const skills = [
   { id: 15, title: "Redux" },
   { id: 20, title: "E2E" },
   { id: 22, title: "REST API" },
+  { id: 23, title: "Gulp" },
   { id: 16, title: "TypeScript" },
   { id: 21, title: "Parcel.js" },
   { id: 14, title: "Responsive Web Design" },
@@ -89,6 +90,18 @@ export const workExperience = [
         id: 2,
         detail:
           "Vancouverhoney.org (UI Design, HTML, CSS, Visual Composer, Responsive Web Design)",
+      },
+    ],
+  },
+  {
+    id: 4,
+    mainTitle: "WordPress Developer and Website manager",
+    secondaryTitle: "Asr-e Digital Online Store",
+    time: "2014 – 02/2017",
+    list: [
+      {
+        id: 0,
+        detail: "WordPress Developer, Website management, and content editing.",
       },
     ],
   },
