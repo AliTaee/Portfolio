@@ -20,3 +20,61 @@ export const skills = [
   { id: 18, title: "WP Theme Development" },
   { id: 19, title: "WP Plugin Development" },
 ]
+
+export const workExperience = [
+  {
+    id: 0,
+    mainTitle: "Front-end Developer",
+    secondaryTitle: "Rasa security and research labs",
+    time: "10/2019 – Present",
+    list: [
+      {
+        id: 0,
+        detail:
+          "Developing Dashboards with React, Context API, MATERIAL-UI, JSS, React hook and Function component",
+      },
+    ],
+  },
+  {
+    id: 1,
+    mainTitle: "Front-end Developer",
+    secondaryTitle: "Nabzino",
+    time: "02/2019 – 08/2019",
+    list: [
+      {
+        id: 0,
+        detail: "Chetor.com (WordPress Development).",
+      },
+      {
+        id: 1,
+        detail: "Daraje.com (WordPress and Plugin Development).",
+      },
+      {
+        id: 2,
+        detail:
+          "Front-End Developer - Dashboard (React, Redux, MATERIAL-UI, JSS).",
+      },
+    ],
+  },
+  {
+    id: 2,
+    mainTitle: "Front-end and WordPress Developer",
+    secondaryTitle: "Arta Seo",
+    time: "05/2018 – 02/2019",
+    list: [
+      {
+        id: 0,
+        detail: "Novinarta.com (PSD to WordPress and Plugin Development).",
+      },
+      {
+        id: 1,
+        detail: "Artaseo.com (PSD to WordPress).",
+      },
+      {
+        id: 2,
+        detail:
+          "Vancouverhoney.org (UI Design, HTML, CSS, Visual Composer, Responsive Web Design)",
+      },
+    ],
+  },
+]
