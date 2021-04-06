@@ -12,6 +12,18 @@
   flex-wrap: wrap;
 }
 
+.resume__contact {
+  margin: 0;
+  padding: 0;
+  & a {
+    color: $primary;
+  }
+}
+
+.resume__margin-top-lg {
+  margin-top: $margin-lg;
+}
+
 .resume__sidebar {
   width: 35%;
 }

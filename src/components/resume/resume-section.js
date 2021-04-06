@@ -1,8 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const ResumeSection = ({ mainTitle, secondaryTitle, time, list }) => (
-  <li className="resume-section">
+const ResumeSection = ({
+  time,
+  list,
+  mainTitle,
+  className,
+  secondaryTitle,
+}) => (
+  <li className={`resume-section ${className}`}>
     {mainTitle && <h3 className="heading-title">{mainTitle}</h3>}
     {secondaryTitle && (
       <span className="resume-section__secondary-title">{secondaryTitle}</span>
@@ -20,6 +26,7 @@ const ResumeSection = ({ mainTitle, secondaryTitle, time, list }) => (
 
 ResumeSection.propTypes = {
   time: PropTypes.string,
+  className: PropTypes.string,
   mainTitle: PropTypes.string,
   secondaryTitle: PropTypes.string,
   list: PropTypes.arrayOf(PropTypes.shape()),
@@ -28,6 +35,7 @@ ResumeSection.propTypes = {
 ResumeSection.defaultProps = {
   list: [],
   time: "",
+  className: "",
   mainTitle: "",
   secondaryTitle: "",
 }

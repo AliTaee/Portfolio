@@ -14,6 +14,7 @@ export const skills = [
   { id: 4, title: "HTML" },
   { id: 15, title: "Redux" },
   { id: 20, title: "E2E" },
+  { id: 22, title: "REST API" },
   { id: 16, title: "TypeScript" },
   { id: 21, title: "Parcel.js" },
   { id: 14, title: "Responsive Web Design" },
@@ -24,10 +25,23 @@ export const skills = [
 
 export const workExperience = [
   {
+    id: 3,
+    mainTitle: "Front-end Developer",
+    secondaryTitle:
+      "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! largest ride-hailing app in the Middle East. It uses web-view tool in native application due to keep all the product stack in React.",
+    time: "01/2021 – Present",
+    list: [
+      {
+        id: 0,
+        detail: "React, Redux, Redux-Saga, TypeScript, Next.js",
+      },
+    ],
+  },
+  {
     id: 0,
     mainTitle: "Front-end Developer",
     secondaryTitle: "Rasa security and research labs",
-    time: "10/2019 – Present",
+    time: "10/2019 – 01/2021",
     list: [
       {
         id: 0,
@@ -128,5 +142,32 @@ export const projects = [
         detail: "WordPress Development, PHP, HTML, CSS",
       },
     ],
+  },
+]
+
+export const contacts = [
+  {
+    id: 0,
+    href: "mailto:ali.taee.72@gmail.com",
+    icon: "icon-envelope",
+    text: "ali.taee.72@gmail.com",
+  },
+  {
+    id: 1,
+    href: "https://www.linkedin.com/in/alitaee/",
+    icon: "icon-linkedin-square",
+    text: "Linkedin",
+  },
+  {
+    id: 2,
+    href: "https://stackoverflow.com/users/9218227/ali-taee",
+    icon: "icon-stack-overflow",
+    text: "Stack overflow",
+  },
+  {
+    id: 3,
+    href: "https://github.com/AliTaee",
+    icon: "icon-github",
+    text: "Github",
   },
 ]
