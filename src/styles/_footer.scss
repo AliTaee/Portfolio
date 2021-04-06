@@ -1,0 +1,16 @@
+/*
+* Footer
+*/
+.footer {
+  margin-top: $margin-lg;
+  padding: 10px 0;
+  text-align: center;
+  background: $primary;
+  color: $white;
+  &__gatsbyjs {
+    margin-left: 6px;
+    color: $secondary;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}

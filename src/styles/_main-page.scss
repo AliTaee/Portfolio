@@ -1,0 +1,22 @@
+/*
+* Main Page
+*/
+.intro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  &__welcome {
+    width: 69%;
+    padding: $padding_mx;
+  }
+  &__title {
+    font-weight: 400;
+  }
+  &__about-me {
+    text-align: justify;
+  }
+  &__card {
+    width: 30%;
+  }
+}
