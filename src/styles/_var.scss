@@ -1,19 +1,17 @@
-/*
-* Main color
-*/
-
-// colors
+// Colors
 $primary: #003566;
 $secondary: #ffd60a;
 $primary_dark: #001d3d;
 $white: #ffffff;
 
-// sizes
+// Sizes
 $container_width: 966px;
 $border_radius: 6px;
 
+// Fonts
 $font_small: 16px;
 
+// Space
 $padding_xs: 5px;
 $padding_sm: 10px;
 $padding_me: 20px;
@@ -24,5 +22,8 @@ $margin_sm: 10px;
 $margin_me: 20px;
 $margin-lg: 26px;
 $margin_mx: 30px;
+
+// Responsive
+$tablet: 768px;
 
 $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
