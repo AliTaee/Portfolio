@@ -16,7 +16,7 @@ const IndexPage = () => (
             <Emoji emoji="👋" label="Hand waving" />
           </span>
         </h1>
-        <p className="intro__about-me">
+        <p>
           I am a Front-end and WordPress developer who started learning web
           programming back in 2016. Reading the Web sites practicing and
           learning through the implementation of the projects and new challenges
