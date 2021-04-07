@@ -2,6 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
+const routes = [
+  { id: 0, label: "Home", href: "/" },
+  { id: 1, label: "Resume", href: "/resume/" },
+]
+
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__container">
@@ -12,16 +17,17 @@ const Header = ({ siteTitle }) => (
       </span>
       <nav className="main-nav">
         <ul>
-          <li className="main-nav__item">
-            <Link className="header__link" to="/">
-              Home
-            </Link>
-          </li>
-          <li className="main-nav__item">
-            <Link className="header__link" to="/resume/">
-              Resume
-            </Link>
-          </li>
+          {routes.map(route => (
+            <li key={route.id} className="main-nav__item">
+              <Link
+                activeClassName="header__link--active"
+                className="header__link"
+                to={route.href}
+              >
+                {route.label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>
