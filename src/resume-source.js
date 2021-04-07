@@ -168,7 +168,7 @@ export const contacts = [
   {
     id: 1,
     href: "https://www.linkedin.com/in/alitaee/",
-    icon: "icon-linkedin-square",
+    icon: "icon-linkedin",
     text: "Linkedin",
   },
   {
