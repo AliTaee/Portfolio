@@ -26,6 +26,7 @@ html {
 .container {
   margin: 0 auto;
   max-width: $container_width;
+  padding: 0 $padding_sm;
 }
 
 .flex {

@@ -5,11 +5,12 @@
 .header {
     background: $primary;
     margin-bottom: $margin-lg;
+    
     &__container {
       display: flex;
       margin: 0 auto;
       max-width: $container_width;
-      padding: $margin-lg 0;
+      padding: $margin-lg $padding_sm;
       align-items: center;
       justify-content: space-between;
       flex-direction: row-reverse;
