@@ -26,8 +26,13 @@
     flex-direction: column;
 
     &__welcome {
-      width: 80%;
+      width: 90%;
       padding: 0;
+    }
+
+    &__title {
+      font-size: 24px;
+      text-align: center;
     }
 
     &__card {
