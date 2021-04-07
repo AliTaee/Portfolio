@@ -103,3 +103,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [type-scale.com](https://type-scale.com/) - For Typography
 - [coolors.co](https://coolors.co/) - For Palette Color
 - [favicon-generator](https://favicon.io/favicon-generator/) - Text favicon
+- [icomoon.io](https://icomoon.io/) - Icon
