@@ -19,7 +19,7 @@ import {
 } from "../resume-source"
 
 const Resume = () => (
-  <Layout classStyle="flex row-reverse">
+  <Layout classStyle="resume">
     <SEO title="Resume" />
     <article className="resume__main">
       <CategoryTitle title="work experience" />

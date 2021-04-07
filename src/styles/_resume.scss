@@ -1,51 +1,56 @@
-.resume__img {
-  width: 280px;
-  margin: 0 auto 1em;
-}
-
-.resume__about {
-  text-align: justify;
-}
-
-.resume__skills {
+.resume {
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-direction: row-reverse;
 
-.resume__contact {
-  margin: 0;
-  padding: 0;
-  & a {
-    color: $primary;
+  &__img {
+    width: 280px;
+    margin: 0 auto 1em;
   }
-}
 
-.resume__margin-top-lg {
-  margin-top: $margin-lg;
-}
+  &__about {
+    text-align: justify;
+  }
 
-.resume__sidebar {
-  width: 35%;
-}
+  &__skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.resume__main {
-  width: 61%;
-  margin-left: 4%;
-}
+  &__contact {
+    margin: 0;
+    padding: 0;
+    & a {
+      color: $primary;
+    }
+  }
 
-.resume__category {
-  color: $primary;
-  border-bottom: 3px solid $primary;
-  padding-bottom: 10px;
-  text-transform: capitalize;
-  font-weight: 400;
-}
+  &__margin-top-lg {
+    margin-top: $margin-lg;
+  }
 
-.resume__badge {
-  background-color: $primary;
-  color: $white;
-  border-radius: $border_radius;
-  margin: 0 6px 6px 0;
-  text-transform: capitalize;
-  padding: 6px 8px;
+  &__sidebar {
+    width: 35%;
+  }
+
+  &__main {
+    width: 61%;
+    margin-left: 4%;
+  }
+
+  &__category {
+    color: $primary;
+    border-bottom: 3px solid $primary;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+
+  &__badge {
+    background-color: $primary;
+    color: $white;
+    border-radius: $border_radius;
+    margin: 0 6px 6px 0;
+    text-transform: capitalize;
+    padding: 6px 8px;
+  }
 }
