@@ -23,7 +23,7 @@ const Resume = () => (
     <SEO title="Resume" />
     <article className="resume__main">
       <CategoryTitle title="work experience" />
-      <ul className="unbulleted-list">
+      <ol className="unbulleted-list">
         {workExperience.map(experience => (
           <ResumeSection
             key={experience.id}
@@ -33,10 +33,10 @@ const Resume = () => (
             secondaryTitle={experience.secondaryTitle}
           />
         ))}
-      </ul>
+      </ol>
 
       <CategoryTitle title="projects" />
-      <ul className="unbulleted-list">
+      <ol className="unbulleted-list">
         {projects.map(project => (
           <ResumeSection
             key={project.id}
@@ -46,10 +46,10 @@ const Resume = () => (
             secondaryTitle={project.secondaryTitle}
           />
         ))}
-      </ul>
+      </ol>
 
       <CategoryTitle title="certificates" />
-      <ul className="unbulleted-list">
+      <ol className="unbulleted-list">
         {certificates.map(certificate => (
           <ResumeSection
             key={certificate.id}
@@ -59,7 +59,7 @@ const Resume = () => (
             secondaryTitle={certificate.secondaryTitle}
           />
         ))}
-      </ul>
+      </ol>
     </article>
 
     <aside className="resume__sidebar">
