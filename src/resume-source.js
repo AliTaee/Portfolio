@@ -34,7 +34,7 @@ export const workExperience = [
     list: [
       {
         id: 0,
-        detail: "React, Redux, Redux-Saga, TypeScript, Next.js",
+        detail: "React, Redux, Redux-Saga, TypeScript, Next.js, Storybook",
       },
     ],
   },
@@ -125,6 +125,20 @@ export const certificates = [
 
 export const projects = [
   {
+    id: 3,
+    mainTitle: "My Portfolio",
+    secondaryTitle:
+      "Portfolio with Gatsby, You are welcome to use this project to build your portfolio site.",
+    mainLink: "https://github.com/AliTaee/Portfolio",
+    time: "03/2021 – Present",
+    list: [
+      {
+        id: 0,
+        detail: "Gatsby, React, SCSS",
+      },
+    ],
+  },
+  {
     id: 0,
     mainTitle: "Iran bank card ",
     secondaryTitle: "Customizable Iran bank card.",
@@ -155,7 +169,8 @@ export const projects = [
     id: 1,
     mainTitle: "Iran Map - WordPress Plugin",
     mainLink: "https://github.com/AliTaee/Iran-Map-WordPress-Plugin",
-    secondaryTitle: "",
+    secondaryTitle:
+      "Add minimal and nice iran map to your WordPress web site. Interactive Iran Map, admin can link each city to specific link.",
     time: "09/2018 – Present",
     list: [
       {
