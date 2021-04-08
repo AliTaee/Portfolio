@@ -67,6 +67,7 @@ const Resume = () => (
 
     <aside className="resume__sidebar">
       <Image className="img-round resume__img" />
+      <h1 className="resume__title">Ali Taee</h1>
       <p>
         I am a Front-end and WordPress developer who started learning Web
         programming back in 2016. Reading the Web sites practicing and learning
