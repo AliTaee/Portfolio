@@ -94,19 +94,6 @@ const Resume = () => (
           <Badge key={skill.id} title={skill.title} />
         ))}
       </article>
-      <a
-        href="https://www.codewars.com/users/AliTaee"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          className="resume__margin-top-lg"
-          src="https://camo.githubusercontent.com/eb8b521f96683fe87aab7b8c510b135037b0687cc0d20a1997a1d81fe373cc12/68747470733a2f2f7777772e636f6465776172732e636f6d2f75736572732f416c69546165652f6261646765732f6c61726765"
-          alt="my profile at codewars"
-          data-canonical-src="https://www.codewars.com/users/AliTaee/badges/large"
-          style={{ maxWidth: "100%" }}
-        />
-      </a>
     </aside>
   </Layout>
 )

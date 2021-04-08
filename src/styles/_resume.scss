@@ -62,3 +62,24 @@
     }
   }
 }
+
+@media print {
+  body {
+    margin: 10mm 5mm 10mm 5mm;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .resume__img {
+    width: 300px;
+  }
+}
