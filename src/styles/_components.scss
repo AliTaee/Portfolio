@@ -8,6 +8,12 @@
     font-weight: 500;
   }
 
+  &__link {
+    color: $primary;
+    text-decoration: none;
+    margin-left: $margin_xs;
+  }
+
   &__time {
     display: block;
     margin-top: $margin_sm;

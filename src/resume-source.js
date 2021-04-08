@@ -28,8 +28,8 @@ export const workExperience = [
   {
     id: 3,
     mainTitle: "Front-end Developer",
-    secondaryTitle:
-      "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! largest ride-hailing app in the Middle East. It uses web-view tool in native application due to keep all the product stack in React.",
+    secondaryTitle: "Snappfood",
+    mainLink: "https://snappfood.ir/",
     time: "01/2021 – Present",
     list: [
       {
@@ -55,6 +55,7 @@ export const workExperience = [
     id: 1,
     mainTitle: "Front-end Developer",
     secondaryTitle: "Nabzino",
+    mainLink: "https://www.nabzino.com/",
     time: "02/2019 – 08/2019",
     list: [
       {
@@ -76,6 +77,7 @@ export const workExperience = [
     id: 2,
     mainTitle: "Front-end and WordPress Developer",
     secondaryTitle: "Arta Seo",
+    mainLink: "https://artaseo.ir/",
     time: "05/2018 – 02/2019",
     list: [
       {
@@ -97,6 +99,7 @@ export const workExperience = [
     id: 4,
     mainTitle: "WordPress Developer and Website manager",
     secondaryTitle: "Asr-e Digital Online Store",
+    mainLink: "https://nabzino.com/",
     time: "2014 – 02/2017",
     list: [
       {
@@ -113,6 +116,8 @@ export const certificates = [
     mainTitle: "Responsive Web Design",
     secondaryTitle:
       "Developer Certification, representing approximately 300 hours of coursework",
+    mainLink:
+      "https://www.freecodecamp.org/certification/alitaee/responsive-web-design",
     time: "12/2017 – 07/2018",
     list: [],
   },
@@ -123,6 +128,7 @@ export const projects = [
     id: 0,
     mainTitle: "Iran bank card ",
     secondaryTitle: "Customizable Iran bank card.",
+    mainLink: "https://github.com/AliTaee/iran-bank-card",
     time: "02/2021 – Present",
     list: [
       {
@@ -136,6 +142,7 @@ export const projects = [
     mainTitle: "HTML Banner",
     secondaryTitle:
       "HTML banners with focusing on pure CSS and JavaScript animation and interaction with the user's events also performance and size matters.",
+    mainLink: "https://github.com/AliTaee/html-banner",
     time: "09/2020 – Present",
     list: [
       {
@@ -147,6 +154,7 @@ export const projects = [
   {
     id: 1,
     mainTitle: "Iran Map - WordPress Plugin",
+    mainLink: "https://github.com/AliTaee/Iran-Map-WordPress-Plugin",
     secondaryTitle: "",
     time: "09/2018 – Present",
     list: [

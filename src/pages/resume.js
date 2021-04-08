@@ -29,6 +29,7 @@ const Resume = () => (
             key={experience.id}
             list={experience.list}
             time={experience.time}
+            mainLink={experience.mainLink}
             mainTitle={experience.mainTitle}
             secondaryTitle={experience.secondaryTitle}
           />
@@ -42,6 +43,7 @@ const Resume = () => (
             key={project.id}
             list={project.list}
             time={project.time}
+            mainLink={project.mainLink}
             mainTitle={project.mainTitle}
             secondaryTitle={project.secondaryTitle}
           />
@@ -55,6 +57,7 @@ const Resume = () => (
             key={certificate.id}
             list={certificate.list}
             time={certificate.time}
+            mainLink={certificate.mainLink}
             mainTitle={certificate.mainTitle}
             secondaryTitle={certificate.secondaryTitle}
           />
@@ -79,7 +82,7 @@ const Resume = () => (
         {contacts.map(contact => (
           <li key={contact.id}>
             <a href={contact.href} target="_blank" rel="noopener noreferrer">
-              <span className={contact.icon}></span> {contact.text}
+              <span className={contact.icon} /> {contact.text}
             </a>
           </li>
         ))}
