@@ -23,11 +23,11 @@ const Sidebar = () => (
     <Image className="img-round resume__img" />
     <h1 className="resume__title">Ali Taee</h1>
     <p>
-      I am a Front-end developer with 4 years of experience. I am enjoying every
+      I am a Front-end developer with 4 years of experience. I am enjoy every
       aspect of the Front-end from the implement user interface to advance
-      JavaScript topics. I have a passion to work on side projects to learn more
+      JavaScript topics. I also have passion to work on side projects to learn more
       and create new things. The strengths of my work are learning, get
-      feedback, and Knowledge sharing. My interests are reading novels, music,
+      feedback, and knowledge sharing. My interests are reading novels, music,
       and photography.
     </p>
 

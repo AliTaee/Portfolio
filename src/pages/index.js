@@ -17,13 +17,12 @@ const IndexPage = () => (
           </span>
         </h1>
         <p>
-          I am a Front-end and WordPress developer who started learning web
-          programming back in 2016. Reading the Web sites practicing and
-          learning through the implementation of the projects and new challenges
-          also my daily habits. My career passion is JavaScript, React and User
-          interface and my interests are reading books, music, and photography.
-          The strengths of my work are learning, ideas, user experience (UX),
-          and user interface (UI).
+          I am a Front-end developer with 4 years of experience. I am enjoy
+          every aspect of the Front-end from the implement user interface to
+          advance JavaScript topics. I also have passion to work on side
+          projects to learn more and create new things. The strengths of my work
+          are learning, get feedback, and knowledge sharing. My interests are
+          reading novels, music, and photography.
         </p>
       </section>
       <section className="card intro__card card--small">
