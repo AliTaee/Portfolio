@@ -11,6 +11,7 @@ export const skills = [
   { id: 1, title: "jQuery" },
   { id: 0, title: "React" },
   { id: 2, title: "CSS" },
+  { id: 24, title: "Socket.IO" },
   { id: 4, title: "HTML" },
   { id: 15, title: "Redux" },
   { id: 20, title: "E2E" },
@@ -34,7 +35,12 @@ export const workExperience = [
     list: [
       {
         id: 0,
-        detail: "React, Redux, Redux-Saga, TypeScript, Next.js, Storybook",
+        detail: "React, Redux, Redux-Saga, TypeScript, Next.js, Storybook.",
+      },
+      {
+        id: 1,
+        detail:
+          "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! largest ride-hailing app in the Middle East. It uses web-view tool in native application due to keep all the product stack in React.",
       },
     ],
   },
@@ -47,14 +53,19 @@ export const workExperience = [
       {
         id: 0,
         detail:
-          "Developing Dashboards with React, Context API, MATERIAL-UI, JSS, React hook and Function component",
+          "React, Redux, Socket.IO, Leaflet, Context API, Material-UI, JSS, React hook and Function component.",
+      },
+      {
+        id: 1,
+        detail:
+          "Maintain large legacy code, Develope new projects from scratch.",
       },
     ],
   },
   {
     id: 1,
     mainTitle: "Front-end Developer",
-    secondaryTitle: "Nabzino",
+    secondaryTitle: "Nabzino, Digital marketing agency",
     mainLink: "https://www.nabzino.com/",
     time: "02/2019 – 08/2019",
     list: [
@@ -69,14 +80,14 @@ export const workExperience = [
       {
         id: 2,
         detail:
-          "Front-End Developer - Dashboard (React, Redux, MATERIAL-UI, JSS).",
+          "Front-End Developer - Dashboard with React, Redux, Material-UI, JSS, RTL.",
       },
     ],
   },
   {
     id: 2,
     mainTitle: "Front-end and WordPress Developer",
-    secondaryTitle: "Arta Seo",
+    secondaryTitle: "Arta Seo, Digital marketing agency",
     mainLink: "https://artaseo.ir/",
     time: "05/2018 – 02/2019",
     list: [
@@ -90,8 +101,7 @@ export const workExperience = [
       },
       {
         id: 2,
-        detail:
-          "Vancouverhoney.org (UI Design, HTML, CSS, Visual Composer, Responsive Web Design)",
+        detail: "Develop Website for customers with WordPress.",
       },
     ],
   },
@@ -134,7 +144,7 @@ export const projects = [
     list: [
       {
         id: 0,
-        detail: "Gatsby, React, SCSS",
+        detail: "Gatsby, React, SCSS.",
       },
     ],
   },
@@ -147,7 +157,7 @@ export const projects = [
     list: [
       {
         id: 0,
-        detail: "TypeScript, React, SCSS, Unit-test",
+        detail: "TypeScript, React, SCSS, Unit-test.",
       },
     ],
   },
@@ -161,7 +171,7 @@ export const projects = [
     list: [
       {
         id: 0,
-        detail: "HTML, SCSS, pure CSS and JavaScript, Parcel.js",
+        detail: "HTML, SCSS, pure CSS and JavaScript, Parcel.js.",
       },
     ],
   },
@@ -170,12 +180,12 @@ export const projects = [
     mainTitle: "Iran Map - WordPress Plugin",
     mainLink: "https://github.com/AliTaee/Iran-Map-WordPress-Plugin",
     secondaryTitle:
-      "Add minimal and nice iran map to your WordPress web site. Interactive Iran Map, admin can link each city to specific link.",
+      "Add minimal and nice iran map to your WordPress website. Interactive Iran Map, admin can link each city to specific link.",
     time: "09/2018 – Present",
     list: [
       {
         id: 0,
-        detail: "WordPress Development, PHP, HTML, CSS",
+        detail: "WordPress plugin Development, PHP, HTML, CSS.",
       },
     ],
   },
