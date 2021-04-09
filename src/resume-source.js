@@ -40,7 +40,7 @@ export const workExperience = [
       {
         id: 1,
         detail:
-          "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! largest ride-hailing app in the Middle East. It uses web-view tool in native application due to keep all the product stack in React.",
+          "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! the largest ride-hailing app in the Middle East. It uses web-view tool in native application to keep all the product stack in React.",
       },
     ],
   },
@@ -58,7 +58,7 @@ export const workExperience = [
       {
         id: 1,
         detail:
-          "Maintain large legacy code, Develope new projects from scratch.",
+          "Maintaining Large legacy codes, Developing new projects from scratch.",
       },
     ],
   },
@@ -94,7 +94,7 @@ export const workExperience = [
       {
         id: 0,
         detail:
-          "Novinarta.com (PSD to WordPress). Create a WordPress plugin to enter Buildings info such a floors, area, location, image gallery and ... to show Buildings to customers. Also there was advance search page base on Buildings property.",
+          "Novinarta.com (PSD to WordPress). Creating a WordPress plugin to enter the buildings’ info such as floors, area, location, image gallery and etc. to show the buildings’ to the customers. There was also an advanced search page based on the buildings’ property.",
       },
       {
         id: 1,
@@ -103,7 +103,7 @@ export const workExperience = [
       {
         id: 2,
         detail:
-          "Develop Website for customers with WordPress from PSD to WordPress website",
+          "Developing Website for customers with WordPress from PSD to WordPress website",
       },
     ],
   },
@@ -182,7 +182,7 @@ export const projects = [
     mainTitle: "Iran Map - WordPress Plugin",
     mainLink: "https://github.com/AliTaee/Iran-Map-WordPress-Plugin",
     secondaryTitle:
-      "Add minimal and nice iran map to your WordPress website. Interactive Iran Map, admin can link each city to specific link.",
+      "Add minimal and nice Iran map to your WordPress website. Interactive Iran Map, admin can link each city to specific link.",
     time: "09/2018 – Present",
     list: [
       {
