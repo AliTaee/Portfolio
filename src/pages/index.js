@@ -17,12 +17,11 @@ const IndexPage = () => (
           </span>
         </h1>
         <p>
-          I am a Front-end developer with 4 years of experience. I am enjoy
-          every aspect of the Front-end from the implement user interface to
-          advance JavaScript topics. I also have passion to work on side
-          projects to learn more and create new things. The strengths of my work
-          are learning, get feedback, and knowledge sharing. My interests are
-          reading novels, music, and photography.
+          I am a Front-end developer with 4 years of experience. I enjoy every
+          aspect of the job from the implement user interface to advanced
+          JavaScript topics. I have a passion to work on side projects to learn
+          more and create new things. My interests are reading novels, music,
+          and photography.
         </p>
       </section>
       <section className="card intro__card card--small">
