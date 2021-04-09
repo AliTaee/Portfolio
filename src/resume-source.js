@@ -93,7 +93,8 @@ export const workExperience = [
     list: [
       {
         id: 0,
-        detail: "Novinarta.com (PSD to WordPress and Plugin Development).",
+        detail:
+          "Novinarta.com (PSD to WordPress). Create a WordPress plugin to enter Buildings info such a floors, area, location, image gallery and ... to show Buildings to customers. Also there was advance search page base on Buildings property.",
       },
       {
         id: 1,
@@ -101,7 +102,8 @@ export const workExperience = [
       },
       {
         id: 2,
-        detail: "Develop Website for customers with WordPress.",
+        detail:
+          "Develop Website for customers with WordPress from PSD to WordPress website",
       },
     ],
   },
