@@ -4,6 +4,10 @@ $secondary: #ffd60a;
 $primary_dark: #001d3d;
 $white: #ffffff;
 
+$card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
+
+$gradient: linear-gradient(45deg, $primary_dark, $primary);
+
 // Sizes
 $container_width: 966px;
 $border_radius: 6px;
@@ -26,4 +30,3 @@ $margin_mx: 30px;
 // Responsive
 $tablet: 768px;
 
-$card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
