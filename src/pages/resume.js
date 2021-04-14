@@ -1,11 +1,12 @@
 import React from "react"
 
-// Resume component
+// Common component
 import SEO from "../components/seo"
 import Image from "../components/common/image"
-import Badge from "../components/resume/badge"
 import Layout from "../components/layout/layout"
 
+// Resume component
+import Badge from "../components/resume/badge"
 import ResumeSection from "../components/resume/resume-section"
 import CategoryTitle from "../components/resume/category-title"
 
@@ -17,6 +18,8 @@ import {
   certificates,
   workExperience,
 } from "../resume-source"
+
+import AliTaeeResumePDF from "../assets/Resume _ Ali Taee.pdf"
 
 const Sidebar = () => (
   <aside className="resume__sidebar">
@@ -95,11 +98,24 @@ const Main = () => (
   </article>
 )
 
+const DownloadResume = () => {
+  return (
+    <div className="flex-center">
+      <a className="download-resume" href={AliTaeeResumePDF} download>
+        Download resume
+      </a>
+    </div>
+  )
+}
+
 const Resume = () => (
-  <Layout classStyle="resume">
+  <Layout>
     <SEO title="Resume" />
-    <Main />
-    <Sidebar />
+    <article className="resume">
+      <Main />
+      <Sidebar />
+    </article>
+    <DownloadResume />
   </Layout>
 )
 
