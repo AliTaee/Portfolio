@@ -38,9 +38,7 @@ html {
 }
 
 .flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter;
 }
 
 .unbulleted-list {

@@ -1,6 +1,5 @@
 .resume {
-  display: flex;
-  flex-direction: row-reverse;
+  @include flexBox(row-reverse);
 
   &__title {
     color: $primary;
@@ -58,7 +57,7 @@
 
 @media only screen and (max-width: $tablet) {
   .resume {
-    flex-direction: column-reverse;
+    @include flexBox(column-reverse);
 
     &__main,
     &__sidebar {

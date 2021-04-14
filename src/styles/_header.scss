@@ -6,13 +6,10 @@
   margin-bottom: $margin-lg;
 
   &__container {
-    display: flex;
     margin: 0 auto;
     max-width: $container_width;
     padding: $margin-lg $padding_sm;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    @include flexBox(row-reverse, space-between, center);
   }
   &__link {
     color: $white;

@@ -2,10 +2,8 @@
 * Main Page
 */
 .intro {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
+  @include flexBox(row-reverse, space-between, center);
+
   &__welcome {
     width: 69%;
     padding: $padding_mx;
@@ -20,7 +18,7 @@
 
 @media only screen and (max-width: $tablet) {
   .intro {
-    flex-direction: column;
+    @include flexBox(column);
 
     &__welcome {
       width: 90%;
