@@ -25,22 +25,22 @@
 }
 
 /*
-  * Main layout container
-  */
+* Main layout container
+*/
 .main {
   min-height: calc(100vh - 186px);
 }
 
 /*
-  * Images
-  */
+* Images
+*/
 .img-round {
   border-radius: 100%;
 }
 
 /*
-  * Card
-  */
+* Card
+*/
 .card {
   background: $gradient;
   box-shadow: $card_shadow;
