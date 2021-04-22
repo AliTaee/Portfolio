@@ -7,6 +7,10 @@
 
   & input {
     display: none;
+
+    &:focus {
+      outline: none;
+    }
   }
 }
 
