@@ -2,7 +2,24 @@
 $primary: #003566;
 $secondary: #ffd60a;
 $primary_dark: #001d3d;
-$white: #ffffff;
+$white: #fff;
+$grey: #ccc;
+
+:root {
+  --icon-color: #003566;
+  --heading-color: #003566;
+  --badge-color: #fff;
+  --text-color: hsla(0, 0%, 0%, 0.8);
+  --background-color: #fff;
+}
+
+[data-theme="dark"] {
+  --icon-color: #ffd60a;
+  --heading-color: #ffd60a;
+  --badge-color: #001d3d;
+  --text-color: hsla(255, 100%, 100%, 0.8);
+  --background-color: #001d3d;
+}
 
 $card_shadow: 0.5rem 1.25rem 1.75rem 0 rgba(100, 110, 140, 0.4);
 
@@ -29,4 +46,3 @@ $margin_mx: 30px;
 
 // Responsive
 $tablet: 768px;
-

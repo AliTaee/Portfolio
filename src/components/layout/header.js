@@ -2,19 +2,25 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
+import NightTheme from "./night-theme"
+
 const routes = [
   { id: 0, label: "Home", href: "/" },
   { id: 1, label: "Resume", href: "/resume/" },
+  { id: 2, label: "projects", href: "/projects/" },
 ]
 
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__container">
-      <span className="header__title">
-        <Link className="header__link" to="/">
-          {siteTitle}
-        </Link>
-      </span>
+      <div className="flex">
+        <span className="header__title">
+          <Link className="header__link" to="/">
+            {siteTitle}
+          </Link>
+        </span>
+        <NightTheme />
+      </div>
       <nav className="main-nav">
         <ul>
           {routes.map(route => (

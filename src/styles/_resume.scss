@@ -3,7 +3,7 @@
   margin-bottom: $margin_xs;
 
   &__title {
-    color: $primary;
+    color: var(--heading-color);
     font-weight: 400;
   }
 
@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     & a {
-      color: $primary;
+      color: var(--heading-color);
     }
   }
 
@@ -39,16 +39,16 @@
   }
 
   &__category {
-    color: $primary;
-    border-bottom: 3px solid $primary;
+    color: var(--heading-color);
+    border-bottom: 3px solid var(--heading-color);
     padding-bottom: 10px;
     text-transform: capitalize;
     font-weight: 400;
   }
 
   &__badge {
-    background-color: $primary;
-    color: $white;
+    background-color: var(--heading-color);
+    color: var(--badge-color);
     border-radius: $border_radius;
     margin: 0 6px 6px 0;
     text-transform: capitalize;

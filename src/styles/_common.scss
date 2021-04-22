@@ -46,7 +46,7 @@ html {
 }
 
 .heading-title {
-  color: $primary;
+  color: var(--heading-color);
   font-weight: 400;
   margin: 0;
 }
