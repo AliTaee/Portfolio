@@ -1,0 +1,38 @@
+/*
+* Main layout container
+*/
+.main {
+  min-height: calc(100vh - 186px);
+}
+
+/*
+* Main Container
+*/
+.container {
+  margin: 0 auto;
+  max-width: $container_width;
+  padding: 0 $padding_sm;
+}
+
+/*
+* Flex box
+*/
+.flex {
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-center {
+  align-items: center;
+}
+
+.flex-center {
+  @include flexCenter;
+}
+
+.unbulleted-list {
+  list-style: none;
+}

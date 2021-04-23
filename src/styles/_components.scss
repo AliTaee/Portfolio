@@ -1,38 +1,5 @@
 /*
-* Resume section
-*/
-.resume-section {
-  margin-bottom: $margin-lg;
-
-  &__secondary-title {
-    font-weight: 500;
-  }
-
-  &__link {
-    color: var(--heading-color);
-    text-decoration: none;
-    margin-left: $margin_xs;
-  }
-
-  &__time {
-    display: block;
-    margin-top: $margin_sm;
-    color: var(--heading-color);
-    font-style: italic;
-    font-weight: 400;
-    font-size: $font_small;
-  }
-}
-
-/*
-* Main layout container
-*/
-.main {
-  min-height: calc(100vh - 186px);
-}
-
-/*
-* Images
+* Round Images
 */
 .img-round {
   border-radius: 100%;

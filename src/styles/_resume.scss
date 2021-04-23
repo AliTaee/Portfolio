@@ -56,6 +56,29 @@
   }
 }
 
+.resume-section {
+  margin-bottom: $margin-lg;
+
+  &__secondary-title {
+    font-weight: 500;
+  }
+
+  &__link {
+    color: var(--heading-color);
+    text-decoration: none;
+    margin-left: $margin_xs;
+  }
+
+  &__time {
+    display: block;
+    margin-top: $margin_sm;
+    color: var(--heading-color);
+    font-style: italic;
+    font-weight: 400;
+    font-size: $font_small;
+  }
+}
+
 .download-resume {
   background: $gradient;
   color: $white;
@@ -81,6 +104,7 @@
   }
 }
 
+// Style for print resume
 @media print {
   body {
     margin: 10mm 0mm;
