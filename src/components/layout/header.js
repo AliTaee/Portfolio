@@ -7,13 +7,13 @@ import NightTheme from "./night-theme"
 const routes = [
   { id: 0, label: "Home", href: "/" },
   { id: 1, label: "Resume", href: "/resume/" },
-  { id: 2, label: "projects", href: "/projects/" },
+  // { id: 2, label: "projects", href: "/projects/" },
 ]
 
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__container">
-      <div className="flex">
+      <div className="flex justify-center">
         <span className="header__title">
           <Link className="header__link" to="/">
             {siteTitle}

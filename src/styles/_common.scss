@@ -37,6 +37,10 @@ html {
   flex-direction: row-reverse;
 }
 
+.justify-center {
+  align-items: center;
+}
+
 .flex-center {
   @include flexCenter;
 }
