@@ -7,10 +7,7 @@
 
   & input {
     display: none;
-
-    &:focus {
-      outline: none;
-    }
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
