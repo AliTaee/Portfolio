@@ -2,7 +2,7 @@
 * Main layout container
 */
 .main {
-  min-height: calc(100vh - 186px);
+  min-height: calc(100vh - 184px);
 }
 
 /*
@@ -35,4 +35,10 @@
 
 .unbulleted-list {
   list-style: none;
+}
+
+@media only screen and (max-width: $mobile) {
+  .main {
+    min-height: calc(100vh - 181px);
+  }
 }
