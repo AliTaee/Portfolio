@@ -14,6 +14,7 @@
   &__link {
     color: $white;
     text-decoration: none;
+    padding: $padding_xs;
 
     &--active {
       color: $secondary;
@@ -38,7 +39,6 @@
     &__item {
       text-transform: capitalize;
       margin: 0 $margin_sm 0 0;
-      padding: $padding_xs;
     }
   }
 }
