@@ -28,8 +28,9 @@ export const skills = [
 export const workExperience = [
   {
     id: 3,
-    mainTitle: "Front-end Developer",
-    secondaryTitle: "Snappfood",
+    mainTitle: "Snappfood - Front-end Developer",
+    secondaryTitle:
+      "largest online food ordering and grocery shopping platforms in Iran",
     mainLink: "https://snappfood.ir/",
     time: "01/2021 – Present",
     list: [
@@ -40,38 +41,43 @@ export const workExperience = [
       {
         id: 1,
         detail:
-          "Snappfood is the largest online food ordering and grocery shopping platforms in Iran. It’s one of the most important subsidiaries of IIG Holding such as Snapp! the largest ride-hailing app in the Middle East. It uses web-view tool in native application to keep all the product stack in React.",
+          "Develop new features in Agile with Design, QA, and other developers, Also maintain and debug the project. Review other team member's code.",
+      },
+      {
+        id: 2,
+        detail:
+          "Create a document for helping onBoarding new team members. I explained team structure and workflow.",
       },
     ],
   },
   {
     id: 0,
-    mainTitle: "Front-end Developer",
-    secondaryTitle: "Rasa security and research labs",
+    mainTitle: "Rasa labs - Front-end Developer",
+    secondaryTitle: "CCTV systems and Parental control",
     time: "10/2019 – 01/2021",
     list: [
       {
         id: 0,
         detail:
-          "React, Redux, Socket.IO, Leaflet, Context API, Material-UI, JSS, React hook and Function component.",
+          "React, Redux, Socket.IO, Leaflet, Context API, Material-UI, JSS, React hook.",
       },
       {
         id: 1,
         detail:
-          "Maintaining Large legacy codes, Developing new projects from scratch.",
+          "Maintaining Large legacy codes, and Developing new projects from scratch according requirements.",
       },
     ],
   },
   {
     id: 1,
-    mainTitle: "Front-end Developer",
-    secondaryTitle: "Nabzino, Digital marketing agency",
+    mainTitle: "Nabzino - Front-end Developer",
+    secondaryTitle: "Digital marketing agency",
     mainLink: "https://www.nabzino.com/",
     time: "02/2019 – 08/2019",
     list: [
       {
         id: 0,
-        detail: "Chetor.com (WordPress Development).",
+        detail: "Chetor.com (WordPress and front-end Development).",
       },
       {
         id: 1,
@@ -86,8 +92,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    mainTitle: "Front-end and WordPress Developer",
-    secondaryTitle: "Arta Seo, Digital marketing agency",
+    mainTitle: "Arta Seo - Front-end and WordPress Developer",
+    secondaryTitle: "Digital marketing agency",
     mainLink: "https://artaseo.ir/",
     time: "05/2018 – 02/2019",
     list: [
@@ -109,8 +115,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    mainTitle: "WordPress Developer and Website manager",
-    secondaryTitle: "Asr-e Digital Online Store",
+    mainTitle: "Asr-e Digital - WordPress Developer and Website manager",
+    secondaryTitle: "Online Store",
     mainLink: "https://nabzino.com/",
     time: "2014 – 02/2017",
     list: [
