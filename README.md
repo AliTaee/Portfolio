@@ -99,7 +99,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ![Palette colors](./palette.png)
 
-## Resource I used for this Portfolio
+## 📚 Resource I used for this Portfolio
 
 - [type-scale.com](https://type-scale.com/) - For Typography
 - [coolors.co](https://coolors.co/) - For Palette Color
