@@ -1,14 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-
-import NightTheme from "./night-theme"
-
-const routes = [
-  { id: 0, label: "Home", href: "/" },
-  { id: 1, label: "Resume", href: "/resume/" },
-  // { id: 2, label: "projects", href: "/projects/" },
-]
+import NightTheme from "../night-theme"
+import { routes } from "../../routes"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
