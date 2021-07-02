@@ -19,6 +19,7 @@ export const skills = [
   { id: 23, title: "Gulp" },
   { id: 16, title: "TypeScript" },
   { id: 21, title: "Parcel.js" },
+  { id: 25, title: "Webpack" },
   { id: 14, title: "Responsive Web Design" },
   { id: 17, title: "WordPress Development" },
   { id: 18, title: "WP Theme Development" },

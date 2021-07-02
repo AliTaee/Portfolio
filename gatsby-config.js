@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Ali Taee Portfolio`,
+        short_name: `Ali Taee`,
         start_url: `/`,
-        background_color: `#292841`,
-        theme_color: `#292841`,
+        background_color: `#003566`,
+        theme_color: `#003566`,
         display: `minimal-ui`,
         icon: `src/assets/images/favicon-icon.png`, // This path is relative to the root of the site.
       },
