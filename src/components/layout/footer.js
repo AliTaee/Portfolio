@@ -1,7 +1,9 @@
 import React, { memo } from "react"
+import ScrollBackToTop from "../scrollBackToTop"
 
 const Footer = () => (
   <footer className="footer">
+    <ScrollBackToTop />
     <div className="container">
       Design and Develop by Ali Taee with
       <a
