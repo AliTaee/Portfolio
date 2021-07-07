@@ -37,7 +37,7 @@ const ScrollBackToTop = () => {
       title="Go to top"
       type="button"
     >
-      <img src={ArrowUpIcon} />
+      <img src={ArrowUpIcon} alt="back to top icon" />
     </button>
   )
 }
