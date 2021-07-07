@@ -2,9 +2,14 @@
   @include flexBox(row-reverse);
   margin-bottom: $margin_xs;
 
-  &__title {
+  &__name {
     color: var(--heading-color);
     font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  &__title {
+    font-size: 0.8em;
   }
 
   &__sidebar {
@@ -42,6 +47,7 @@
     color: var(--heading-color);
     border-bottom: 3px solid var(--heading-color);
     padding-bottom: 10px;
+    margin-top: 0.9em;
     text-transform: capitalize;
     font-weight: 400;
   }

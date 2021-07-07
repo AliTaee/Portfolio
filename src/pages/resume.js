@@ -12,8 +12,8 @@ import CategoryTitle from "../components/resume/category-title"
 
 // Resume source
 import {
-  skills,
-  projects,
+  skill,
+  // projects,
   contacts,
   certificates,
   workExperience,
@@ -24,7 +24,9 @@ import AliTaeeResumePDF from "../assets/Resume _ Ali Taee.pdf"
 const Sidebar = () => (
   <aside className="resume__sidebar">
     <Image className="img-round resume__img" />
-    <h1 className="resume__title">Ali Taee</h1>
+    <h1 className="resume__name">
+      ali taee <br /> <span className="resume__title">front-end developer</span>
+    </h1>
     <p>
       I am a Front-end developer with 4 years of experience. I enjoy every
       aspect of the job from the implement user interface to advanced JavaScript
@@ -43,12 +45,19 @@ const Sidebar = () => (
       ))}
     </ul>
 
-    <CategoryTitle title="skills" className="resume__margin-top-lg" />
-    <article className="resume__skills">
-      {skills.map(skill => (
-        <Badge key={skill.id} title={skill.title} />
-      ))}
-    </article>
+    {skill.map(categorySkill => (
+      <>
+        <CategoryTitle
+          title={categorySkill.label}
+          className="resume__margin-top-lg"
+        />
+        <article className="resume__skills">
+          {categorySkill.skills.map(skill => (
+            <Badge key={skill.id} title={skill.title} />
+          ))}
+        </article>
+      </>
+    ))}
   </aside>
 )
 
@@ -68,7 +77,7 @@ const Main = () => (
       ))}
     </ol>
 
-    <CategoryTitle title="projects" />
+    {/* <CategoryTitle title="projects" />
     <ol className="unbulleted-list">
       {projects.map(project => (
         <ResumeSection
@@ -80,7 +89,7 @@ const Main = () => (
           secondaryTitle={project.secondaryTitle}
         />
       ))}
-    </ol>
+    </ol> */}
 
     <CategoryTitle title="certificates" />
     <ol className="unbulleted-list">

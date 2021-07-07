@@ -1,32 +1,48 @@
-export const skills = [
-  { id: 9, title: "Agile Development" },
-  { id: 6, title: "Scrum" },
-  { id: 8, title: "Trello" },
-  { id: 11, title: "Communication" },
-  { id: 10, title: "Team Work" },
-  { id: 7, title: "Jira" },
-  { id: 13, title: "CSS Processors" },
-  { id: 12, title: "SPA" },
-  { id: 5, title: "JavaScript" },
-  { id: 1, title: "jQuery" },
-  { id: 0, title: "React" },
-  { id: 2, title: "CSS" },
-  { id: 24, title: "Socket.IO" },
-  { id: 4, title: "HTML" },
-  { id: 15, title: "Redux" },
-  { id: 20, title: "E2E" },
-  { id: 22, title: "REST API" },
-  { id: 23, title: "Gulp" },
-  { id: 16, title: "TypeScript" },
-  { id: 21, title: "Parcel.js" },
-  { id: 25, title: "Webpack" },
-  { id: 14, title: "Responsive Web Design" },
-  { id: 17, title: "WordPress Development" },
-  { id: 18, title: "WP Theme Development" },
-  { id: 19, title: "WP Plugin Development" },
+const skill = [
+  {
+    label: "Non-technical Skills",
+    skills: [
+      { id: 4, title: "Time Management" },
+      { id: 0, title: "Jira" },
+      { id: 1, title: "Scrum" },
+      { id: 5, title: "Agile Development" },
+      { id: 2, title: "Trello" },
+      { id: 3, title: "Team Work" },
+      { id: 6, title: "Communication" },
+    ],
+  },
+  {
+    label: "Technical",
+    skills: [
+      { id: 0, title: "HTML" },
+      { id: 1, title: "CSS" },
+      { id: 2, title: "CSS Processors" },
+      { id: 15, title: "Responsive Design" },
+      { id: 3, title: "jQuery" },
+      { id: 4, title: "JavaScript" },
+      { id: 6, title: "React" },
+      { id: 5, title: "SPA" },
+      { id: 7, title: "Redux" },
+      { id: 8, title: "Socket.IO" },
+      { id: 9, title: "REST API" },
+      { id: 10, title: "E2E Testing" },
+      { id: 11, title: "Gulp" },
+      { id: 12, title: "Parcel.js" },
+      { id: 13, title: "Webpack" },
+      { id: 14, title: "TypeScript" },
+    ],
+  },
+  {
+    label: "WordPress",
+    skills: [
+      { id: 0, title: "WordPress Development" },
+      { id: 1, title: "WP Theme Development" },
+      { id: 2, title: "WP Plugin Development" },
+    ],
+  },
 ]
 
-export const workExperience = [
+const workExperience = [
   {
     id: 3,
     mainTitle: "Snappfood - Front-end Developer",
@@ -129,7 +145,7 @@ export const workExperience = [
   },
 ]
 
-export const certificates = [
+const certificates = [
   {
     id: 0,
     mainTitle: "Responsive Web Design",
@@ -142,7 +158,7 @@ export const certificates = [
   },
 ]
 
-export const projects = [
+const projects = [
   {
     id: 3,
     mainTitle: "My Portfolio",
@@ -200,7 +216,7 @@ export const projects = [
   },
 ]
 
-export const contacts = [
+const contacts = [
   {
     id: 0,
     href: "mailto:ali.taee.72@gmail.com",
@@ -226,3 +242,5 @@ export const contacts = [
     text: "Github",
   },
 ]
+
+export { contacts, projects, certificates, workExperience, skill }
