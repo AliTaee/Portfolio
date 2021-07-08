@@ -1,4 +1,4 @@
-import React, { memo } from "react"
+import React, { Fragment, memo } from "react"
 
 // Common component
 import SEO from "../components/seo"
@@ -18,16 +18,22 @@ import {
   workExperience,
 } from "../resume-source"
 
-import AliTaeeResumePDF from "../assets/Resume _ Ali Taee.pdf"
+import AliTaeeResumePDF from "../assets/ResumeV1.0.0.pdf"
 
-const Sidebar = () => (
-  <aside className="resume__sidebar">
+const ResumeHeader = () => (
+  <>
     <Image className="img-round resume__img" />
     <h1 className="resume__name">
       {developerInfo.name} <br />
       <span className="resume__title">{developerInfo.title}</span>
     </h1>
     <p>{developerInfo.about}</p>
+  </>
+)
+
+const Sidebar = () => (
+  <aside className="resume__sidebar">
+    <ResumeHeader />
 
     <CategoryTitle title="contacts" />
     <ul className="unbulleted-list resume__contact">
@@ -40,34 +46,37 @@ const Sidebar = () => (
       ))}
     </ul>
 
-    {skill.map(categorySkill => (
-      <>
+    {skill.map((categorySkill, index) => (
+      <Fragment key={index}>
         <CategoryTitle
           title={categorySkill.label}
-          className="resume__margin-top-lg"
+          className="resume__margin-top-lg resume__category"
         />
         <article className="resume__skills">
           {categorySkill.skills.map(skill => (
             <Badge key={skill.id} title={skill.title} />
           ))}
         </article>
-      </>
+      </Fragment>
     ))}
   </aside>
 )
 
 const Main = () => (
   <article className="resume__main">
-    <CategoryTitle title="work experience" />
+    <CategoryTitle title="EXPERIENCES" />
     <ol className="unbulleted-list">
       {workExperience.map(experience => (
         <ResumeSection
           key={experience.id}
-          list={experience.list}
           time={experience.time}
-          mainLink={experience.mainLink}
-          mainTitle={experience.mainTitle}
-          secondaryTitle={experience.secondaryTitle}
+          link={experience.link}
+          city={experience.city}
+          work={experience.work}
+          tech={experience.tech}
+          title={experience.title}
+          companyName={experience.companyName}
+          companyDescription={experience.companyDescription}
         />
       ))}
     </ol>
@@ -77,7 +86,11 @@ const Main = () => (
 const DownloadResume = () => {
   return (
     <div className="flex-center">
-      <a className="download-resume" href={AliTaeeResumePDF} download>
+      <a
+        className="download-resume"
+        href={AliTaeeResumePDF}
+        download={`Resume_${developerInfo.name}.pdf`}
+      >
         Download resume
       </a>
     </div>

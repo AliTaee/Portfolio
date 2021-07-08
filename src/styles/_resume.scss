@@ -65,14 +65,28 @@
 .resume-section {
   margin-bottom: $margin-lg;
 
+  &__content {
+    padding-left: 10px;
+  }
+
   &__secondary-title {
     font-weight: 500;
   }
 
+  &__list-header {
+    margin: 0 0 10px;
+  }
+
+  &__company-name-city {
+    margin: 10px 0;
+  }
+
+  &__company-about {
+    margin: 10px 0;
+  }
+
   &__link {
     color: var(--heading-color);
-    text-decoration: none;
-    margin-left: $margin_xs;
   }
 
   &__time {
