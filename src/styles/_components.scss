@@ -11,6 +11,7 @@
   text-align: center;
   color: $white;
   &__title {
+    text-transform: capitalize;
     margin: $margin_sm 0;
   }
   &__desc {
