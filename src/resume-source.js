@@ -1,3 +1,10 @@
+const developerInfo = {
+  name: "ali taee",
+  title: "front-end developer",
+  about:
+    "I am a Front-end developer with 4 years of experience. I enjoy every aspect of the job from the implement user interface to advanced JavaScript topics. I have a passion to work on side projects to learn more and create new things. My interests are reading novels, music, and photography.",
+}
+
 const skill = [
   {
     label: "Non-technical Skills",
@@ -243,4 +250,11 @@ const contacts = [
   },
 ]
 
-export { contacts, projects, certificates, workExperience, skill }
+export {
+  skill,
+  contacts,
+  projects,
+  certificates,
+  developerInfo,
+  workExperience,
+}

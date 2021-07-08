@@ -1,4 +1,4 @@
-import React from "react"
+import React, { memo } from "react"
 
 // Common component
 import SEO from "../components/seo"
@@ -13,9 +13,8 @@ import CategoryTitle from "../components/resume/category-title"
 // Resume source
 import {
   skill,
-  // projects,
   contacts,
-  certificates,
+  developerInfo,
   workExperience,
 } from "../resume-source"
 
@@ -25,14 +24,10 @@ const Sidebar = () => (
   <aside className="resume__sidebar">
     <Image className="img-round resume__img" />
     <h1 className="resume__name">
-      ali taee <br /> <span className="resume__title">front-end developer</span>
+      {developerInfo.name} <br />
+      <span className="resume__title">{developerInfo.title}</span>
     </h1>
-    <p>
-      I am a Front-end developer with 4 years of experience. I enjoy every
-      aspect of the job from the implement user interface to advanced JavaScript
-      topics. I have a passion to work on side projects to learn more and create
-      new things. My interests are reading novels, music, and photography.
-    </p>
+    <p>{developerInfo.about}</p>
 
     <CategoryTitle title="contacts" />
     <ul className="unbulleted-list resume__contact">
@@ -76,34 +71,6 @@ const Main = () => (
         />
       ))}
     </ol>
-
-    {/* <CategoryTitle title="projects" />
-    <ol className="unbulleted-list">
-      {projects.map(project => (
-        <ResumeSection
-          key={project.id}
-          list={project.list}
-          time={project.time}
-          mainLink={project.mainLink}
-          mainTitle={project.mainTitle}
-          secondaryTitle={project.secondaryTitle}
-        />
-      ))}
-    </ol> */}
-
-    <CategoryTitle title="certificates" />
-    <ol className="unbulleted-list">
-      {certificates.map(certificate => (
-        <ResumeSection
-          key={certificate.id}
-          list={certificate.list}
-          time={certificate.time}
-          mainLink={certificate.mainLink}
-          mainTitle={certificate.mainTitle}
-          secondaryTitle={certificate.secondaryTitle}
-        />
-      ))}
-    </ol>
   </article>
 )
 
@@ -128,4 +95,4 @@ const Resume = () => (
   </Layout>
 )
 
-export default Resume
+export default memo(Resume)
