@@ -2,7 +2,7 @@ const developerInfo = {
   name: "Ali Taee",
   title: "Front-end Developer",
   about:
-    "I am a Front-end Developer with 5 years of experience. I enjoy every aspect of the job from the implement user interface to advanced JavaScript topics. I have a passion to work on side projects to learn more and create new things. My interests are reading novels, music, and photography.",
+    "I am a Front-end Developer with 5 years of experience. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I have a passion to work on side projects to learn more and create new things. My interests are reading novels, music, and photography.",
 }
 
 const skill = [
@@ -54,7 +54,7 @@ const workExperience = [
     time: "Feb 2021 – Present",
     work: [
       "Worked in Agile team mainly using Scrum within the Spotify model.",
-      "Worked in team closely with designers, developers, QA engineers, scrum masters, and product owners.",
+      "Worked in team closely with designers, developers, QA engineers, scrum masters, and product managers.",
       "Created a document for onboarding new developers.",
       "Developed new features for the mobile and desktop application.",
     ],
