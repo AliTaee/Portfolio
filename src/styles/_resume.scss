@@ -60,10 +60,16 @@
     text-transform: capitalize;
     padding: 6px 8px;
   }
+
+  & .resume-section:last-child {
+    border-bottom: none;
+  }
 }
 
 .resume-section {
   margin-bottom: $margin-lg;
+  padding-bottom: 30px;
+  border-bottom: 3px solid var(--heading-color);
 
   &__content {
     padding-left: 10px;

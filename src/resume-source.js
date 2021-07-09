@@ -50,95 +50,91 @@ const skill = [
 ]
 
 const workExperience = [
-  // {
-  //   id: 3,
-  //   mainTitle: "Snappfood - Front-end Developer",
-  //   secondaryTitle:
-  //     "largest online food ordering and grocery shopping platforms in Iran",
-  //   mainLink: "https://snappfood.ir/",
-  //   time: "01/2021 – Present",
-  //   list: [
-  //     {
-  //       id: 0,
-  //       detail: "React, Redux, Redux-Saga, TypeScript, Next.js, Storybook.",
-  //     },
-  //     {
-  //       id: 1,
-  //       detail:
-  //         "Develop new features in Agile with Design, QA, and other developers, Also maintain and debug the project. Review other team member's code.",
-  //     },
-  //     {
-  //       id: 2,
-  //       detail:
-  //         "Create a document for helping onBoarding new team members. I explained team structure and workflow.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 0,
-  //   mainTitle: "Rasa labs - Front-end Developer",
-  //   secondaryTitle: "CCTV systems and Parental control",
-  //   time: "10/2019 – 01/2021",
-  //   list: [
-  //     {
-  //       id: 0,
-  //       detail:
-  //         "React, Redux, Socket.IO, Leaflet, Context API, Material-UI, JSS, React hook.",
-  //     },
-  //     {
-  //       id: 1,
-  //       detail:
-  //         "Maintaining Large legacy codes, and Developing new projects from scratch according requirements.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 1,
-  //   mainTitle: "Nabzino - Front-end Developer",
-  //   secondaryTitle: "Digital marketing agency",
-  //   mainLink: "https://www.nabzino.com/",
-  //   time: "02/2019 – 08/2019",
-  //   list: [
-  //     {
-  //       id: 0,
-  //       detail: "Chetor.com (WordPress and front-end Development).",
-  //     },
-  //     {
-  //       id: 1,
-  //       detail: "Daraje.com (WordPress and Plugin Development).",
-  //     },
-  //     {
-  //       id: 2,
-  //       detail:
-  //         "Front-End Developer - Dashboard with React, Redux, Material-UI, JSS, RTL.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 2,
-  //   mainTitle: "Arta Seo - Front-end and WordPress Developer",
-  //   secondaryTitle: "Digital marketing agency",
-  //   mainLink: "https://artaseo.ir/",
-  //   time: "05/2018 – 02/2019",
-  //   list: [
-  //     {
-  //       id: 0,
-  //       detail:
-  //         "Novinarta.com (PSD to WordPress). Creating a WordPress plugin to enter the buildings’ info such as floors, area, location, image gallery and etc. to show the buildings’ to the customers. There was also an advanced search page based on the buildings’ property.",
-  //     },
-  //     {
-  //       id: 1,
-  //       detail: "Artaseo.com (PSD to WordPress).",
-  //     },
-  //     {
-  //       id: 2,
-  //       detail:
-  //         "Developing Website for customers with WordPress from PSD to WordPress website",
-  //     },
-  //   ],
-  // },
   {
     id: 4,
+    title: "Front-end Developer",
+    companyName: "Snappfood",
+    companyDescription:
+      "Snappfood is largest online food ordering and grocery shopping platforms in Iran",
+    link: "https://snappfood.ir/",
+    city: "Tehran, Iran",
+    time: "Feb 2021 – Present",
+    work: [
+      "Worked in Agile team mainly using Scrum within the Spotify model.",
+      "Worked in team closely with designers, developers, QA engineers, scrum master, and product owners.",
+      "Created a document for onboarding new developers.",
+      "Developed new features for mobile and desktop application.",
+    ],
+    tech: [
+      "HTML, CSS, SCSS, Styled components, BEM",
+      "JavaScript, ES6+, TypeScript, React, React Router, Redux, Redux-Saga, Next.js, Storybook.",
+      "Webpack, Babel, ESlint, Prettier",
+      "Git and GitLab",
+    ],
+  },
+  {
+    id: 3,
+    title: "Front-end Developer",
+    companyName: "Rasa labs",
+    companyDescription:
+      "Rasa labs was CCTV systems and Parental control systems",
+    city: "Tehran, Iran",
+    time: "Dec 2019 – Jan 2021",
+    work: [
+      "Created dashboards for our internal projects using React.",
+      "Maintained large legacy codes in old projects and refactor theme for better performance and fix bugs.",
+    ],
+    tech: [
+      "HTML, CSS, SCSS, JSS, BEM",
+      "JavaScript, ES6+, React, React Router, Redux, Material-UI, react-i18next, Socket.IO, Context API, React Hooks",
+      "ESlint, Prettier",
+      "Git and GitLab",
+    ],
+  },
+  {
+    id: 2,
+    title: "WordPress Developer / Front-end Developer",
+    companyName: "Nabzino",
+    companyDescription: "Nabzino was a digital marketing agency",
+    link: "https://www.nabzino.com/",
+    city: "Tehran, Iran",
+    time: "Feb 2019 – Aug 2019",
+    work: [
+      "Created dashboard for one of our internal projects using React.",
+      "Converted UI landing design into WordPress page.",
+      "Developed game campaign with team of developers and designers in tight deadline. Users enter their phone number and name then choose between their favorite game characters. At the end, base on user votes and their scores we lottery and gave Play station 4. This project created using Vue.js.",
+      "Created a WordPress shortcut posts plugin and video gallery plugin for one of our customers daraje.com.",
+    ],
+    tech: [
+      "HTML, CSS, SCSS, JSS, BEM",
+      "JavaScript, ES6+, React, Vue, Redux, Material-UI, react-i18next",
+      "WordPress, PHP, WordPress plugin Development",
+      "Git and GitLab, Bitbucket",
+    ],
+  },
+  {
+    id: 1,
+    title: "WordPress Developer / Front-end Developer",
+    companyName: "Arta Seo",
+    companyDescription:
+      "Arta Seo was a website development company and digital marketing agency.",
+    link: "https://artaseo.ir/",
+    city: "Esfahan, Iran",
+    time: "Mar 2018 – Feb 2019",
+    work: [
+      "Converted UI designs into WordPress website.",
+      "Helped interns to learn HTML, CSS, and WordPress.",
+      "Introduced WordPress plugin Development to the company.",
+      "Created a WordPress plugin for Novinarta.com which is one of Arta Seo customers. This plugin to enter the buildings’ info such as floors, area, location, image gallery and etc, to show the buildings’ to the customers.",
+    ],
+    tech: [
+      "HTML, CSS",
+      "JavaScript, jQuery",
+      "WordPress, WooCommerce, PHP, WordPress plugin Development, ACF, Custom Post Types",
+    ],
+  },
+  {
+    id: 0,
     title: "WordPress Developer / Website Manager",
     companyName: "Asr-e Digital",
     companyDescription: "Asr-e Digital was an online e-commerce.",
@@ -152,64 +148,6 @@ const workExperience = [
       "WordPress Development.",
     ],
     tech: ["HTML, CSS", "JavaScript, jQuery", "WordPress"],
-  },
-]
-
-const projects = [
-  {
-    id: 3,
-    mainTitle: "My Portfolio",
-    secondaryTitle:
-      "Portfolio with Gatsby, You are welcome to use this project to build your portfolio site.",
-    mainLink: "https://github.com/AliTaee/Portfolio",
-    time: "03/2021 – Present",
-    list: [
-      {
-        id: 0,
-        detail: "Gatsby, React, SCSS.",
-      },
-    ],
-  },
-  {
-    id: 0,
-    mainTitle: "Iran bank card ",
-    secondaryTitle: "Customizable Iran bank card.",
-    mainLink: "https://github.com/AliTaee/iran-bank-card",
-    time: "02/2021 – Present",
-    list: [
-      {
-        id: 0,
-        detail: "TypeScript, React, SCSS, Unit-test.",
-      },
-    ],
-  },
-  {
-    id: 2,
-    mainTitle: "HTML Banner",
-    secondaryTitle:
-      "HTML banners with focusing on pure CSS and JavaScript animation and interaction with the user's events also performance and size matters.",
-    mainLink: "https://github.com/AliTaee/html-banner",
-    time: "09/2020 – Present",
-    list: [
-      {
-        id: 0,
-        detail: "HTML, SCSS, pure CSS and JavaScript, Parcel.js.",
-      },
-    ],
-  },
-  {
-    id: 1,
-    mainTitle: "Iran Map - WordPress Plugin",
-    mainLink: "https://github.com/AliTaee/Iran-Map-WordPress-Plugin",
-    secondaryTitle:
-      "Add minimal and nice Iran map to your WordPress website. Interactive Iran Map, admin can link each city to specific link.",
-    time: "09/2018 – Present",
-    list: [
-      {
-        id: 0,
-        detail: "WordPress plugin Development, PHP, HTML, CSS.",
-      },
-    ],
   },
 ]
 
@@ -240,4 +178,4 @@ const contacts = [
   },
 ]
 
-export { skill, contacts, projects, developerInfo, workExperience }
+export { skill, contacts, developerInfo, workExperience }
