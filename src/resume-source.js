@@ -7,18 +7,6 @@ const developerInfo = {
 
 const skill = [
   {
-    label: "Non-technical Skills",
-    skills: [
-      { id: 4, title: "Time Management" },
-      { id: 0, title: "Jira" },
-      { id: 1, title: "Scrum" },
-      { id: 5, title: "Agile Development" },
-      { id: 2, title: "Trello" },
-      { id: 3, title: "Team Work" },
-      { id: 6, title: "Communication" },
-    ],
-  },
-  {
     label: "Technical",
     skills: [
       { id: 0, title: "HTML" },
@@ -37,14 +25,19 @@ const skill = [
       { id: 11, title: "Gulp" },
       { id: 12, title: "Parcel.js" },
       { id: 13, title: "Webpack" },
+      { id: 16, title: "WordPress" },
     ],
   },
   {
-    label: "WordPress",
+    label: "Non-technical Skills",
     skills: [
-      { id: 0, title: "WordPress Development" },
-      { id: 1, title: "WP Theme Development" },
-      { id: 2, title: "WP Plugin Development" },
+      { id: 4, title: "Time Management" },
+      { id: 0, title: "Jira" },
+      { id: 1, title: "Scrum" },
+      { id: 5, title: "Agile Development" },
+      { id: 2, title: "Trello" },
+      { id: 3, title: "Team Work" },
+      { id: 6, title: "Communication" },
     ],
   },
 ]
