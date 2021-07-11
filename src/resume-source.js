@@ -2,44 +2,34 @@ const developerInfo = {
   name: "Ali Taee",
   title: "Front-end Developer",
   about:
-    "I am a Front-end Developer with 5 years of experience. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I have a passion to work on side projects to learn more and create new things. My interests are reading novels, music, and photography.",
+    "Front-end Developer with 5 years of experience. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I have a passion to work on side projects to learn more and create new things.",
 }
 
-const skill = [
-  {
-    label: "Technical",
-    skills: [
-      { id: 0, title: "HTML" },
-      { id: 1, title: "CSS" },
-      { id: 2, title: "CSS Processors" },
-      { id: 15, title: "Responsive Design" },
-      { id: 3, title: "jQuery" },
-      { id: 4, title: "JavaScript" },
-      { id: 14, title: "TypeScript" },
-      { id: 6, title: "React" },
-      { id: 5, title: "SPA" },
-      { id: 7, title: "Redux" },
-      { id: 8, title: "Socket.IO" },
-      { id: 9, title: "REST API" },
-      { id: 10, title: "E2E Testing" },
-      { id: 11, title: "Gulp" },
-      { id: 12, title: "Parcel.js" },
-      { id: 13, title: "Webpack" },
-      { id: 16, title: "WordPress" },
-    ],
-  },
-  {
-    label: "Non-technical Skills",
-    skills: [
-      { id: 4, title: "Time Management" },
-      { id: 0, title: "Jira" },
-      { id: 1, title: "Scrum" },
-      { id: 5, title: "Agile Development" },
-      { id: 2, title: "Trello" },
-      { id: 3, title: "Team Work" },
-      { id: 6, title: "Communication" },
-    ],
-  },
+const skills = [
+  { id: 0, title: "Time Management" },
+  { id: 1, title: "Jira" },
+  { id: 2, title: "Scrum" },
+  { id: 3, title: "Agile Development" },
+  { id: 4, title: "Trello" },
+  { id: 5, title: "Team Work" },
+  { id: 6, title: "Communication" },
+  { id: 7, title: "HTML" },
+  { id: 8, title: "CSS" },
+  { id: 9, title: "CSS Processors" },
+  { id: 10, title: "Responsive Design" },
+  { id: 11, title: "jQuery" },
+  { id: 12, title: "JavaScript" },
+  { id: 13, title: "TypeScript" },
+  { id: 14, title: "React" },
+  { id: 15, title: "SPA" },
+  { id: 16, title: "Redux" },
+  { id: 17, title: "Socket.IO" },
+  { id: 18, title: "REST API" },
+  { id: 19, title: "E2E Testing" },
+  { id: 20, title: "Gulp" },
+  { id: 21, title: "Parcel.js" },
+  { id: 22, title: "Webpack" },
+  { id: 23, title: "WordPress" },
 ]
 
 const workExperience = [
@@ -54,9 +44,9 @@ const workExperience = [
     time: "Feb 2021 – Present",
     work: [
       "Worked in Agile team mainly using Scrum within the Spotify model.",
-      "Worked in team closely with designers, developers, QA engineers, scrum masters, and product managers.",
+      "Worked in a team closely with designers, developers, QA engineers, scrum masters, and product managers.",
       "Created a document for onboarding new developers.",
-      "Developed new features for the mobile and desktop application.",
+      "Developed new features for the mobile and desktop applications.",
     ],
     tech: [
       "HTML, CSS, SCSS, Styled components, BEM",
@@ -171,4 +161,4 @@ const contacts = [
   },
 ]
 
-export { skill, contacts, developerInfo, workExperience }
+export { skills, contacts, developerInfo, workExperience }

@@ -12,7 +12,7 @@ import CategoryTitle from "../components/resume/category-title"
 
 // Resume source
 import {
-  skill,
+  skills,
   contacts,
   developerInfo,
   workExperience,
@@ -31,10 +31,8 @@ const ResumeHeader = () => (
   </>
 )
 
-const Sidebar = () => (
-  <aside className="resume__sidebar">
-    <ResumeHeader />
-
+const Contacts = () => (
+  <Fragment>
     <CategoryTitle title="contacts" />
     <ul className="unbulleted-list resume__contact">
       {contacts.map(contact => (
@@ -45,20 +43,28 @@ const Sidebar = () => (
         </li>
       ))}
     </ul>
+  </Fragment>
+)
 
-    {skill.map((categorySkill, index) => (
-      <Fragment key={index}>
-        <CategoryTitle
-          title={categorySkill.label}
-          className="resume__margin-top-lg resume__category"
-        />
-        <article className="resume__skills">
-          {categorySkill.skills.map(skill => (
-            <Badge key={skill.id} title={skill.title} />
-          ))}
-        </article>
-      </Fragment>
-    ))}
+const Skills = () => (
+  <Fragment>
+    <CategoryTitle
+      title="Skills"
+      className="resume__margin-top-lg resume__category"
+    />
+    <article className="resume__skills">
+      {skills.map(skill => (
+        <Badge key={skill.id} title={skill.title} />
+      ))}
+    </article>
+  </Fragment>
+)
+
+const Sidebar = () => (
+  <aside className="resume__sidebar">
+    <ResumeHeader />
+    <Contacts />
+    <Skills />
   </aside>
 )
 
