@@ -91,6 +91,10 @@
     margin: 10px 0;
   }
 
+  &__work-list {
+    list-style-type: disc;
+  }
+
   &__link {
     color: var(--heading-color);
   }

@@ -35,30 +35,14 @@ const ResumeSection = ({
       {companyDescription && (
         <p className="resume-section__company-about">{companyDescription}</p>
       )}
-      <CategoryTitle
-        title="Responsibilities and Achievements"
-        headingTag="h4"
-        className="heading-title resume-section__list-header"
-      />
       {work.length > 0 && (
-        <ul>
+        <ul className="resume-section__work-list">
           {work.map((workItem, index) => (
             <li key={index}>{workItem}</li>
           ))}
         </ul>
       )}
-      <CategoryTitle
-        title="Tools and Technologies"
-        headingTag="h4"
-        className="heading-title resume-section__list-header"
-      />
-      {tech.length > 0 && (
-        <ul>
-          {tech.map((techItem, index) => (
-            <li key={index}>{techItem}</li>
-          ))}
-        </ul>
-      )}
+      {tech && tech !== "" && <p>Tools and Technologies: {tech}</p>}
     </div>
   </li>
 )
@@ -71,13 +55,13 @@ ResumeSection.propTypes = {
   time: PropTypes.string,
   city: PropTypes.string,
   className: PropTypes.string,
-  tech: PropTypes.arrayOf(PropTypes.string),
+  tech: PropTypes.string,
   work: PropTypes.arrayOf(PropTypes.string),
 }
 
 ResumeSection.defaultProps = {
   className: "",
-  tech: [],
+  tech: "",
   work: [],
 }
 

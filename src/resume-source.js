@@ -30,6 +30,7 @@ const skills = [
   { id: 21, title: "Parcel.js" },
   { id: 22, title: "Webpack" },
   { id: 23, title: "WordPress" },
+  { id: 24, title: "Git" },
 ]
 
 const workExperience = [
@@ -38,47 +39,40 @@ const workExperience = [
     title: "Front-end Developer",
     companyName: "Snappfood",
     companyDescription:
-      "Snappfood is the largest online food ordering and grocery shopping platform in Iran",
+      "Snappfood is the largest online food ordering and grocery shopping platform in Iran.",
     link: "https://snappfood.ir/",
     city: "Tehran, Iran",
     time: "Feb 2021 – Present",
     work: [
-      "Worked in Agile team mainly using Scrum within the Spotify model.",
-      "Worked in a team closely with designers, developers, QA engineers, scrum masters, and product managers.",
+      "Worked in a team closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
       "Created a document for onboarding new developers.",
       "Developed new features for the mobile and desktop applications.",
     ],
-    tech: [
-      "HTML, CSS, SCSS, Styled components, BEM",
-      "JavaScript, ES6+, TypeScript, React, React Router, Redux, Redux-Saga, Next.js, Storybook.",
-      "Webpack, Babel, ESlint, Prettier",
-      "Git and GitLab",
-    ],
+    tech:
+      "HTML, CSS, SCSS, Styled components, BEM, JavaScript, ES6+, TypeScript, React, React Router, Redux, Redux-Saga, Next.js, Storybook, Webpack, Babel, ESlint, Prettier, Git and GitLab",
   },
   {
     id: 3,
     title: "Front-end Developer",
     companyName: "Rasa Labs",
     companyDescription:
-      "Rasa Labs provide CCTV systems and Parental control systems",
+      "Rasa Labs provide CCTV systems and Parental control systems.",
     city: "Tehran, Iran",
     time: "Dec 2019 – Jan 2021",
     work: [
       "Created dashboards for our internal projects using React.",
+      "Created common components to reuse in our projects.",
+      "Worked in a team closely with designers, developers, product owners",
       "Maintained large legacy codes in old projects and refactor them for better performance and fixing bugs.",
     ],
-    tech: [
-      "HTML, CSS, SCSS, JSS, BEM",
-      "JavaScript, ES6+, React, React Router, Redux, Material-UI, react-i18next, Socket.IO, Context API, React Hooks",
-      "ESlint, Prettier",
-      "Git and GitLab",
-    ],
+    tech:
+      "HTML, CSS, SCSS, JSS, BEM, JavaScript, ES6+, React, React Router, Redux, Material-UI, react-i18next, Socket.IO, ESlint, Prettier, Git and GitLab",
   },
   {
     id: 2,
     title: "Front-end Developer / WordPress Developer",
     companyName: "Nabzino",
-    companyDescription: "Nabzino is a digital marketing agency",
+    companyDescription: "Nabzino is a digital marketing agency.",
     link: "https://www.nabzino.com/",
     city: "Tehran, Iran",
     time: "Feb 2019 – Aug 2019",
@@ -88,12 +82,8 @@ const workExperience = [
       "Developed a game campaign with a team of developers and designers in tight deadline, in which the users had to enter their phone numbers and names, and then choose among their favorite game characters. The winner was chosen in a lottery based on their scores. This project was done using Vue.js.",
       "Created WordPress shortcut posts plugins and video gallery plugins.",
     ],
-    tech: [
-      "HTML, CSS, SCSS, JSS, BEM",
-      "JavaScript, ES6+, React, Vue, Redux, Material-UI, react-i18next",
-      "WordPress, PHP, WordPress Plugin Development",
-      "Git and GitLab, Bitbucket",
-    ],
+    tech:
+      "HTML, CSS, SCSS, JSS, BEM, JavaScript, ES6+, React, Vue, Redux, Material-UI, react-i18next, WordPress, PHP, WordPress Plugin Development, Git and GitLab, Bitbucket",
   },
   {
     id: 1,
@@ -108,13 +98,10 @@ const workExperience = [
       "Converted UI designs into WordPress website.",
       "Helped interns to learn HTML, CSS, and WordPress.",
       "Introduced WordPress plugin development to the company.",
-      "Created a WordPress plugin for Novinarta.com which is one of Arta Seo customers. This plugin allows to enter the buildings’ info such as floors, area, location, image gallery and etc, to show the buildings to the customers.",
+      "Created a WordPress plugin for a client. This plugin allows to enter the buildings’ info such as floors, area, location, image gallery and etc, to show the buildings to the customers.",
     ],
-    tech: [
-      "HTML, CSS",
-      "JavaScript, jQuery",
-      "WordPress, WooCommerce, PHP, WordPress Plugin Development, ACF, Custom Post Types",
-    ],
+    tech:
+      "HTML, CSS, JavaScript, jQuery, WordPress, WooCommerce, PHP, WordPress Plugin Development, ACF, Custom Post Types",
   },
   {
     id: 0,
@@ -126,11 +113,10 @@ const workExperience = [
     city: "Esfahan, Iran",
     work: [
       "Website management.",
-      "UI/UX design.",
       "Content editing.",
-      "WordPress Development.",
+      "WordPress Development for blog website.",
     ],
-    tech: ["HTML, CSS", "JavaScript, jQuery", "WordPress"],
+    tech: "HTML, CSS, JavaScript, jQuery, WordPress",
   },
 ]
 
@@ -139,7 +125,7 @@ const contacts = [
     id: 0,
     href: "mailto:ali.taee.72@gmail.com",
     icon: "icon-envelope",
-    text: "ali.taee.72@gmail.com",
+    text: "Ali.Taee.72@gmail.com",
   },
   {
     id: 1,
