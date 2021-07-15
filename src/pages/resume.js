@@ -4,6 +4,7 @@ import React, { Fragment, memo } from "react"
 import SEO from "../components/seo"
 import Image from "../components/common/image"
 import Layout from "../components/layout/layout"
+import Education from "../components/resume/education"
 
 // Resume component
 import Badge from "../components/resume/badge"
@@ -14,6 +15,8 @@ import CategoryTitle from "../components/resume/category-title"
 import {
   skills,
   contacts,
+  languages,
+  educations,
   developerInfo,
   workExperience,
 } from "../resume-source"
@@ -32,7 +35,7 @@ const ResumeHeader = () => (
 )
 
 const Contacts = () => (
-  <Fragment>
+  <>
     <CategoryTitle title="contacts" />
     <ul className="unbulleted-list resume__contact">
       {contacts.map(contact => (
@@ -43,21 +46,35 @@ const Contacts = () => (
         </li>
       ))}
     </ul>
-  </Fragment>
+  </>
 )
 
 const Skills = () => (
-  <Fragment>
+  <>
     <CategoryTitle
       title="Skills"
       className="resume__margin-top-lg resume__category"
     />
-    <article className="resume__skills">
+    <section className="resume__skills">
       {skills.map(skill => (
         <Badge key={skill.id} title={skill.title} />
       ))}
-    </article>
-  </Fragment>
+    </section>
+  </>
+)
+
+const Languages = () => (
+  <>
+    <CategoryTitle
+      title="Languages"
+      className="resume__margin-top-lg resume__category"
+    />
+    <section className="resume__skills">
+      {languages.map(language => (
+        <Badge key={language.id} title={language.name} />
+      ))}
+    </section>
+  </>
 )
 
 const Sidebar = () => (
@@ -65,12 +82,13 @@ const Sidebar = () => (
     <ResumeHeader />
     <Contacts />
     <Skills />
+    <Languages />
   </aside>
 )
 
 const Main = () => (
-  <article className="resume__main">
-    <CategoryTitle title="EXPERIENCES" />
+  <section className="resume__main">
+    <CategoryTitle title="experiences" />
     <ol className="unbulleted-list">
       {workExperience.map(experience => (
         <ResumeSection
@@ -86,7 +104,17 @@ const Main = () => (
         />
       ))}
     </ol>
-  </article>
+    <CategoryTitle title="education" />
+    {educations.map(education => (
+      <Education
+        key={education.id}
+        time={education.time}
+        school={education.school}
+        degree={education.degree}
+        fieldOfStudy={education.fieldOfStudy}
+      />
+    ))}
+  </section>
 )
 
 const DownloadResume = () => {

@@ -147,4 +147,32 @@ const contacts = [
   },
 ]
 
-export { skills, contacts, developerInfo, workExperience }
+const languages = [
+  {
+    id: 1,
+    name: "Persian (native)",
+  },
+  {
+    id: 0,
+    name: "English",
+  },
+]
+
+const educations = [
+  {
+    id: 0,
+    time: "2014 – 2017",
+    fieldOfStudy: "Computer Software Engineering",
+    school: "Safahan",
+    degree: "Associate's degree",
+  },
+]
+
+export {
+  skills,
+  contacts,
+  languages,
+  educations,
+  developerInfo,
+  workExperience,
+}
