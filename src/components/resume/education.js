@@ -3,11 +3,11 @@ import PropTypes from "prop-types"
 import CategoryTitle from "./category-title"
 
 const Education = ({ fieldOfStudy, degree, school, time }) => (
-  <div className="resume-section">
+  <div className="resume-section resume-section--education">
     {school && (
       <CategoryTitle title={school} headingTag="h3" className="heading-title" />
     )}
-    <div className="resume-section__company-name-city">
+    <div className="resume-section__info">
       {degree && (
         <span className="resume-section__secondary-title">{degree}</span>
       )}{" "}

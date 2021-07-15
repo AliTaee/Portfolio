@@ -17,7 +17,7 @@ const ResumeSection = ({
     {title && (
       <CategoryTitle title={title} headingTag="h3" className="heading-title" />
     )}
-    <div className="resume-section__company-name-city">
+    <div className="resume-section__info">
       {companyName && (
         <a
           href={link}
@@ -33,7 +33,7 @@ const ResumeSection = ({
     {time && <time className="resume-section__time">{time}</time>}
     <div className="resume-section__content">
       {companyDescription && (
-        <p className="resume-section__company-about">{companyDescription}</p>
+        <p className="resume-section__about">{companyDescription}</p>
       )}
       {work.length > 0 && (
         <ul className="resume-section__work-list">
