@@ -22,6 +22,7 @@ const skills = [
   { id: 13, title: "TypeScript" },
   { id: 14, title: "React" },
   { id: 15, title: "SPA" },
+  { id: 25, title: "Gatsby" },
   { id: 16, title: "Redux" },
   { id: 17, title: "Socket.IO" },
   { id: 18, title: "REST API" },

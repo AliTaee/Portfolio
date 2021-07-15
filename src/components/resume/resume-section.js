@@ -18,7 +18,7 @@ const ResumeSection = ({
       <CategoryTitle title={title} headingTag="h3" className="heading-title" />
     )}
     <div className="resume-section__info">
-      {companyName && (
+      {companyName && link ? (
         <a
           href={link}
           target="_blank"
@@ -27,6 +27,10 @@ const ResumeSection = ({
         >
           <span className="resume-section__secondary-title">{companyName}</span>
         </a>
+      ) : (
+        <span className="resume-section__secondary-title resume-section__link">
+          {companyName}
+        </span>
       )}{" "}
       - {city}
     </div>

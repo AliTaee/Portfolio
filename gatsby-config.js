@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ali Taee`,
+    siteUrl: `https://alitaee.com`,
     description: `Ali Taee Portfolio with Gatsby, last project, blog and work`,
     author: `@gatsbyjs`,
   },
@@ -30,6 +31,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

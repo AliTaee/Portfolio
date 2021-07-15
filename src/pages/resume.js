@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from "react"
+import React, { memo } from "react"
 
 // Common component
 import SEO from "../components/seo"
