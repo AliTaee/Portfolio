@@ -1,11 +1,11 @@
 import React from "react"
 
-import { developerInfo } from "../resume-source"
+import { developerInfo } from "src/resume-source"
 
-import Layout from "../components/layout/layout"
-import Image from "../components/common/image"
-import Emoji from "../components/common/emoji"
-import SEO from "../components/seo"
+import Layout from "components/layout/layout"
+import Image from "components/common/image"
+import Emoji from "components/common/emoji"
+import SEO from "components/seo"
 
 const IndexPage = () => (
   <Layout classStyle="flex-center">

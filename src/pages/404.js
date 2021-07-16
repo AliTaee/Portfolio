@@ -1,8 +1,8 @@
 import React from "react"
 
-import SEO from "../components/seo"
-import Emoji from "../components/common/emoji"
-import Layout from "../components/layout/layout"
+import SEO from "components/seo"
+import Emoji from "components/common/emoji"
+import Layout from "components/layout/layout"
 
 const NotFoundPage = () => (
   <Layout classStyle="page-404">

@@ -1,15 +1,15 @@
 import React, { memo } from "react"
 
 // Common component
-import SEO from "../components/seo"
-import Image from "../components/common/image"
-import Layout from "../components/layout/layout"
-import Education from "../components/resume/education"
+import SEO from "components/seo"
+import Image from "components/common/image"
+import Layout from "components/layout/layout"
+import Education from "components/resume/education"
 
 // Resume component
-import Badge from "../components/resume/badge"
-import ResumeSection from "../components/resume/resume-section"
-import CategoryTitle from "../components/resume/category-title"
+import Badge from "components/resume/badge"
+import ResumeSection from "components/resume/resume-section"
+import CategoryTitle from "components/resume/category-title"
 
 // Resume source
 import {
@@ -19,9 +19,9 @@ import {
   educations,
   developerInfo,
   workExperience,
-} from "../resume-source"
+} from "src/resume-source"
 
-import AliTaeeResumePDF from "../assets/ResumeV1.1.0.pdf"
+import AliTaeeResumePDF from "assets/ResumeV1.1.0.pdf"
 
 const ResumeHeader = () => (
   <>

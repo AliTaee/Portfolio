@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import CategoryTitle from "./category-title"
+import CategoryTitle from "components/resume/category-title"
 
 const Education = ({ fieldOfStudy, degree, school, time }) => (
   <div className="resume-section resume-section--education">

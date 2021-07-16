@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     title: `Ali Taee`,
@@ -32,5 +34,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-root-import`,
+      options: {
+        src: path.join(__dirname, `src`),
+        pages: path.join(__dirname, `src/pages`),
+        components: path.join(__dirname, `src/components`),
+        assets: path.join(__dirname, `src/assets`),
+      },
+    },
   ],
 }

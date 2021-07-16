@@ -9,11 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import Footer from "./footer"
+import Header from "components/layout/header"
+import Footer from "components/layout/footer"
 
-import "../../styles/index.scss"
-
+import "src/styles/index.scss"
 import "typeface-inter"
 
 const Layout = ({ children, classStyle }) => {

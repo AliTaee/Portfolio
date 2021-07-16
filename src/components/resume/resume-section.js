@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import CategoryTitle from "./category-title"
+import CategoryTitle from "components/resume/category-title"
 
 const ResumeSection = ({
   title,

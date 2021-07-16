@@ -1,5 +1,5 @@
 import React, { memo, useEffect } from "react"
-import ArrowUpIcon from "../assets/icons/arrow-up.svg"
+import ArrowUpIcon from "assets/icons/arrow-up.svg"
 
 const ScrollBackToTop = () => {
   useEffect(() => {

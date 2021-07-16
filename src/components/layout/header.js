@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import NightTheme from "../night-theme"
-import { routes } from "../../routes"
+import { routes } from "src/routes"
+import NightTheme from "components/night-theme"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
