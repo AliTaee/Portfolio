@@ -63,6 +63,8 @@
 
   & .resume-section:last-child {
     border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -70,10 +72,6 @@
   margin-bottom: $margin-lg;
   padding-bottom: 30px;
   border-bottom: 3px solid var(--heading-color);
-
-  &__content {
-    padding-left: 10px;
-  }
 
   &__secondary-title {
     font-weight: 500;
@@ -93,6 +91,7 @@
 
   &__work-list {
     list-style-type: disc;
+    margin-bottom: 0;
   }
 
   &__link {

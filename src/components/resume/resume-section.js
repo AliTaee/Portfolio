@@ -11,9 +11,8 @@ const ResumeSection = ({
   time,
   city,
   work,
-  tech,
 }) => (
-  <li className={`resume-section ${className}`}>
+  <section className={`resume-section ${className}`}>
     {title && (
       <CategoryTitle title={title} headingTag="h3" className="heading-title" />
     )}
@@ -35,20 +34,18 @@ const ResumeSection = ({
       - {city}
     </div>
     {time && <time className="resume-section__time">{time}</time>}
-    <div className="resume-section__content">
-      {companyDescription && (
-        <p className="resume-section__about">{companyDescription}</p>
-      )}
-      {work.length > 0 && (
-        <ul className="resume-section__work-list">
-          {work.map((workItem, index) => (
-            <li key={index}>{workItem}</li>
-          ))}
-        </ul>
-      )}
-      {tech && tech !== "" && <p>Tools and Technologies: {tech}</p>}
-    </div>
-  </li>
+
+    {companyDescription && (
+      <p className="resume-section__about">{companyDescription}</p>
+    )}
+    {work.length > 0 && (
+      <ul className="resume-section__work-list">
+        {work.map((workItem, index) => (
+          <li key={index}>{workItem}</li>
+        ))}
+      </ul>
+    )}
+  </section>
 )
 
 ResumeSection.propTypes = {
@@ -59,7 +56,6 @@ ResumeSection.propTypes = {
   time: PropTypes.string,
   city: PropTypes.string,
   className: PropTypes.string,
-  tech: PropTypes.string,
   work: PropTypes.arrayOf(PropTypes.string),
 }
 

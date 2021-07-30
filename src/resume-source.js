@@ -2,17 +2,16 @@ const developerInfo = {
   name: "Ali Taee",
   title: "Front-end Developer",
   about:
-    "Front-end Developer with 5+ years of experience building responsive websites to web applications. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I am always passionate to learn more and improve my work. I enjoy working on pure projects using HTML, CSS, and JavaScript as much as working on front-end libraries and frameworks like React.",
+    "Front-end Developer with 5+ years of experience building responsive websites to web applications. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I am always trying to learn more and improve my work. I enjoy working on pure projects using HTML, CSS, and JavaScript as much as working on front-end libraries and frameworks.",
 }
 
 const skills = [
-  { id: 0, title: "Time Management" },
   { id: 1, title: "Jira" },
   { id: 2, title: "Scrum" },
   { id: 3, title: "Agile Development" },
-  { id: 4, title: "Trello" },
-  { id: 5, title: "Team Work" },
   { id: 6, title: "Communication" },
+  { id: 4, title: "Trello" },
+  { id: 5, title: "Teamwork" },
   { id: 7, title: "HTML" },
   { id: 8, title: "CSS" },
   { id: 9, title: "CSS Processors" },
@@ -46,11 +45,10 @@ const workExperience = [
     time: "Feb 2021 – Present",
     work: [
       "Worked in a team closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
-      "Created a document for onboarding new developers.",
       "Developed new features for the mobile and desktop applications.",
+      "I have started End-to-end testing for desktop application.",
+      "Wrote a document for onboarding new developers.",
     ],
-    tech:
-      "HTML, CSS, SCSS, Styled components, BEM, JavaScript, ES6+, TypeScript, React, React Router, Redux, Redux-Saga, Next.js, Storybook, Webpack, Babel, ESlint, Prettier, Git and GitLab",
   },
   {
     id: 3,
@@ -62,12 +60,10 @@ const workExperience = [
     time: "Dec 2019 – Jan 2021",
     work: [
       "Created dashboards for our internal projects using React.",
-      "Created common components to reuse in our projects.",
-      "Worked in a team closely with designers, developers, product owners",
-      "Maintained large legacy codes in old projects and refactor them for better performance and fixing bugs.",
+      "Reduced development time by create a common components.",
+      "Worked in a team closely with designers, developers, product owners.",
+      "Debugged 3 large legacy codes and refactor them for better performance.",
     ],
-    tech:
-      "HTML, CSS, SCSS, JSS, BEM, JavaScript, ES6+, React, React Router, Redux, Material-UI, react-i18next, Socket.IO, ESlint, Prettier, Git and GitLab",
   },
   {
     id: 2,
@@ -80,29 +76,25 @@ const workExperience = [
     work: [
       "Created dashboard for one of our internal projects using React.",
       "Converted UI landing design into WordPress page.",
-      "Developed a game campaign with a team of developers and designers in tight deadline, in which the users had to enter their phone numbers and names, and then choose among their favorite game characters. The winner was chosen in a lottery based on their scores. This project was done using Vue.js.",
-      "Created WordPress shortcut posts plugins and video gallery plugins.",
+      "Launched a game campaign with a team of developers and designers in tight deadline, This project was done using Vue.js.",
+      "Developed WordPress shortcut posts plugins and video gallery plugins.",
     ],
-    tech:
-      "HTML, CSS, SCSS, JSS, BEM, JavaScript, ES6+, React, Vue, Redux, Material-UI, react-i18next, WordPress, PHP, WordPress Plugin Development, Git and GitLab, Bitbucket",
   },
   {
     id: 1,
     title: "Front-end Developer / WordPress Developer",
     companyName: "Arta Seo",
-    companyDescription:
-      "Arta Seo is a website development company and digital marketing agency.",
+    companyDescription: "Arta Seo is a website development company.",
     link: "https://artaseo.ir/",
     city: "Esfahan, Iran",
     time: "Mar 2018 – Feb 2019",
     work: [
+      "Communicated with customers to create their websites.",
       "Converted UI designs into WordPress website.",
-      "Helped interns to learn HTML, CSS, and WordPress.",
       "Introduced WordPress plugin development to the company.",
+      "I have managed and trained 10 interns to learn HTML, CSS, and WordPress.",
       "Created a WordPress plugin for a client. This plugin allows to enter the buildings’ info such as floors, area, location, image gallery and etc, to show the buildings to the customers.",
     ],
-    tech:
-      "HTML, CSS, JavaScript, jQuery, WordPress, WooCommerce, PHP, WordPress Plugin Development, ACF, Custom Post Types",
   },
   {
     id: 0,
@@ -113,11 +105,11 @@ const workExperience = [
     time: "2014 – 2017",
     city: "Esfahan, Iran",
     work: [
-      "Website management.",
-      "Content editing.",
+      "Improved Alexa rank 2 times by creating a blog.",
+      "Managed translators and content editing for SEO.",
       "WordPress Development for blog website.",
+      "Started as a data entry and learnt HTML, CSS, and WordPress.",
     ],
-    tech: "HTML, CSS, JavaScript, jQuery, WordPress",
   },
 ]
 

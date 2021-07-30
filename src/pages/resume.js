@@ -88,8 +88,8 @@ const Sidebar = () => (
 
 const Main = () => (
   <section className="resume__main">
-    <CategoryTitle title="experiences" />
-    <ol className="unbulleted-list">
+    <CategoryTitle title="experience" />
+    <div>
       {workExperience.map(experience => (
         <ResumeSection
           key={experience.id}
@@ -97,13 +97,12 @@ const Main = () => (
           link={experience.link}
           city={experience.city}
           work={experience.work}
-          tech={experience.tech}
           title={experience.title}
           companyName={experience.companyName}
           companyDescription={experience.companyDescription}
         />
       ))}
-    </ol>
+    </div>
     <CategoryTitle title="education" />
     {educations.map(education => (
       <Education
