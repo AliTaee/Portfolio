@@ -9,8 +9,8 @@ const skills = [
   { id: 1, title: "Jira" },
   { id: 2, title: "Scrum" },
   { id: 3, title: "Agile Development" },
-  { id: 6, title: "Communication" },
   { id: 4, title: "Trello" },
+  { id: 6, title: "Communication" },
   { id: 5, title: "Teamwork" },
   { id: 7, title: "HTML" },
   { id: 8, title: "CSS" },
@@ -91,11 +91,11 @@ const workExperience = [
     city: "Esfahan, Iran",
     time: "Mar 2018 – Feb 2019",
     work: [
-      "Communicated with customers to create their websites.",
+      "Communicated with customers to create their websites base on their needs.",
       "Converted UI designs into WordPress website.",
       "Introduced WordPress plugin development to the company.",
       "I have managed and trained 10 interns to learn HTML, CSS, and WordPress.",
-      "Created a WordPress plugin for a client. This plugin allows to enter the buildings’ info such as floors, area, location, image gallery and etc, to show the buildings to the customers.",
+      "Reduced data entry time by optimize website panel.",
     ],
   },
   {
@@ -108,7 +108,7 @@ const workExperience = [
     city: "Esfahan, Iran",
     work: [
       "Improved Alexa rank 2 times by creating a blog.",
-      "Managed translators and content editing for SEO.",
+      "Managed 3 translators and content editing for SEO.",
       "WordPress Development for blog website.",
       "Started as a data entry and learnt HTML, CSS, and WordPress.",
     ],
