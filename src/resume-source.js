@@ -2,14 +2,13 @@ const developerInfo = {
   name: "Ali Taee",
   title: "Front-end Developer",
   about:
-    "Front-end Developer with 5+ years of experience building responsive websites to web applications. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I am always trying to learn more and improve my work. I enjoy working on pure projects using HTML, CSS, and JavaScript as much as working on front-end libraries and frameworks.",
+    "Front-end Developer with 4+ years of experience building responsive websites to web applications. I enjoy every aspect of the job from the user interface implementation to advanced JavaScript topics. I am always trying to learn more and improve my work.",
 }
 
 const skills = [
   { id: 1, title: "Jira" },
   { id: 2, title: "Scrum" },
   { id: 3, title: "Agile Development" },
-  { id: 4, title: "Trello" },
   { id: 6, title: "Communication" },
   { id: 5, title: "Teamwork" },
   { id: 7, title: "HTML" },
@@ -17,8 +16,8 @@ const skills = [
   { id: 9, title: "CSS Processors" },
   { id: 10, title: "Responsive Design" },
   { id: 12, title: "JavaScript" },
-  { id: 11, title: "jQuery" },
   { id: 13, title: "TypeScript" },
+  { id: 11, title: "jQuery" },
   { id: 14, title: "React" },
   { id: 15, title: "SPA" },
   { id: 25, title: "Gatsby" },
@@ -30,8 +29,8 @@ const skills = [
   { id: 20, title: "Gulp" },
   { id: 21, title: "Parcel.js" },
   { id: 22, title: "Webpack" },
-  { id: 23, title: "WordPress" },
   { id: 24, title: "Git" },
+  { id: 23, title: "WordPress" },
 ]
 
 const workExperience = [
@@ -48,8 +47,7 @@ const workExperience = [
       "Worked in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
       "Developed features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
       "Developed features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
-      "I have started End-to-end testing for desktop application.",
-      "Wrote a document for onboarding new developers.",
+      "Created a document for onboarding new developers.",
     ],
   },
   {
@@ -61,10 +59,10 @@ const workExperience = [
     city: "Tehran, Iran",
     time: "Dec 2019 – Jan 2021",
     work: [
-      "Developed front-end projects using JavaScript, React, Material-UI, Redux-thunk, Socket.IO, REST API.",
-      "Reduced development time by create a common components.",
-      "Communicated in a team of 8 people closely with designers, developers, product owners.",
-      "Debugged 3 large legacy codes and refactor them for better performance and clean code. Improved load time by 50%.",
+      "Created front-end projects using JavaScript, React, Material-UI, Redux-thunk, Socket.IO, REST API.",
+      "Reduced development time by creating common components.",
+      "Interacted with 8 other group members of designers, developers, product owners",
+      "Debugged 3 large legacy codes and refactored them for better performance and clean code. Improved load time by 50%.",
     ],
   },
   {
@@ -76,10 +74,10 @@ const workExperience = [
     city: "Tehran, Iran",
     time: "Mar 2019 – Sep 2019",
     work: [
-      "Created dashboard for one of our internal projects using React.",
-      "Converted UI landing design into WordPress page.",
-      "Launched a game campaign with a team of developers and designers in tight deadline, This project was done using Vue.js.",
-      "Developed WordPress shortcut posts plugins and video gallery plugins.",
+      "Created dashboards for our internal projects using React.",
+      "Converted UI landing design into responsive web page.",
+      "Launched a game campaign with a team of developers and designers within a tight deadline, using Vue.js.",
+      "Developed video gallery using HTML, CSS, Flexbox, and JavaScript.",
     ],
   },
   {
@@ -91,26 +89,25 @@ const workExperience = [
     city: "Esfahan, Iran",
     time: "Mar 2018 – Feb 2019",
     work: [
-      "Communicated with customers to create their websites base on their needs.",
-      "Converted UI designs into WordPress website.",
+      "Communicated with customers to create their websites based on their needs.",
+      "Converted UI designs into WordPress responsive website.",
       "Introduced WordPress plugin development to the company.",
-      "I have managed and trained 10 interns to learn HTML, CSS, and WordPress.",
-      "Reduced data entry time by optimize website panel.",
+      "Managed and trained a team of 10 interns to learn HTML, CSS, and WordPress.",
+      "Reduced data entry time by half by optimizing the website panel.",
     ],
   },
   {
     id: 0,
     title: "WordPress Developer / Website Manager",
     companyName: "Asr-e Digital",
-    companyDescription: "Asr-e Digital is an online e-commerce.",
+    companyDescription: "Asr-e Digital is an online e-commerce company.",
     link: "https://www.asrdigital.ir/",
     time: "2014 – 2017",
     city: "Esfahan, Iran",
     work: [
       "Improved Alexa rank 2 times by creating a blog.",
       "Managed 3 translators and content editing for SEO.",
-      "WordPress Development for blog website.",
-      "Started as a data entry and learnt HTML, CSS, and WordPress.",
+      "Managed and developed a blog using WordPress.",
     ],
   },
 ]
