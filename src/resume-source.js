@@ -55,7 +55,7 @@ const workExperience = [
     title: "Front-end Developer",
     companyName: "Pishgam Vista",
     companyDescription:
-      "Rasa Labs provide CCTV systems and Parental control systems.",
+      "Pishgam Vista provide CCTV systems and Parental control systems.",
     city: "Tehran, Iran",
     time: "Dec 2019 – Jan 2021",
     work: [
