@@ -26,6 +26,10 @@ const skills = [
   { id: 17, title: "Socket.IO" },
   { id: 18, title: "REST API" },
   { id: 19, title: "E2E Testing" },
+  { id: 27, title: "Unit Testing" },
+  { id: 28, title: "Testing Library" },
+  { id: 29, title: "Cypress" },
+  { id: 30, title: "Jest" },
   { id: 20, title: "Gulp" },
   { id: 21, title: "Parcel.js" },
   { id: 22, title: "Webpack" },
@@ -39,15 +43,16 @@ const workExperience = [
     title: "Front-end Developer",
     companyName: "Snappfood",
     companyDescription:
-      "Snappfood is the largest online food ordering and grocery shopping platform in Iran.",
+      "Snappfood with 2.5 million users per day is the largest online food ordering and grocery shopping platform in Iran.",
     link: "https://snappfood.ir/",
     city: "Tehran, Iran",
     time: "Feb 2021 – Present",
     work: [
-      "Worked in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
-      "Developed features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
-      "Developed features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
-      "Created a document for onboarding new developers.",
+      "Work in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
+      "Develop features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
+      "Develop features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
+      "Onboarding new developers and creating a document for onboarding.",
+      "Introduce Unit and E2E Testing with 5 technical presentations."
     ],
   },
   {
@@ -62,7 +67,7 @@ const workExperience = [
       "Created front-end projects using JavaScript, React, Material-UI, Redux-thunk, Socket.IO, REST API.",
       "Reduced development time by creating common components.",
       "Interacted with 8 other group members of designers, developers, product owners",
-      "Debugged 3 large legacy codes and refactored them for better performance and clean code. Improved load time by 50%.",
+      "Debugged 3 large legacy codes and refactored them for better performance and clean code.",
     ],
   },
   {
