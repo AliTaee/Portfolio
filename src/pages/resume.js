@@ -21,7 +21,7 @@ import {
   workExperience,
 } from "src/resume-source"
 
-import AliTaeeResumePDF from "assets/ResumeV2.1.0.pdf"
+import AliTaeeResumePDF from "assets/ResumeV2.2.0.pdf"
 
 const ResumeHeader = () => (
   <>

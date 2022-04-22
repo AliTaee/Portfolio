@@ -51,7 +51,7 @@ const workExperience = [
       "Work in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
       "Develop features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
       "Develop features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
-      "Onboarding new developers and creating a document for onboarding.",
+      "Onboard new developers and create a document for onboarding.",
       "Introduce Unit and E2E Testing with 5 technical presentations."
     ],
   },
