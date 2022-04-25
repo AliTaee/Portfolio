@@ -1,8 +1,8 @@
 const developerInfo = {
   name: "Ali Taee",
-  title: "Front-end Developer",
+  title: "Senior Front-end Developer",
   about:
-    "As a Front-end Developer with more than 4 years of experience in building responsive websites and web applications, I am always looking for a way to improve my work and team performance, from adding documents and unit tests to contributing my knowledge and giving feedback in code reviews. I enjoy Music, Photography, Novels, Travel and Technology.",
+    "As a Senior Front-end Developer with more than 4 years of experience in building responsive websites and web applications, I am always looking for a way to improve my work and team performance, from adding documents and unit tests to contributing my knowledge and giving feedback in code reviews. I enjoy Music, Photography, Novels, Travel and Technology.",
 }
 
 const skills = [
@@ -40,7 +40,7 @@ const skills = [
 const workExperience = [
   {
     id: 4,
-    title: "Front-end Developer",
+    title: "Senior Front-end Developer",
     companyName: "Snappfood",
     companyDescription:
       "Snappfood with 2.5 million users per day is the largest online food ordering and grocery shopping platform in Iran.",
