@@ -145,9 +145,9 @@ const workExperience = [
 const contacts = [
   {
     id: 0,
-    href: "mailto:ali.taee.72@gmail.com",
+    href: "mailto:ali.taei.semiromi@gmail.com",
     icon: "icon-envelope",
-    text: "Ali.Taee.72@gmail.com",
+    text: "Ali.taei.semiromi@gmail.com",
   },
   {
     id: 1,
