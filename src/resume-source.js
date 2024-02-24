@@ -2,7 +2,7 @@ const developerInfo = {
   name: "Ali Taee",
   title: "Senior Front-end Developer",
   about:
-    "As a Senior Front-end Developer with more than 4 years of experience in building responsive websites and web applications, I am always looking for a way to improve my work and team performance, from adding documents and unit tests to contributing my knowledge and giving feedback in code reviews. I enjoy Music, Photography, Novels, Travel and Technology.",
+    "I’m a Senior Front-end Developer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development. For most of my career, I’ve worked with JavaScript and React but I’m open to learning new technologies. I like to help other people with what I know and interact with them and get their feedbacks to improve myself and the project. I enjoy Music, Books, Photography, Board games, Running, and Travel.",
 }
 
 const skills = [
@@ -39,6 +39,31 @@ const skills = [
 
 const workExperience = [
   {
+    id: 6,
+    title: "Senior Front-end Developer",
+    companyName: "CLIQ Digital",
+    companyDescription:
+      "CLIQ Digital is a leading digital entertainment company.",
+    link: "https://cliqdigital.com/",
+    city: "Amsterdam, Netherlands",
+    time: "March 2023 – Present",
+    work: [
+      "Lead the front-end team, onboard, mentor, and engage in pair programming with developers.",
+      "Implement a Content Management System project using Next.js, TypeScript, and Storybook, following clean code principles, best practices, unit testing, and documentation.",
+      "Collaborate with team members, actively participate in meetings, and propose solutions to project challenges in an Agile and Scrum environment.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Senior Front-end Developer",
+    companyName: "Passionate People",
+    companyDescription:
+      "Passionate People is a JavaScript consultancy in the Netherlands.",
+    link: "https://passionatepeople.io/",
+    city: "Amsterdam, Netherlands",
+    time: "Sep 2022 – Mar 2023",
+  },
+  {
     id: 4,
     title: "Senior Front-end Developer",
     companyName: "Snappfood",
@@ -46,13 +71,13 @@ const workExperience = [
       "Snappfood with 2.5 million users per day is the largest online food ordering and grocery shopping platform in Iran.",
     link: "https://snappfood.ir/",
     city: "Tehran, Iran",
-    time: "Feb 2021 – Present",
+    time: "Jul 2021 – Aug 2022",
     work: [
       "Work in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
       "Develop features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
       "Develop features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
       "Onboard new developers and create a document for onboarding.",
-      "Introduce Unit and E2E Testing with 5 technical presentations."
+      "Introduce Unit and E2E Testing with 5 technical presentations.",
     ],
   },
   {
