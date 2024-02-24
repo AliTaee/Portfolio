@@ -73,11 +73,11 @@ const workExperience = [
     city: "Tehran, Iran",
     time: "Jul 2021 – Aug 2022",
     work: [
-      "Work in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
-      "Develop features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
-      "Develop features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
-      "Onboard new developers and create a document for onboarding.",
-      "Introduce Unit and E2E Testing with 5 technical presentations.",
+      "Worked in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.",
+      "Developed features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.",
+      "Developed features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.",
+      "Onboarded new developers and create a document for onboarding.",
+      "Introduced Unit and E2E Testing with 5 technical presentations.",
     ],
   },
   {
