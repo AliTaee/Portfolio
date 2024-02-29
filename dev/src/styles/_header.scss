@@ -1,0 +1,41 @@
+.header {
+  background: $primary;
+  margin-bottom: $margin-lg;
+
+  &__container {
+    margin: 0 auto;
+    max-width: $container_width;
+    padding: $margin-lg $padding_sm;
+    @include flexBox(row-reverse, space-between, center);
+  }
+  &__link {
+    color: $white;
+    text-decoration: none;
+    padding: $padding_xs;
+
+    &--active {
+      color: $secondary;
+    }
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+  &__title {
+    font-size: 1.4em;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .main-nav {
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+    }
+    &__item {
+      text-transform: capitalize;
+      margin: 0 $margin_sm 0 0;
+    }
+  }
+}
