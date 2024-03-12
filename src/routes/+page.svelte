@@ -7,6 +7,10 @@
   const { name, about, title, profileImage } = me;
 </script>
 
+<svelte:head>
+    <title>{name} Portfolio</title> 
+</svelte:head>
+
 <main class="main intro container">
   <section class="intro__welcome">
     <h1 class="intro__title">

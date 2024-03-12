@@ -8,6 +8,10 @@
 	const { name, about, title, profileImage } = me
 </script>
 
+<svelte:head>
+    <title>{name} Resume</title> 
+</svelte:head>
+
 <article class="container resume">
 	<section class="resume__main">
 		<h2 class="resume__category">Experience</h2>
