@@ -2,30 +2,35 @@ import profileImage from '$lib/assets/images/profile-image.jpg'
 
 export const me = {
 	name: 'Ali Taee',
-	title: 'Senior Front-end Developer',
+	title: 'Senior Front-end Engineer',
 	profileImage,
 	about:
-		'I’m a Senior Front-end Developer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development. For most of my career, I’ve worked with JavaScript and React but I’m open to learning new technologies. I like to help other people with what I know and interact with them and get their feedbacks to improve myself and the project. I enjoy Music, Books, Photography, Board games, Running, and Travel.'
+		'I’m a Senior Front-end Engineer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development. For most of my career, I’ve worked with JavaScript and React but I’m open to learning new technologies. I like to help other people with what I know and interact with them and get their feedbacks to improve myself and the project. I enjoy Music, Books, Photography, Board games, Running, and Travel.'
 }
 
 export const skills = [
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'TypeScript',
+	'Storybook',
+	'React',
+	'Next.js',
+	'Git',
+	'Svelte',
+	'CSS 3',
+	'CSS Processors',
+	'Responsive Design',
 	'Jira',
 	'Scrum',
 	'Agile Development',
 	'Communication',
 	'Teamwork',
-	'HTML',
-	'CSS',
-	'CSS Processors',
-	'Responsive Design',
-	'JavaScript',
-	'TypeScript',
-	'jQuery',
-	'React',
-	'Svelte',
+	'SOLID',
+	'Code review',
+	'Critical thinking',
 	'SPA',
 	'Gatsby',
-	'Next.js',
 	'Redux',
 	'Socket.IO',
 	'REST API',
@@ -33,17 +38,21 @@ export const skills = [
 	'Unit Testing',
 	'Testing Library',
 	'Cypress',
+	'Playwright',
 	'Jest',
 	'Gulp',
 	'Parcel.js',
 	'Webpack',
-	'Git',
-	'WordPress'
+	'Rollup',
+	'NPM',
+	'Yarn',
+	'WordPress',
+	'jQuery'
 ]
 
 export const experiences = [
 	{
-		title: 'Senior Front-end Developer',
+		title: 'Senior Front-end Engineer',
 		companyName: 'CLIQ Digital',
 		companyDescription: 'CLIQ Digital is a leading digital entertainment company.',
 		link: 'https://cliqdigital.com/',
@@ -56,12 +65,17 @@ export const experiences = [
 		]
 	},
 	{
-		title: 'Senior Front-end Developer',
+		title: 'Senior Front-end Engineer',
 		companyName: 'Passionate People',
 		companyDescription: 'Passionate People is a JavaScript consultancy in the Netherlands.',
 		link: 'https://passionatepeople.io/',
 		city: 'Amsterdam, Netherlands',
-		time: 'Sep 2022 – Mar 2023'
+		time: 'Sep 2022 – Mar 2023',
+		achievements: [
+			'Assisted backstage at the VueJs and JsWorld conference in 2023.',
+			'Maintained the primary website and introduced new features.',
+			'Developed internal dashboards using technologies such as React, Next.js, TypeScript, and Storybook.'
+		]
 	},
 	{
 		title: 'Senior Front-end Developer',
