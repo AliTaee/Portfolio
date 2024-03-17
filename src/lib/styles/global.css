@@ -38,6 +38,11 @@
 	--background-color: #001d3d;
 }
 
+html {
+	/* Prevent layout shift when toggling scrollbar on Window */
+	margin-left: calc(100vw - 100%);
+}
+
 body {
 	font-family: 'Inter', 'Open Sans Variable', sans-serif;
 	color: var(--text-color);
