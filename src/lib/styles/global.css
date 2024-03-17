@@ -40,7 +40,8 @@
 
 html {
 	/* Prevent layout shift when toggling scrollbar on Window */
-	margin-left: calc(100vw - 100%);
+	width: 100vw;
+	overflow-x: hidden;
 }
 
 body {
