@@ -15,7 +15,7 @@
 	class="main intro container flex flex-col justify-center items-center md:flex-row-reverse md:justify-between"
 >
 	<section class="intro__welcome mb-6 md:mb-0">
-		<h1 class="intro__title">
+		<h1 class="intro__title text-2xl font-bold">
 			Hello World, I'm{' '}
 			<span class="capitalize">{name}</span>
 			<span class="hand-wave">
