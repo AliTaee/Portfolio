@@ -7,7 +7,7 @@
 </script>
 
 <header class="header">
-	<div class="header__container">
+	<div class="header__container flex flex-row-reverse justify-between items-center">
 		<div class="flex justify-center">
 			<span class="header__title">
 				<a class="header__link" href="/">
@@ -39,7 +39,6 @@
 			margin: 0 auto;
 			max-width: var(--container_width);
 			padding: var(--margin-lg) var(--padding_sm);
-			@include flexBox(row-reverse, space-between, center);
 		}
 		&__link {
 			color: var(--white);

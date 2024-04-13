@@ -14,7 +14,7 @@
 </script>
 
 <section class="card intro__card card--small">
-	<img class="card__img img-round" src={image} alt={`image of ${title}`} />
+	<img class="card__img rounded-full" src={image} alt={`image of ${title}`} />
 	<h2 class="card__title">{title}</h2>
 	<p class="card__desc">{desc}</p>
 </section>
