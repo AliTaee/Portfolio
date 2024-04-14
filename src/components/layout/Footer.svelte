@@ -22,7 +22,7 @@
 				alt="SvelteKit logo"
 				width="20"
 				height="20"
-				class="footer__logo"
+				class="footer__logo h-5"
 			/>
 		</a>
 		&nbsp;-
@@ -38,7 +38,7 @@
 				alt="GitHub logo"
 				width="20"
 				height="20"
-				class="footer__logo"
+				class="footer__logo h-5"
 			/>
 		</a>
 	</div>
