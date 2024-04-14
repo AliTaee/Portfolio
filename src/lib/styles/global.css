@@ -105,16 +105,6 @@ body {
 	content: '\ead0';
 }
 
-.main {
-	min-height: calc(100vh - 178px);
-}
-
-.container {
-	margin: 0 auto;
-	max-width: var(--container_width);
-	padding: 0 var(--padding_sm);
-}
-
 .heading-title {
 	color: var(--heading-color);
 	font-weight: 400;

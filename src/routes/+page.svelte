@@ -11,50 +11,47 @@
 	<title>{name} Portfolio</title>
 </svelte:head>
 
+<!-- 70px for footer and 92px for header -->
 <main
-	class="main intro container flex flex-col justify-center items-center md:flex-row-reverse md:justify-between"
+	style="height: calc(100vh - 70px - 92px)"
+	class="intro container mx-auto px-4 flex justify-center items-center"
 >
-	<section class="intro__welcome mb-6 md:mb-0">
-		<h1 class="intro__title text-2xl font-bold">
-			Hello World, I'm{' '}
-			<span class="capitalize">{name}</span>
-			<span class="hand-wave">
-				<Emoji emoji="👋" label="Hand waving" />
-			</span>
-		</h1>
-		<p>{about}</p>
-	</section>
-	<Card desc={title} title={name} image={profileImage} />
+	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
+		<section class="intro__welcome w-full mb-6 md:mb-0">
+			<h1 class="intro__title text-2xl font-bold">
+				Hello World, I'm{' '}
+				<span class="capitalize">{name}</span>
+				<span class="hand-wave">
+					<Emoji emoji="👋" label="Hand waving" />
+				</span>
+			</h1>
+			<p>{about}</p>
+		</section>
+		<section>
+			<Card desc={title} title={name} image={profileImage} />
+		</section>
+	</div>
 </main>
 
 <style lang="scss">
 	.intro {
 		&__welcome {
-			width: 69%;
 			padding: var(--padding_mx);
 		}
 		&__title {
 			font-weight: 400;
-		}
-		&__card {
-			width: 30%;
 		}
 	}
 
 	@media only screen and (max-width: 768px) {
 		.intro {
 			&__welcome {
-				width: 90%;
 				padding: 0;
 			}
 
 			&__title {
 				font-size: 24px;
 				text-align: center;
-			}
-
-			&__card {
-				width: 100%;
 			}
 		}
 	}

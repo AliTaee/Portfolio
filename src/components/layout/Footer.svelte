@@ -8,7 +8,7 @@
 </script>
 
 <footer class="footer">
-	<div class="container flex justify-center flex-wrap">
+	<div class="container mx-auto flex justify-center flex-wrap">
 		Design and Develop by {name} with&nbsp;<Emoji emoji="❤️" label="love" />&nbsp;and
 		<a
 			class="footer__links flex justify-center"

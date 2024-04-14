@@ -6,8 +6,8 @@
 	const { name } = me
 </script>
 
-<header class="header">
-	<div class="header__container flex flex-row-reverse justify-between items-center">
+<header class="header py-4">
+	<div class="container mx-auto  flex flex-row-reverse justify-between items-center">
 		<div class="flex justify-center">
 			<span class="header__title">
 				<a class="header__link" href="/">
@@ -35,11 +35,6 @@
 		background: var(--primary);
 		margin-bottom: var(--margin-lg);
 
-		&__container {
-			margin: 0 auto;
-			max-width: var(--container_width);
-			padding: var(--margin-lg) var(--padding_sm);
-		}
 		&__link {
 			color: var(--white);
 			text-decoration: none;
