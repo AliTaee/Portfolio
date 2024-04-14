@@ -6,8 +6,8 @@
 	const { name } = me
 </script>
 
-<header class="header flex justify-center p-4">
-	<div class="container mx-auto flex justify-between items-center">
+<header class="header flex justify-center">
+	<div class="container mx-auto flex justify-between items-center p-4">
 		<nav class="main-nav flex items-center h-full">
 			<ul>
 				{#each routes as route}
