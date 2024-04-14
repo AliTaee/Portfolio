@@ -2,9 +2,9 @@
   Ali Taee Portfolio, You are welcome to use this project to build your portfolio site.
 </h1>
 
-A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS.
+A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love ❤️ with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS.
 
-I designed this portfolio to be dynamic for easy use. Here are the steps to utilize this portfolio:
+I designed this portfolio to be dynamic for easy use. Here are the steps to use this portfolio:
 
 1. Clone it from Github.
 2. Replace `src/resume-source.ts` with your details such as name, about, skills, experiences, socials, languages, and education.
