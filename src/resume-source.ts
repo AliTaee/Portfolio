@@ -8,6 +8,18 @@ export const me = {
 		'I’m a Senior Front-end Engineer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development. For most of my career, I’ve worked with JavaScript and React but I’m open to learning new technologies. I like to help other people with what I know and interact with them and get their feedbacks to improve myself and the project. I enjoy Music, Books, Photography, Board games, Running, and Travel.'
 }
 
+export const seoTags = {
+	home: {
+		title: `${me.name} | Portfolio`,
+		description:
+			"I'm a Senior Front-end Engineer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development."
+	},
+	resume: {
+		title: `${me.name} | Resume`,
+		description: `${me.name} Resume`
+	}
+}
+
 export const skills = [
 	'HTML',
 	'CSS',

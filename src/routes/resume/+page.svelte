@@ -1,15 +1,17 @@
 <script>
-	import { me, socials, skills, languages, educations, experiences } from '../../resume-source.ts'
+	import { me, socials, skills, languages, educations, experiences, seoTags } from '../../resume-source.ts'
 
 	import Chip from '../../components/chip/Chip.svelte'
 
 	import ResumeFile from '../../lib/assets/resume.pdf'
 
 	const { name, about, title, profileImage } = me
+	const { resume: {title: pageTitle, description: pageDescription} } = seoTags
 </script>
 
 <svelte:head>
-	<title>{name} Resume</title>
+	<title>{pageTitle}</title>
+	<meta name="description" content="{pageDescription}" />
 </svelte:head>
 
 <article class="container resume flex flex-col justify-items-center px-4 lg:flex-row">
