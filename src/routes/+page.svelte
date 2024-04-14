@@ -13,9 +13,7 @@
 	<meta name="description" content="{pageDescription}" />
 </svelte:head>
 
-<!-- 70px for footer and 92px for header -->
 <main
-	style="height: calc(100vh - 70px - 92px)"
 	class="intro container mx-auto px-4 flex justify-center items-center"
 >
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
@@ -27,7 +25,7 @@
 					<Emoji emoji="👋" label="Hand waving" />
 				</span>
 			</h1>
-			<p class="max-h-64 overflow-y-auto">{about}</p>
+			<p class="max-h-72 overflow-y-auto">{about}</p>
 		</section>
 		<section>
 			<Card desc={title} title={name} image={profileImage} />
@@ -37,6 +35,8 @@
 
 <style lang="scss">
 	.intro {
+		// 70px for footer and 92px for header
+		min-height: calc(100vh - 70px - 92px);
 		&__welcome {
 			padding: var(--padding_mx);
 		}
@@ -47,6 +47,7 @@
 
 	@media only screen and (max-width: 768px) {
 		.intro {
+
 			&__welcome {
 				padding: 0;
 			}
