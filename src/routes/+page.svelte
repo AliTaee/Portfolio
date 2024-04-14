@@ -1,14 +1,16 @@
 <script>
-	import { me } from '../resume-source.ts'
+	import { me, seoTags } from '../resume-source.ts'
 
 	import Emoji from '../components/emoji/Emoji.svelte'
 	import Card from '../components/card/Card.svelte'
 
 	const { name, about, title, profileImage } = me
+	const { home: {title: pageTitle, description: pageDescription} } = seoTags
 </script>
 
 <svelte:head>
-	<title>{name} Portfolio</title>
+	<title>{pageTitle}</title>
+	<meta name="description" content="{pageDescription}" />
 </svelte:head>
 
 <!-- 70px for footer and 92px for header -->
