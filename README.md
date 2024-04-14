@@ -2,9 +2,22 @@
   Ali Taee Portfolio, You are welcome to use this project to build your portfolio site.
 </h1>
 
-# create-svelte
+A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+I designed this portfolio to be dynamic for easy use. Here are the steps to utilize this portfolio:
+
+1. Clone it from Github.
+2. Replace `src/resume-source.ts` with your details such as name, about, skills, experiences, socials, languages, and education.
+3. Replace `src/lib/assets/images/profile-image.jpg` with your photo.
+4. Replace `src/lib/assets/resume.pdf` with your resume.
+
+Your portfolio is now ready! You are welcome to:
+
+- Use this portfolio for free
+- Edit and modify it as you wish
+- Send a pull request to improve this portfolio
+
+There are still some SCSS styles that I plan to refactor into Tailwind CSS. Additionally, I plan to add DaisyUI, improve the design and style on the resume page, and add more pages such as "About Me", "Blog", etc. So, stay tuned.
 
 ## Developing
 
@@ -35,7 +48,6 @@ You can preview the production build with `npm run preview`.
 
 ## 📚 Resource I used for this Portfolio
 
-- [type-scale.com](https://type-scale.com/) - For Typography
 - [coolors.co](https://coolors.co/) - For Palette Color
 - [favicon-generator](https://favicon.io/favicon-generator/) - Text favicon
 - [icomoon.io](https://icomoon.io/) - Icon
