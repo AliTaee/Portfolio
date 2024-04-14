@@ -9,16 +9,69 @@
 </script>
 
 <svelte:head>
-    <title>{name} Resume</title> 
+	<title>{name} Resume</title>
 </svelte:head>
 
-<article class="container resume">
-	<section class="resume__main">
-		<h2 class="resume__category">Experience</h2>
+<article class="container resume flex flex-col justify-items-center px-4 lg:flex-row">
+	<aside class="resume__sidebar w-full lg:w-1/3 lg:mr-10">
+		<img class="rounded-full resume__img" src={profileImage} alt={`profile image of ${name}`} />
+		<h1 class="resume__name text-2xl font-bold">
+			{name} <br />
+			<span class="resume__title">{title}</span>
+		</h1>
+		<p>{about}</p>
+
+		<h2 class="resume__category text-xl">contacts</h2>
+		<ul class="resume__contact list-none">
+			{#each socials as social}
+				<li>
+					<a href={social.href} target="_blank" rel="noopener noreferrer">
+						<span class={social.icon} />
+						{social.text}
+					</a>
+				</li>
+			{/each}
+		</ul>
+
+		<h2 class="resume__margin-top-lg resume__category text-xl">Skills</h2>
+		<section class="resume__skills">
+			{#each skills as skill}
+				<Chip title={skill} />
+			{/each}
+		</section>
+
+		<h2 class="resume__margin-top-lg resume__category text-xl">Languages</h2>
+		<section class="resume__skills">
+			{#each languages as language}
+				<Chip title={language} />
+			{/each}
+		</section>
+
+		<h2 class="resume__margin-top-lg resume__category text-xl">Education</h2>
+		{#each educations as education}
+			<div class="resume-section">
+				{#if education.school}
+					<h3 class="heading-title text-lg">{education.school}</h3>
+				{/if}
+				<div class="resume-section__info">
+					{#if education.degree}
+						<span class="resume-section__secondary-title">{education.degree}</span>
+					{/if}
+					- {education.fieldOfStudy}
+				</div>
+				{#if education.time}
+					<time class="resume-section__time">{education.time}</time>
+				{/if}
+			</div>
+		{/each}
+	</aside>
+
+	<section class="resume__main w-full lg:w-2/3">
+		<h2 class="resume__category text-xl">Experience</h2>
 		{#each experiences as experience}
 			<section class="resume-section">
 				{#if experience.title}
-					<h3 class="heading-title">{experience.title}</h3>
+					<h3 class="heading-title text-lg">{experience.title}</h3>
 				{/if}
 
 				<div class="resume-section__info">
@@ -47,105 +100,35 @@
 
 				{#if experience.companyDescription}
 					<p class="resume-section__about">{experience.companyDescription}</p>
-				{/if} 
+				{/if}
 
-        {#if experience.achievements}
-				 <ul class="resume-section__work-list">
-					{#each experience.achievements as achievement}
-						<li>{achievement}</li>
-					{/each}
-				</ul>
-        {/if}
+				{#if experience.achievements}
+					<ul class="resume-section__work-list ml-12">
+						{#each experience.achievements as achievement}
+							<li>{achievement}</li>
+						{/each}
+					</ul>
+				{/if}
 			</section>
 		{/each}
 	</section>
-
-	<aside class="resume__sidebar">
-		<img class="img-round resume__img" src={profileImage} alt={`profile image of ${name}`} />
-		<h1 class="resume__name">
-			{name} <br />
-			<span class="resume__title">{title}</span>
-		</h1>
-		<p>{about}</p>
-
-		<h2 class="resume__category">contacts</h2>
-		<ul class="unbulleted-list resume__contact">
-			{#each socials as social}
-				<li>
-					<a href={social.href} target="_blank" rel="noopener noreferrer">
-						<span class={social.icon} />
-						{social.text}
-					</a>
-				</li>
-			{/each}
-		</ul>
-
-		<h2 class="resume__margin-top-lg resume__category">Skills</h2>
-		<section class="resume__skills">
-			{#each skills as skill}
-				<Chip title={skill} />
-			{/each}
-		</section>
-
-		<h2 class="resume__margin-top-lg resume__category">Languages</h2>
-		<section class="resume__skills">
-			{#each languages as language}
-				<Chip title={language} />
-			{/each}
-		</section>
-
-		<h2 class="resume__margin-top-lg resume__category">Education</h2>
-		{#each educations as education}
-			<div class="resume-section">
-				{#if education.school}
-					<h3 class="heading-title">{education.school}</h3>
-				{/if}
-				<div class="resume-section__info">
-					{#if education.degree}
-						<span class="resume-section__secondary-title">{education.degree}</span>
-					{/if}
-					- {education.fieldOfStudy}
-				</div>
-				{#if education.time}
-					<time class="resume-section__time">{education.time}</time>
-				{/if}
-			</div>
-		{/each}
-	</aside>
 </article>
 
-<div class="flex-center">
-	<a
-		class="download-resume"
-		href={ResumeFile}
-		download={`Resume_${name}.pdf`}
-	>
-		Download resume
-	</a>
+<div class="flex justify-center">
+	<a class="download-resume" href={ResumeFile} download={`Resume_${name}.pdf`}> Download resume </a>
 </div>
 
 <style lang="scss">
 	.resume {
-		@include flexBox(row-reverse);
 		margin: var(--margin_mx) auto;
 
 		&__name {
 			color: var(--heading-color);
-			font-weight: 400;
 			text-transform: capitalize;
 		}
 
 		&__title {
 			font-size: 0.8em;
-		}
-
-		&__sidebar {
-			width: 35%;
-		}
-
-		&__main {
-			width: 61%;
-			margin-left: 4%;
 		}
 
 		&__img {
@@ -178,7 +161,7 @@
 			color: var(--heading-color);
 			border-bottom: 3px solid var(--heading-color);
 			padding-bottom: 10px;
-			margin-top: 0.9em;
+			margin: 1em 0;
 			text-transform: capitalize;
 			font-weight: 400;
 		}
@@ -215,9 +198,9 @@
 			list-style-type: disc;
 			margin-bottom: 0;
 
-      & li {
-        margin: var(--margin_sm) 0;
-      }
+			& li {
+				margin: var(--margin_sm) 0;
+			}
 		}
 
 		&__link {
@@ -244,16 +227,8 @@
 		border: 2px solid var(--primary);
 	}
 
-	@media only screen and (max-width: $mobile-breakpoint) {
+	@media only screen and (max-width: 486px) {
 		.resume {
-			@include flexBox(column-reverse);
-
-			&__main,
-			&__sidebar {
-				width: 90%;
-				margin: 0 auto;
-			}
-
 			&__sidebar {
 				margin-bottom: var(--margin-lg);
 			}

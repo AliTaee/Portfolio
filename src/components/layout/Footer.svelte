@@ -8,10 +8,10 @@
 </script>
 
 <footer class="footer">
-	<div class="container flex-center flex-wrap">
+	<div class="container mx-auto flex justify-center flex-wrap">
 		Design and Develop by {name} with&nbsp;<Emoji emoji="❤️" label="love" />&nbsp;and
 		<a
-			class="footer__links flex-center"
+			class="footer__links flex justify-center"
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -22,13 +22,13 @@
 				alt="SvelteKit logo"
 				width="20"
 				height="20"
-				class="footer__logo"
+				class="footer__logo h-5"
 			/>
 		</a>
 		&nbsp;-
 		<a
 			href="https://github.com/AliTaee/Portfolio"
-			class="footer__links flex-center"
+			class="footer__links flex justify-center"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
@@ -38,7 +38,7 @@
 				alt="GitHub logo"
 				width="20"
 				height="20"
-				class="footer__logo"
+				class="footer__logo h-5"
 			/>
 		</a>
 	</div>
@@ -48,7 +48,6 @@
 	.footer {
 		margin-top: var(--margin-lg);
 		padding: 10px 0;
-		text-align: center;
 		background: var(--primary);
 		color: var(--white);
 		&__links {

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
 	--primary: #003566;
 	--secondary: #ffd60a;
@@ -99,4 +103,10 @@ body {
 }
 .icon-stack-overflow:before {
 	content: '\ead0';
+}
+
+.heading-title {
+	color: var(--heading-color);
+	font-weight: 400;
+	margin: 0;
 }

@@ -40,13 +40,11 @@ export const skills = [
 	'Cypress',
 	'Playwright',
 	'Jest',
-	'Gulp',
 	'Parcel.js',
 	'Webpack',
 	'Rollup',
 	'NPM',
 	'Yarn',
-	'WordPress',
 	'jQuery'
 ]
 

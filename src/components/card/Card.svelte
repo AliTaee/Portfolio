@@ -13,14 +13,15 @@
      export let image = '';
 </script>
 
-<section class="card intro__card card--small">
-	<img class="card__img img-round" src={image} alt={`image of ${title}`} />
-	<h2 class="card__title">{title}</h2>
-	<p class="card__desc">{desc}</p>
-</section>
+<div class="card">
+	<img class="card__img rounded-full" src={image} alt={`image of ${title}`} />
+	<h2 class="card__title text-2xl font-bold">{title}</h2>
+	<p class="card__desc text-lg">{desc}</p>
+</div>
 
 <style lang="scss">
 	.card {
+		width: 300px;
 		background: var(--gradient);
 		border-radius: var(--border_radius);
 		padding: var(--padding_sm);
@@ -28,7 +29,7 @@
 		text-align: center;
 		color: var(--white);
 		&__img {
-			width: 230px;
+			width: 280px;
 			height: auto;
 		}
 		&__title {
@@ -40,7 +41,5 @@
 		}
 	}
 
-	.card--small {
-		max-width: 250px;
-	}
+	
 </style>

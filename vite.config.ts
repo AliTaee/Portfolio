@@ -7,12 +7,6 @@ export default defineConfig({
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
 	css: {
-		preprocessorOptions: {
-			scss: {
-				additionalData: `
-			  @import '$lib/styles/index.scss';
-			`
-			}
-		}
+		preprocessorOptions: {}
 	}
 })
