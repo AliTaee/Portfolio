@@ -6,17 +6,9 @@
 	const { name } = me
 </script>
 
-<header class="header py-4">
-	<div class="container mx-auto  flex flex-row-reverse justify-between items-center">
-		<div class="flex justify-center">
-			<span class="header__title">
-				<a class="header__link" href="/">
-					{name}
-				</a>
-			</span>
-			<NightTheme />
-		</div>
-		<nav class="main-nav">
+<header class="header flex justify-center p-4">
+	<div class="container mx-auto flex justify-between items-center">
+		<nav class="main-nav flex items-center h-full">
 			<ul>
 				{#each routes as route}
 					<li key={route.id} class="main-nav__item">
@@ -27,6 +19,12 @@
 				{/each}
 			</ul>
 		</nav>
+		<div class="flex justify-center">
+			<a class="text-2xl text-white" href="/">
+				{name}
+			</a>
+			<NightTheme />
+		</div>
 	</div>
 </header>
 
@@ -47,11 +45,6 @@
 			&:hover {
 				color: var(--secondary);
 			}
-		}
-		&__title {
-			font-size: 1.4em;
-			line-height: 1.2;
-			margin: 0;
 		}
 
 		.main-nav {
