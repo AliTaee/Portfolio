@@ -17,13 +17,13 @@
 <article class="container resume flex flex-col justify-items-center px-4 lg:flex-row">
 	<aside class="resume__sidebar w-full lg:w-1/3 lg:mr-10">
 		<img class="rounded-full resume__img" src={profileImage} alt={`profile image of ${name}`} />
-		<h1 class="resume__name text-2xl font-bold">
+		<h1 class="resume__name">
 			{name} <br />
 			<span class="resume__title">{title}</span>
 		</h1>
 		<p>{about}</p>
 
-		<h2 class="resume__category text-xl">contacts</h2>
+		<h2 class="resume__category">contacts</h2>
 		<ul class="resume__contact list-none">
 			{#each socials as social}
 				<li>
@@ -35,25 +35,25 @@
 			{/each}
 		</ul>
 
-		<h2 class="resume__margin-top-lg resume__category text-xl">Skills</h2>
+		<h2 class="resume__margin-top-lg resume__category">Skills</h2>
 		<section class="resume__skills">
 			{#each skills as skill}
 				<Chip title={skill} />
 			{/each}
 		</section>
 
-		<h2 class="resume__margin-top-lg resume__category text-xl">Languages</h2>
+		<h2 class="resume__margin-top-lg resume__category">Languages</h2>
 		<section class="resume__skills">
 			{#each languages as language}
 				<Chip title={language} />
 			{/each}
 		</section>
 
-		<h2 class="resume__margin-top-lg resume__category text-xl">Education</h2>
+		<h2 class="resume__margin-top-lg resume__category">Education</h2>
 		{#each educations as education}
 			<div class="resume-section">
 				{#if education.school}
-					<h3 class="heading-title text-lg">{education.school}</h3>
+					<h3 class="heading-title">{education.school}</h3>
 				{/if}
 				<div class="resume-section__info">
 					{#if education.degree}
@@ -69,11 +69,11 @@
 	</aside>
 
 	<section class="resume__main w-full lg:w-2/3">
-		<h2 class="resume__category text-xl">Experience</h2>
+		<h2 class="resume__category">Experience</h2>
 		{#each experiences as experience}
 			<section class="resume-section">
 				{#if experience.title}
-					<h3 class="heading-title text-lg">{experience.title}</h3>
+					<h3 class="heading-title">{experience.title}</h3>
 				{/if}
 
 				<div class="resume-section__info">

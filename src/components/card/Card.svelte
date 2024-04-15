@@ -15,7 +15,7 @@
 
 <div class="card">
 	<img class="card__img rounded-full" src={image} alt={`image of ${title}`} />
-	<h2 class="card__title text-2xl font-bold">{title}</h2>
+	<h2 class="card__title">{title}</h2>
 	<p class="card__desc text-lg">{desc}</p>
 </div>
 

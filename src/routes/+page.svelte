@@ -18,7 +18,7 @@
 >
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
 		<section class="intro__welcome w-full mb-6 md:mb-0">
-			<h1 class="intro__title text-2xl font-bold">
+			<h1 class="intro__title">
 				Hello World, I'm{' '}
 				<span class="capitalize">{name}</span>
 				<span class="hand-wave">
