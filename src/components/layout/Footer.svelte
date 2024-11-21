@@ -38,13 +38,13 @@
 	</div>
 </footer>
 
-<style lang="scss">
+<style lang="css">
 	.footer {
 		background: var(--primary);
 		color: var(--white);
-		&__links {
-			color: var(--secondary);
-			font-weight: 500;
-		}
+	}
+	.footer__links {
+		color: var(--secondary);
+		font-weight: 500;
 	}
 </style>

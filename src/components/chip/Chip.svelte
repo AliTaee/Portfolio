@@ -7,7 +7,7 @@
 
 <span class="chip">{title}</span>
 
-<style lang="scss">
+<style lang="css">
 	.chip {
 		background-color: var(--heading-color);
 		color: var(--badge-color);

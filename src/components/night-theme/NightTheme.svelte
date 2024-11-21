@@ -35,18 +35,18 @@
 	<div class="slider round"></div>
 </label>
 
-<style lang="scss">
+<style lang="css">
 	.theme-switch {
 		margin-left: 10px;
 		display: inline-block;
 		height: 34px;
 		position: relative;
 		width: 60px;
+	}
 
-		& input {
-			display: none;
-			-webkit-tap-highlight-color: transparent;
-		}
+	.theme-switch input {
+		display: none;
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	.slider {
@@ -58,25 +58,25 @@
 		right: 0;
 		top: 0;
 		transition: 0.4s;
+	}
 
-		&:before {
-			background-color: var(--white);
-			bottom: 4px;
-			content: '';
-			height: 26px;
-			left: 4px;
-			position: absolute;
-			transition: 0.4s;
-			width: 26px;
-		}
+	.slider:before {
+		background-color: var(--white);
+		bottom: 4px;
+		content: '';
+		height: 26px;
+		left: 4px;
+		position: absolute;
+		transition: 0.4s;
+		width: 26px;
+	}
 
-		&.round {
-			border-radius: 34px;
+	.slider.round {
+		border-radius: 34px;
+	}
 
-			&:before {
-				border-radius: 50%;
-			}
-		}
+	.slider.round:before {
+		border-radius: 50%;
 	}
 
 	input:checked + .slider {

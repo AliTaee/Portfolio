@@ -11,7 +11,7 @@
 		<nav class="main-nav flex items-center h-full">
 			<ul class="list-none flex m-0 p-0">
 				{#each routes as route}
-					<li key={route.id} class="mr-2 last:mr-0">
+					<li class="mr-2 last:mr-0">
 						<a class="header__link p-2" href={route.href}>
 							{route.label}
 						</a>
@@ -28,18 +28,14 @@
 	</div>
 </header>
 
-<style lang="scss">
+<style lang="css">
 	.header {
 		background: var(--primary);
-
-		&__link {
-			&--active {
-				color: var(--secondary);
-			}
-
-			&:hover {
-				color: var(--secondary);
-			}
-		}
+	}
+	.header__link--active {
+		color: var(--secondary);
+	}
+	.header__link:hover {
+		color: var(--secondary);
 	}
 </style>

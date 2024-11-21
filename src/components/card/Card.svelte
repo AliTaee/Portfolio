@@ -19,7 +19,7 @@
 	<p class="card__desc text-lg">{desc}</p>
 </div>
 
-<style lang="scss">
+<style lang="css">
 	.card {
 		width: 300px;
 		background: var(--gradient);
@@ -28,16 +28,16 @@
 		margin-bottom: var(--margin-lg);
 		text-align: center;
 		color: var(--white);
-		&__img {
-			width: 280px;
-			height: auto;
-		}
-		&__title {
-			text-transform: capitalize;
-			margin: var(--margin_sm) 0;
-		}
-		&__desc {
-			margin: 0;
-		}
+	}
+	.card__img {
+		width: 280px;
+		height: auto;
+	}
+	.card__title {
+		text-transform: capitalize;
+		margin: var(--margin_sm) 0;
+	}
+	.card__desc {
+		margin: 0;
 	}
 </style>

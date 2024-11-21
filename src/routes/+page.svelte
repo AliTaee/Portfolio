@@ -33,28 +33,25 @@
 	</div>
 </main>
 
-<style lang="scss">
+<style lang="css">
 	.intro {
-		// 70px for footer and 92px for header
+		/* 70px for footer and 92px for header */
 		min-height: calc(100vh - 70px - 92px);
-		&__welcome {
-			padding: var(--padding_mx);
-		}
-		&__title {
-			font-weight: 400;
-		}
+	}
+	.intro__welcome {
+		padding: var(--padding_mx);
+	}
+	.intro__title {
+		font-weight: 400;
 	}
 
 	@media only screen and (max-width: 768px) {
-		.intro {
-			&__welcome {
-				padding: 0;
-			}
-
-			&__title {
-				font-size: 24px;
-				text-align: center;
-			}
+		.intro__welcome {
+			padding: 0;
+		}
+		.intro__title {
+			font-size: 24px;
+			text-align: center;
 		}
 	}
 
