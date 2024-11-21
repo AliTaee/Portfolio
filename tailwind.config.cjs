@@ -4,5 +4,18 @@ export default {
 	theme: {
 		extend: {}
 	},
-	plugins: [require('daisyui')]
+	plugins: [require('daisyui')],
+	daisyui: {
+		themes: [
+			{
+				tokio: {
+					primary: '#003566',
+					secondary: '#ffd60a',
+					accent: '#00cdb8',
+					neutral: '#001d3d',
+					'base-100': '#ffffff'
+				}
+			}
+		]
+	}
 }
