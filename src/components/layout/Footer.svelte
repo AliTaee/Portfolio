@@ -1,5 +1,5 @@
 <script>
-	import { me } from '../../resume-source.ts'
+	import { me } from '../../resume-source'
 	import Emoji from '../emoji/Emoji.svelte'
 
 	import GitHubLogo from '../../lib/assets/icons/github-mark-white.svg'
@@ -32,14 +32,8 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-		 Open Source
-			<img
-				src={GitHubLogo}
-				alt="GitHub logo"
-				width="20"
-				height="20"
-				class="ml-2 h-5"
-			/>
+			Open Source
+			<img src={GitHubLogo} alt="GitHub logo" width="20" height="20" class="ml-2 h-5" />
 		</a>
 	</div>
 </footer>

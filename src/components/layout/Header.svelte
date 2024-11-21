@@ -33,7 +33,6 @@
 		background: var(--primary);
 
 		&__link {
-
 			&--active {
 				color: var(--secondary);
 			}

@@ -1,16 +1,16 @@
 <script>
-     /**
+	/**
 	 * @type {string}
-     */
-     export let title = '';
-    /**
+	 */
+	export let title = ''
+	/**
 	 * @type {string}
-     */
-    export let desc = '';
-    /**
+	 */
+	export let desc = ''
+	/**
 	 * @type {string}
-     */
-     export let image = '';
+	 */
+	export let image = ''
 </script>
 
 <div class="card">
@@ -40,6 +40,4 @@
 			margin: 0;
 		}
 	}
-
-	
 </style>

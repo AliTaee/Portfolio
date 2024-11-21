@@ -1,17 +1,27 @@
 <script>
-	import { me, socials, skills, languages, educations, experiences, seoTags } from '../../resume-source.ts'
+	import {
+		me,
+		socials,
+		skills,
+		languages,
+		educations,
+		experiences,
+		seoTags
+	} from '../../resume-source'
 
 	import Chip from '../../components/chip/Chip.svelte'
 
 	import ResumeFile from '../../lib/assets/resume.pdf'
 
 	const { name, about, title, profileImage } = me
-	const { resume: {title: pageTitle, description: pageDescription} } = seoTags
+	const {
+		resume: { title: pageTitle, description: pageDescription }
+	} = seoTags
 </script>
 
 <svelte:head>
 	<title>{pageTitle}</title>
-	<meta name="description" content="{pageDescription}" />
+	<meta name="description" content={pageDescription} />
 </svelte:head>
 
 <article class="container resume flex flex-col justify-items-center px-4 lg:flex-row">
@@ -28,7 +38,7 @@
 			{#each socials as social}
 				<li>
 					<a href={social.href} target="_blank" rel="noopener noreferrer">
-						<span class={social.icon} />
+						<span class={social.icon}></span>
 						{social.text}
 					</a>
 				</li>

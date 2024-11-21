@@ -1,21 +1,21 @@
 <script>
-	import { me, seoTags } from '../resume-source.ts'
+	import { me, seoTags } from '../resume-source'
 
 	import Emoji from '../components/emoji/Emoji.svelte'
 	import Card from '../components/card/Card.svelte'
 
 	const { name, about, title, profileImage } = me
-	const { home: {title: pageTitle, description: pageDescription} } = seoTags
+	const {
+		home: { title: pageTitle, description: pageDescription }
+	} = seoTags
 </script>
 
 <svelte:head>
 	<title>{pageTitle}</title>
-	<meta name="description" content="{pageDescription}" />
+	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<main
-	class="intro container mx-auto px-4 flex justify-center items-center"
->
+<main class="intro container mx-auto px-4 flex justify-center items-center">
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
 		<section class="intro__welcome w-full mb-6 md:mb-0">
 			<h1 class="intro__title">
@@ -47,7 +47,6 @@
 
 	@media only screen and (max-width: 768px) {
 		.intro {
-
 			&__welcome {
 				padding: 0;
 			}
