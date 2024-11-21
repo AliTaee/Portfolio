@@ -5,14 +5,14 @@ export const me = {
 	title: 'Senior Front-end Engineer',
 	profileImage,
 	about:
-		'I’m a Senior Front-end Engineer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development. For most of my career, I’ve worked with JavaScript and React but I’m open to learning new technologies. I like to help other people with what I know and interact with them and get their feedbacks to improve myself and the project. I enjoy Music, Books, Photography, Board games, Running, and Travel.'
+		"I'm a Senior Front- end Engineer with more than 9 years of experience. I have a self - taught spirit and a passion for Front - end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel."
 }
 
 export const seoTags = {
 	home: {
 		title: `${me.name} | Portfolio`,
 		description:
-			"I'm a Senior Front-end Engineer with more than 8 years of experience. I have a self-taught spirit and I have a passion for Front-end Development because for me it’s a combination of art and development."
+			"I'm a Senior Front- end Engineer with more than 9 years of experience. I have a self - taught spirit and a passion for Front - end Development, which I see as a perfect blend of art and technology."
 	},
 	resume: {
 		title: `${me.name} | Resume`,
@@ -21,43 +21,9 @@ export const seoTags = {
 }
 
 export const skills = [
-	'HTML',
-	'CSS',
-	'JavaScript',
-	'TypeScript',
-	'Storybook',
-	'React',
-	'Next.js',
-	'Git',
-	'Svelte',
-	'CSS 3',
-	'CSS Processors',
-	'Responsive Design',
-	'Jira',
-	'Scrum',
-	'Agile Development',
-	'Communication',
-	'Teamwork',
-	'SOLID',
-	'Code review',
-	'Critical thinking',
-	'SPA',
-	'Gatsby',
-	'Redux',
-	'Socket.IO',
-	'REST API',
-	'E2E Testing',
-	'Unit Testing',
-	'Testing Library',
-	'Cypress',
-	'Playwright',
-	'Jest',
-	'Parcel.js',
-	'Webpack',
-	'Rollup',
-	'NPM',
-	'Yarn',
-	'jQuery'
+	'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.Js', 'NodeJs', 'Code', 'review', 'Team work', 'Critical thinking', 'SOLID', 'Redux',
+	'Redux-Toolkit', 'React-Query', 'Git', 'E2E Testing', 'Unit Testing', 'Jest', 'Testing Library', 'Cypress', 'Playwright', 'Storybook', 'Responsive Design',
+	'Jira', 'Scrum', 'Agile Development', 'SPA', 'Socket.IO', 'REST API', 'Parcel.Js', 'Webpack', 'Rollup', 'Vite', 'Yarn', 'NPM'
 ]
 
 export const experiences = [
@@ -69,9 +35,10 @@ export const experiences = [
 		city: 'Amsterdam, Netherlands',
 		time: 'March 2023 – Present',
 		achievements: [
-			'Lead the front-end team, onboard, mentor, and engage in pair programming with developers.',
-			'Implement a Content Management System project using Next.js, TypeScript, and Storybook, following clean code principles, best practices, unit testing, and documentation.',
-			'Collaborate with team members, actively participate in meetings, and propose solutions to project challenges in an Agile and Scrum environment.'
+			'Lead the front-end team, onboard new developers, conduct code reviews, and engage in pair programming sessions.',
+			'Successfully launched CMS and licence management tool for the company, which is responsible for managing 500,000 items. Architecture design of Content Management System using Domain-driven design (DDD), Next.js, React-Query, MUI, TypeScript, and Storybook, following clean code principles, best practices, unit testing, and documentation.',
+			'Introducing a component library to the company and developing common components as packages to enhance reusability across projects.',
+			'Mentor and coach junior developers to learn fundamentals and best practices in front-end development.'
 		]
 	},
 	{
@@ -96,11 +63,11 @@ export const experiences = [
 		city: 'Tehran, Iran',
 		time: 'Jul 2021 – Aug 2022',
 		achievements: [
+			"Working with 30 front-end engineers at Iran's largest online food ordering and grocery platform provided invaluable learning opportunities from colleagues with diverse experiences. Through frequent pair programming sessions, cross-team feature deliveries, and weekly knowledge-sharing meetings, I significantly enhanced my skills and broadened my expertise.",
 			'Worked in a team of 10 people closely with designers, developers, QA engineers, scrum masters, and product managers using Scrum.',
-			'Developed features and maintained the mobile applications using React, JavaScript, SCSS, and Redux-Saga.',
-			'Developed features and maintained the desktop applications using React, TypeScript, Next.js, Storybook, Redux Toolkit, and styled-components.',
+			'Developed features and maintained mobile and desktop applications using React, TypeScript, Next.js, SCSS, Redux, Storybook, Jest, Testing Library.',
 			'Onboarded new developers and create a document for onboarding.',
-			'Introduced Unit and E2E Testing with 5 technical presentations.'
+			'Introduced unit and end-to-end (E2E) testing through five technical presentations, leading to fewer bugs and improved quality in the application.'
 		]
 	},
 	{

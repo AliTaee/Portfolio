@@ -1,14 +1,14 @@
 <script>
-    /**
+	/**
 	 * @type {string}
-     */
-    export let emoji = '🤔';
-    /**
+	 */
+	export let emoji = '🤔'
+	/**
 	 * @type {string}
-     */
-    export let label = 'thinking face';
+	 */
+	export let label = 'thinking face'
 </script>
 
 <span role="img" aria-label={label}>
-    {emoji}
+	{emoji}
 </span>

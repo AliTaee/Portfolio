@@ -1,98 +1,93 @@
 <script>
-  import { onMount } from "svelte";
+	import { onMount } from 'svelte'
 
-  const LOCAL_STORAGE_KEY = "theme";
-  let nightTheme = true;
+	const LOCAL_STORAGE_KEY = 'theme'
+	let nightTheme = true
 
-  onMount(() => {
-    let currentTheme = localStorage.getItem(LOCAL_STORAGE_KEY);
+	onMount(() => {
+		let currentTheme = localStorage.getItem(LOCAL_STORAGE_KEY)
 
-    if (currentTheme) {
-      document.documentElement.setAttribute("data-theme", currentTheme);
-      nightTheme = currentTheme === "dark" ? true : false;
-    } else {
-      localStorage.setItem(LOCAL_STORAGE_KEY, "dark")
-      document.documentElement.setAttribute("data-theme", "dark");
-      nightTheme = true;
-    }
-  });
+		if (currentTheme) {
+			document.documentElement.setAttribute('data-theme', currentTheme)
+			nightTheme = currentTheme === 'dark' ? true : false
+		} else {
+			localStorage.setItem(LOCAL_STORAGE_KEY, 'dark')
+			document.documentElement.setAttribute('data-theme', 'dark')
+			nightTheme = true
+		}
+	})
 
-  function switchTheme(e) {
-    if (e.target.checked) {
-      document.documentElement.setAttribute("data-theme", "dark");
-      nightTheme = true;
-    } else {
-      document.documentElement.setAttribute("data-theme", "light");
-      nightTheme = false;
-    }
+	function switchTheme(e) {
+		if (e.target.checked) {
+			document.documentElement.setAttribute('data-theme', 'dark')
+			nightTheme = true
+		} else {
+			document.documentElement.setAttribute('data-theme', 'light')
+			nightTheme = false
+		}
 
-    localStorage.setItem(LOCAL_STORAGE_KEY, e.target.checked ? "dark" : "light");
-  }
+		localStorage.setItem(LOCAL_STORAGE_KEY, e.target.checked ? 'dark' : 'light')
+	}
 </script>
 
 <label class="theme-switch" for="night-theme">
-  <input
-    checked={nightTheme}
-    type="checkbox"
-    id="night-theme"
-    on:change={switchTheme}
-  />
-  <div class="slider round" />
+	<input checked={nightTheme} type="checkbox" id="night-theme" on:change={switchTheme} />
+	<div class="slider round"></div>
 </label>
 
 <style lang="scss">
-  .theme-switch {
-    margin-left: 10px;
-    display: inline-block;
-    height: 34px;
-    position: relative;
-    width: 60px;
+	.theme-switch {
+		margin-left: 10px;
+		display: inline-block;
+		height: 34px;
+		position: relative;
+		width: 60px;
 
-    & input {
-      display: none;
-      -webkit-tap-highlight-color: transparent;
-    }
-  }
+		& input {
+			display: none;
+			-webkit-tap-highlight-color: transparent;
+		}
+	}
 
-  .slider {
-    background-color: var(--grey);
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: 0.4s;
+	.slider {
+		background-color: var(--grey);
+		bottom: 0;
+		cursor: pointer;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: 0.4s;
 
-    &:before {
-      background-color: var(--white);
-      bottom: 4px;
-      content: "";
-      height: 26px;
-      left: 4px;
-      position: absolute;
-      transition: 0.4s;
-      width: 26px;
-    }
+		&:before {
+			background-color: var(--white);
+			bottom: 4px;
+			content: '';
+			height: 26px;
+			left: 4px;
+			position: absolute;
+			transition: 0.4s;
+			width: 26px;
+		}
 
-    &.round {
-      border-radius: 34px;
+		&.round {
+			border-radius: 34px;
 
-      &:before {
-        border-radius: 50%;
-      }
-    }
-  }
+			&:before {
+				border-radius: 50%;
+			}
+		}
+	}
 
-  input:checked + .slider {
-    background-color: var(--primary_dark);
-  }
+	input:checked + .slider {
+		background-color: var(--primary_dark);
+	}
 
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
+	input:checked + .slider:before {
+		transform: translateX(26px);
+	}
 
-  [data-theme="dark"] .card {
-    box-shadow: none;
-  }
+	[data-theme='dark'] .card {
+		box-shadow: none;
+	}
 </style>

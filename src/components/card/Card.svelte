@@ -1,21 +1,21 @@
 <script>
-     /**
+	/**
 	 * @type {string}
-     */
-     export let title = '';
-    /**
+	 */
+	export let title = ''
+	/**
 	 * @type {string}
-     */
-    export let desc = '';
-    /**
+	 */
+	export let desc = ''
+	/**
 	 * @type {string}
-     */
-     export let image = '';
+	 */
+	export let image = ''
 </script>
 
 <div class="card">
 	<img class="card__img rounded-full" src={image} alt={`image of ${title}`} />
-	<h2 class="card__title text-2xl font-bold">{title}</h2>
+	<h2 class="card__title">{title}</h2>
 	<p class="card__desc text-lg">{desc}</p>
 </div>
 
@@ -40,6 +40,4 @@
 			margin: 0;
 		}
 	}
-
-	
 </style>
