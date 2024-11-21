@@ -1,8 +1,16 @@
-<script>
+<script lang="ts">
+	import { page } from '$app/stores'
+	import { afterUpdate } from 'svelte'
+
 	import { me } from '../../resume-source'
 	import { routes } from '../../routes/routes'
 	import NightTheme from '../night-theme/NightTheme.svelte'
 
+	let current_url = $page.url.pathname.split('/').filter(Boolean).shift() || '/'
+
+	afterUpdate(() => {
+		current_url = $page.url.pathname.split('/').filter(Boolean).shift() || '/'
+	})
 	const { name } = me
 </script>
 
@@ -11,16 +19,21 @@
 		<nav class="main-nav flex items-center h-full">
 			<ul class="list-none flex m-0 p-0">
 				{#each routes as route}
-					<li key={route.id} class="mr-2 last:mr-0">
-						<a class="header__link p-2" href={route.href}>
+					<li class="mr-2 last:mr-0">
+						<a
+							class="header__link text-white p-2 {route.href === current_url
+								? 'header__link--active'
+								: ''}"
+							href={route.href}
+						>
 							{route.label}
 						</a>
 					</li>
 				{/each}
 			</ul>
 		</nav>
-		<div class="flex justify-center">
-			<a class="text-2xl text-white" href="/">
+		<div class="flex justify-center gap-4">
+			<a class="text-2xl text-white pt-1" href="/">
 				{name}
 			</a>
 			<NightTheme />
@@ -28,18 +41,28 @@
 	</div>
 </header>
 
-<style lang="scss">
+<style lang="css">
 	.header {
 		background: var(--primary);
-
-		&__link {
-			&--active {
-				color: var(--secondary);
-			}
-
-			&:hover {
-				color: var(--secondary);
-			}
-		}
+	}
+	.header__link {
+		position: relative;
+	}
+	.header__link::before {
+		position: absolute;
+		content: '';
+		display: inline-block;
+		width: 0;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background: white;
+		transition: width 0.3s;
+	}
+	.header__link--active::before {
+		width: 100%;
+	}
+	.header__link:hover::before {
+		width: 100%;
 	}
 </style>

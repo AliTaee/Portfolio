@@ -130,105 +130,86 @@
 	<a class="download-resume" href={ResumeFile} download={`Resume_${name}.pdf`}> Download resume </a>
 </div>
 
-<style lang="scss">
+<style lang="css">
 	.resume {
 		margin: var(--margin_mx) auto;
-
-		&__name {
-			color: var(--heading-color);
-			text-transform: capitalize;
-		}
-
-		&__title {
-			font-size: 0.8em;
-		}
-
-		&__img {
-			width: 280px;
-			margin: 0 auto 1em;
-		}
-
-		&__skills {
-			display: flex;
-			flex-wrap: wrap;
-		}
-
-		&__contact {
-			margin: 0;
-			padding: 0;
-			& li {
-				margin: var(--margin_sm) 0;
-			}
-
-			& a {
-				color: var(--heading-color);
-			}
-		}
-
-		&__margin-top-lg {
-			margin-top: var(--margin-lg);
-		}
-
-		&__category {
-			color: var(--heading-color);
-			border-bottom: 3px solid var(--heading-color);
-			padding-bottom: 10px;
-			margin: 1em 0;
-			text-transform: capitalize;
-			font-weight: 400;
-		}
-
-		& .resume-section:last-child {
-			border-bottom: none;
-			margin-bottom: 0;
-			padding-bottom: 0;
-		}
 	}
-
+	.resume__name {
+		color: var(--heading-color);
+		text-transform: capitalize;
+	}
+	.resume__title {
+		font-size: 0.8em;
+	}
+	.resume__img {
+		width: 280px;
+		margin: 0 auto 1em;
+	}
+	.resume__skills {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.resume__contact {
+		margin: 0;
+		padding: 0;
+	}
+	.resume__contact li {
+		margin: var(--margin_sm) 0;
+	}
+	.resume__contact a {
+		color: var(--heading-color);
+	}
+	.resume__margin-top-lg {
+		margin-top: var(--margin-lg);
+	}
+	.resume__category {
+		color: var(--heading-color);
+		border-bottom: 3px solid var(--heading-color);
+		padding-bottom: 10px;
+		margin: 1em 0;
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+	.resume .resume-section:last-child {
+		border-bottom: none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
 	.resume-section {
 		margin-bottom: var(--margin-lg);
 		padding-bottom: 30px;
 		border-bottom: 3px solid var(--heading-color);
-
-		&__secondary-title {
-			font-weight: 500;
-		}
-
-		&__list-header {
-			margin: 0 0 10px;
-		}
-
-		&__info {
-			margin: 10px 0;
-		}
-
-		&__about {
-			margin: 10px 0;
-		}
-
-		&__work-list {
-			list-style-type: disc;
-			margin-bottom: 0;
-
-			& li {
-				margin: var(--margin_sm) 0;
-			}
-		}
-
-		&__link {
-			color: var(--heading-color);
-		}
-
-		&__time {
-			display: block;
-			margin-top: var(--margin_sm);
-			color: var(--heading-color);
-			font-style: italic;
-			font-weight: 400;
-			font-size: var(--font_small);
-		}
 	}
-
+	.resume-section__secondary-title {
+		font-weight: 500;
+	}
+	.resume-section__list-header {
+		margin: 0 0 10px;
+	}
+	.resume-section__info {
+		margin: 10px 0;
+	}
+	.resume-section__about {
+		margin: 10px 0;
+	}
+	.resume-section__work-list {
+		list-style-type: disc;
+		margin-bottom: 0;
+	}
+	.resume-section__work-list li {
+		margin: var(--margin_sm) 0;
+	}
+	.resume-section__link {
+		color: var(--heading-color);
+	}
+	.resume-section__time {
+		display: block;
+		margin-top: var(--margin_sm);
+		color: var(--heading-color);
+		font-style: italic;
+		font-weight: 400;
+		font-size: var(--font_small);
+	}
 	.download-resume {
 		background: var(--gradient);
 		color: var(--white);
@@ -238,35 +219,9 @@
 		padding: 8px 16px;
 		border: 2px solid var(--primary);
 	}
-
 	@media only screen and (max-width: 486px) {
-		.resume {
-			&__sidebar {
-				margin-bottom: var(--margin-lg);
-			}
-		}
-	}
-
-	// Style for print resume
-	@media print {
-		body {
-			margin: 10mm 0mm;
-		}
-
-		header,
-		footer,
-		.download-resume {
-			display: none;
-		}
-
-		.container {
-			margin: 0;
-			max-width: 100%;
-			padding: 0;
-		}
-
-		.resume__img {
-			width: 280px;
+		.resume__sidebar {
+			margin-bottom: var(--margin-lg);
 		}
 	}
 </style>

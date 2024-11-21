@@ -44,7 +44,7 @@
 	<img src={ArrowUpIcon} alt="back to top icon" />
 </button>
 
-<style lang="scss">
+<style lang="css">
 	.scroll-back-top {
 		background: var(--primary);
 		display: none;
@@ -62,11 +62,11 @@
 		height: 50px;
 		align-items: center;
 		justify-content: center;
+	}
 
-		& img {
-			margin: 0;
-			width: 20px;
-			height: 20px;
-		}
+	.scroll-back-top img {
+		margin: 0;
+		width: 20px;
+		height: 20px;
 	}
 </style>

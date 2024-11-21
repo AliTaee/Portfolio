@@ -31,7 +31,7 @@
 	--heading-color: #003566;
 	--badge-color: #fff;
 	--text-color: hsla(0, 0%, 0%, 0.8);
-	--background-color: #fff;
+	--background-color: #eceff4;
 }
 
 [data-theme='dark'] {
