@@ -50,7 +50,7 @@
 		display: none;
 		font-size: 18px;
 		position: fixed;
-		bottom: 50px;
+		bottom: 60px;
 		right: 30px;
 		z-index: 999;
 		cursor: pointer;

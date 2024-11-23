@@ -25,7 +25,7 @@
 					<Emoji emoji="👋" label="Hand waving" />
 				</span>
 			</h1>
-			<p class="max-h-72 overflow-y-auto">{about}</p>
+			<p>{about}</p>
 		</section>
 		<section>
 			<Card desc={title} title={name} image={profileImage} />
