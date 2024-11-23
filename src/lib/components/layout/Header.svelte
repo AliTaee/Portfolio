@@ -33,7 +33,7 @@
 			</ul>
 		</nav>
 		<div class="flex justify-center gap-4">
-			<a class="text-2xl text-white pt-1" href="/">
+			<a class="text-base md:text-2xl text-white pt-3 md:pt-1" href="/">
 				{name}
 			</a>
 			<NightTheme />
