@@ -8,6 +8,17 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+	interface Post {
+		title: string
+		slug: string
+		description: string
+		image?: string
+		imageAppreciation?: string
+		imageAlt?: string
+		date: string
+		categories?: string[]
+		published: boolean
+	}
 }
 
-export {}
+export { }
