@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte'
 
 	import ArrowUpIcon from '$lib/assets/icons/arrow-up.svg'
@@ -50,7 +50,7 @@
 		display: none;
 		font-size: 18px;
 		position: fixed;
-		bottom: 50px;
+		bottom: 60px;
 		right: 30px;
 		z-index: 999;
 		cursor: pointer;

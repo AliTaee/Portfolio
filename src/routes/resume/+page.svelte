@@ -7,11 +7,11 @@
 		educations,
 		experiences,
 		seoTags
-	} from '../../resume-source'
+	} from '$lib/resume-source'
 
-	import Chip from '../../components/chip/Chip.svelte'
+	import Chip from '$lib/components/chip/Chip.svelte'
 
-	import ResumeFile from '../../lib/assets/resume.pdf'
+	import ResumeFile from '$lib/assets/resume.pdf'
 
 	const { name, about, title, profileImage } = me
 	const {
@@ -24,7 +24,7 @@
 	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<article class="container resume flex flex-col justify-items-center px-4 lg:flex-row">
+<article class="resume flex flex-col justify-items-center lg:flex-row">
 	<aside class="resume__sidebar w-full lg:w-1/3 lg:mr-10">
 		<img class="rounded-full resume__img" src={profileImage} alt={`profile image of ${name}`} />
 		<h1 class="resume__name">

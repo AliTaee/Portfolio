@@ -24,9 +24,11 @@
 
 		if (target.checked) {
 			document.documentElement.setAttribute('data-theme', NIGHT_KEY)
+			document.documentElement.classList.toggle('dark', true)
 			nightTheme = true
 		} else {
 			document.documentElement.setAttribute('data-theme', LIGHT_KEY)
+			document.documentElement.classList.toggle('dark', false)
 			nightTheme = false
 		}
 

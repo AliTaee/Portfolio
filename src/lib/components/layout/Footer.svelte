@@ -1,17 +1,17 @@
-<script>
-	import { me } from '../../resume-source'
-	import Emoji from '../emoji/Emoji.svelte'
+<script lang="ts">
+	import { me } from '$lib/resume-source'
+	import Emoji from '$lib/components/emoji/Emoji.svelte'
 
-	import GitHubLogo from '../../lib/assets/icons/github-mark-white.svg'
+	import GitHubLogo from '$lib/assets/icons/github-mark-white.svg'
 
 	const { name } = me
 </script>
 
 <footer class="footer mt-6 py-3">
 	<div class="container mx-auto flex justify-center flex-wrap">
-		Design and Develop by {name} with&nbsp;<Emoji emoji="❤️" label="love" />&nbsp;and
+		Made with <Emoji emoji="❤️" label="love" /> and
 		<a
-			class="footer__links ml-2 flex justify-center"
+			class="footer__links flex justify-center"
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -25,10 +25,9 @@
 				class="ml-2 h-5"
 			/>
 		</a>
-		&nbsp;-
 		<a
 			href="https://github.com/AliTaee/Portfolio"
-			class="footer__links ml-2 flex justify-center"
+			class="footer__links flex justify-center"
 			target="_blank"
 			rel="noopener noreferrer"
 		>

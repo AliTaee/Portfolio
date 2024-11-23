@@ -57,6 +57,11 @@ body {
 	font-kerning: normal;
 }
 
+.full-height {
+	/* 100vh - footer and header */
+	min-height: calc(100vh - 70px - 92px);
+}
+
 @font-face {
 	font-family: 'icomoon';
 	src: url('../assets/fonts/icomoon.eot?lqlwk1');
@@ -123,4 +128,8 @@ body {
 	h3 {
 		@apply text-lg font-bold;
 	}
+}
+
+.gradient-heading {
+	@apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500;
 }

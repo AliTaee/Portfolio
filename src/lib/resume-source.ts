@@ -16,7 +16,11 @@ export const seoTags = {
 	},
 	resume: {
 		title: `${me.name} | Resume`,
-		description: `${me.name} Resume`
+		description: `${me.name} resume, including experience, educations, and skills`
+	},
+	blog: {
+		title: `${me.name} | Blog`,
+		description: `Latest blog posts by ${me.name}`
 	}
 }
 
