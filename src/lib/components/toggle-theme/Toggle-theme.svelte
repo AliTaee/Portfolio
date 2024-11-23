@@ -12,9 +12,11 @@
 		if (currentTheme) {
 			document.documentElement.setAttribute('data-theme', currentTheme)
 			nightTheme = currentTheme === NIGHT_KEY ? true : false
+			document.documentElement.classList.toggle('dark', false)
 		} else {
 			localStorage.setItem(LOCAL_STORAGE_KEY, NIGHT_KEY)
 			document.documentElement.setAttribute('data-theme', NIGHT_KEY)
+			document.documentElement.classList.toggle('dark', true)
 			nightTheme = true
 		}
 	})
