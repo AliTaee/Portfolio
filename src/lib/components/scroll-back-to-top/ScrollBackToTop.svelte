@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte'
 
 	import ArrowUpIcon from '$lib/assets/icons/arrow-up.svg'

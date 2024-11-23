@@ -2,9 +2,9 @@
 	import { page } from '$app/stores'
 	import { afterUpdate } from 'svelte'
 
-	import { me } from '../../resume-source'
-	import { routes } from '../../routes/routes'
-	import NightTheme from '../toggle-theme/Toggle-theme.svelte'
+	import { me } from '$lib/resume-source'
+	import { routes } from '$lib/routes'
+	import NightTheme from '$lib/components/toggle-theme/Toggle-theme.svelte'
 
 	let current_url = $page.url.pathname.split('/').filter(Boolean).shift() || '/'
 
@@ -24,7 +24,7 @@
 							class="header__link text-white p-2 {route.href === current_url
 								? 'header__link--active'
 								: ''}"
-							href={route.href}
+							href={route.href === '/' ? '/' : `/${route.href}`}
 						>
 							{route.label}
 						</a>
