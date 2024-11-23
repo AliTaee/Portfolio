@@ -9,9 +9,9 @@
 
 <footer class="footer mt-6 py-3">
 	<div class="container mx-auto flex justify-center flex-wrap">
-		Design and Develop by {name} with&nbsp;<Emoji emoji="❤️" label="love" />&nbsp;and
+		Made by <Emoji emoji="❤️" label="love" /> and
 		<a
-			class="footer__links ml-2 flex justify-center"
+			class="footer__links flex justify-center"
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -25,10 +25,9 @@
 				class="ml-2 h-5"
 			/>
 		</a>
-		&nbsp;-
 		<a
 			href="https://github.com/AliTaee/Portfolio"
-			class="footer__links ml-2 flex justify-center"
+			class="footer__links flex justify-center"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
