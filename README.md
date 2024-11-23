@@ -51,3 +51,15 @@ You can preview the production build with `npm run preview`.
 - [coolors.co](https://coolors.co/) - For Palette Color
 - [favicon-generator](https://favicon.io/favicon-generator/) - Text favicon
 - [icomoon.io](https://icomoon.io/) - Icon
+
+## Tools and Setup in this project: 🧰
+
+- [Svelte](https://svelte.dev/): Svelte is a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript. It’s a love letter to web development.
+- [Sveltejs/kit](https://svelte.dev/docs/kit/@sveltejs-kit): SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte.
+- [Shiki](https://shiki.matsu.io/): A beautiful yet powerful syntax highlighter
+- [mdsvex](https://mdsvex.pngwn.io/): svelte in markdown
+- [Tailwindcss](https://tailwindcss.com/): A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+- [Daisyui](https://rollupjs.org/): daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.
+- [Prettier](https://prettier.io/): Code formatter
+- [Eslint](https://eslint.org/): Code Linter
+- [TypeScript](https://www.typescriptlang.org/)
