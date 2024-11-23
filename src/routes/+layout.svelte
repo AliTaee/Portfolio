@@ -8,7 +8,9 @@
 
 <Header />
 
-<slot />
+<main class="container mx-auto full-height">
+	<slot />
+</main>
 
 <ScrollBackToTop />
 <Footer />

@@ -15,7 +15,7 @@
 	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<main class="intro container mx-auto px-4 flex justify-center items-center">
+<div class="intro px-4 flex justify-center items-center">
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
 		<section class="intro__welcome w-full mb-6 md:mb-0">
 			<h1 class="intro__title">
@@ -31,12 +31,11 @@
 			<Card desc={title} title={name} image={profileImage} />
 		</section>
 	</div>
-</main>
+</div>
 
 <style lang="css">
 	.intro {
-		/* 70px for footer and 92px for header */
-		min-height: calc(100vh - 70px - 92px);
+		min-height: inherit;
 	}
 	.intro__welcome {
 		padding: var(--padding_mx);
