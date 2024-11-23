@@ -4,7 +4,7 @@
 
 	import { me } from '../../resume-source'
 	import { routes } from '../../routes/routes'
-	import NightTheme from '../night-theme/NightTheme.svelte'
+	import NightTheme from '../toggle-theme/Toggle-theme.svelte'
 
 	let current_url = $page.url.pathname.split('/').filter(Boolean).shift() || '/'
 
