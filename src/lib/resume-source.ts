@@ -5,14 +5,14 @@ export const me = {
 	title: 'Senior Front-end Engineer',
 	profileImage,
 	about:
-		"I'm a Senior Front- end Engineer with more than 9 years of experience. I have a self - taught spirit and a passion for Front - end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel."
+		"I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel."
 }
 
 export const seoTags = {
 	home: {
 		title: `${me.name} | Portfolio`,
 		description:
-			"I'm a Senior Front- end Engineer with more than 9 years of experience. I have a self - taught spirit and a passion for Front - end Development, which I see as a perfect blend of art and technology."
+			"I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology."
 	},
 	resume: {
 		title: `${me.name} | Resume`,
