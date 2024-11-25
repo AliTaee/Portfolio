@@ -1,5 +1,3 @@
-name: Lighthouse Audit
-
 on:
   push:
     branches:
@@ -25,12 +23,18 @@ jobs:
       - name: Build Project
         run: yarn build
 
+      - name: Install Static File Server
+        run: yarn global add serve
+
+      - name: Start Static File Server
+        run: serve -s public -l 3000 &
+
       - name: Install Lighthouse CI
         run: yarn global add @lhci/cli
 
       - name: Run Lighthouse Audit
         run: |
-          lhci autorun --collect.staticDistDir=./public \
+          lhci autorun --collect.url=http://localhost:3000 \
           --collect.settings.emulatedFormFactor=desktop \
           --assert.assertions.performance=score>=0.96 \
           --assert.assertions.accessibility=score>=0.96 \
@@ -42,7 +46,7 @@ jobs:
       - name: Check Audit Results
         if: failure()
         run: |
-          echo "Lighthouse audit failed. Ensure all scores are at least 90." && exit 1
+          echo "Lighthouse audit failed. Ensure all scores are at least 96." && exit 1
 
       - name: Notify Success
         if: success()
