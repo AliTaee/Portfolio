@@ -1,3 +1,5 @@
+name: Lighthouse Audit for SvelteKit
+
 on:
   push:
     branches:
@@ -32,16 +34,15 @@ jobs:
       - name: Install Lighthouse CI
         run: yarn global add @lhci/cli
 
-       - name: Run Lighthouse Audit
-         run: |
-           lhci autorun --collect.url=http://localhost:3000 \
-           --collect.settings.emulatedFormFactor=desktop \
-           --assert.assertions='{"categories:performance": ["warn", {"minScore": 0.96}]}' \
-           --assert.assertions='{"categories:accessibility": ["warn", {"minScore": 0.96}]}' \
-           --assert.assertions='{"categories:seo": ["warn", {"minScore": 0.96}]}' \
-           --assert.assertions='{"categories:best-practices": ["warn", {"minScore": 0.96}]}' 
-
-      env:
+      - name: Run Lighthouse Audit
+        run: |
+          lhci autorun --collect.url=http://localhost:3000 \
+          --collect.settings.emulatedFormFactor=desktop \
+          --assert.assertions='{"categories:performance": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:accessibility": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:seo": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:best-practices": ["warn", {"minScore": 0.96}]}'
+        env:
           LHCI_BUILD_CONTEXT__CURRENT_BRANCH: ${{ github.ref_name }}
 
       - name: Check Audit Results
