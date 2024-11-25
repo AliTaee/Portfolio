@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Lighthouse Audit
         run: |
-          lhci autorun --collect.staticDistDir=./dist \
+          lhci autorun --collect.staticDistDir=./build \
           --collect.settings.emulatedFormFactor=desktop \
           --assert.assertions.performance=score>=0.96 \
           --assert.assertions.accessibility=score>=0.96 \
