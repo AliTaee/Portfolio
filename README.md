@@ -59,7 +59,8 @@ You can preview the production build with `npm run preview`.
 - [Shiki](https://shiki.matsu.io/): A beautiful yet powerful syntax highlighter
 - [mdsvex](https://mdsvex.pngwn.io/): svelte in markdown
 - [Tailwindcss](https://tailwindcss.com/): A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-- [Daisyui](https://rollupjs.org/): daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.
+- [Daisyui](https://daisyui.com/): daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.
 - [Prettier](https://prettier.io/): Code formatter
 - [Eslint](https://eslint.org/): Code Linter
 - [TypeScript](https://www.typescriptlang.org/)
+- [vite.dev](https://vite.dev/): Vite is a blazing fast frontend build tool powering the next generation of web applications.
