@@ -36,3 +36,11 @@
 	opportunities. Beyond the technical aspects and product ideas, this could be my first step toward
 	generating passive income.
 </p>
+<p>
+	I inspired this page by my friends portfolio, take a look at his website at <a
+		href="https://www.alimo.dev/now"
+		rel="noopener noreferrer"
+		class="link"
+		target="_blank">Alimo</a
+	>.
+</p>
