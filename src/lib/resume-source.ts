@@ -21,6 +21,10 @@ export const seoTags = {
 	blog: {
 		title: `${me.name} | Blog`,
 		description: `Latest blog posts by ${me.name}`
+	},
+	now: {
+		title: `${me.name} | Now`,
+		description: `What's happening now in ${me.name} life`
 	}
 }
 

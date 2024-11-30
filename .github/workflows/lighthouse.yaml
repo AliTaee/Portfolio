@@ -1,0 +1,55 @@
+name: Lighthouse Audit for SvelteKit
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.9.0
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Build Project
+        run: yarn build
+
+      - name: Install Static File Server
+        run: yarn global add serve
+
+      - name: Start Static File Server
+        run: serve -s public -l 3000 &
+
+      - name: Install Lighthouse CI
+        run: yarn global add @lhci/cli
+
+      - name: Run Lighthouse Audit
+        run: |
+          lhci autorun --collect.url=http://localhost:3000 \
+          --collect.settings.emulatedFormFactor=desktop \
+          --assert.assertions='{"categories:performance": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:accessibility": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:seo": ["warn", {"minScore": 0.96}]}' \
+          --assert.assertions='{"categories:best-practices": ["warn", {"minScore": 0.96}]}'
+        env:
+          LHCI_BUILD_CONTEXT__CURRENT_BRANCH: ${{ github.ref_name }}
+
+      - name: Check Audit Results
+        if: failure()
+        run: |
+          echo "Lighthouse audit failed. Ensure all scores are at least 96." && exit 1
+
+      - name: Notify Success
+        if: success()
+        run: echo "Lighthouse audit passed successfully."
