@@ -29,9 +29,9 @@ export const seoTags = {
 }
 
 export const skills = [
-	'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.Js', 'NodeJs', 'Code', 'review', 'Team work', 'Critical thinking', 'SOLID', 'Redux',
+	'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Svelte', 'Next.Js', 'NodeJs', 'Code review', 'Team work', 'Critical thinking', 'SOLID', 'Redux',
 	'Redux-Toolkit', 'React-Query', 'Git', 'E2E Testing', 'Unit Testing', 'Jest', 'Testing Library', 'Cypress', 'Playwright', 'Storybook', 'Responsive Design',
-	'Jira', 'Scrum', 'Agile Development', 'SPA', 'Socket.IO', 'REST API', 'Parcel.Js', 'Webpack', 'Rollup', 'Vite', 'Yarn', 'NPM'
+	'Jira', 'Scrum', 'Agile Development', 'Socket.IO', 'REST API', 'Parcel.Js', 'Webpack', 'Rollup', 'Vite', 'Yarn', 'NPM'
 ]
 
 export const experiences = [
