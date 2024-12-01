@@ -5,4 +5,4 @@
 	export let title = ''
 </script>
 
-<span class="badge badge-primary mb-2 mr-2 px-6 py-4">{title}</span>
+<span class="badge badge-primary mb-2 mr-2 px-4 py-4">{title}</span>
