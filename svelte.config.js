@@ -35,7 +35,10 @@ const config = {
 			assets: 'public',
 			fallback: null,
 			precompress: false
-		})
+		}),
+		prerender: {
+			entries: ['*']
+		}
 	}
 }
 
