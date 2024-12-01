@@ -30,12 +30,10 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-		adapter: adapter({
-			pages: 'public',
-			assets: 'public',
-			fallback: null,
-			precompress: false
-		})
+		adapter: adapter(),
+		prerender: {
+			entries: ['*']
+		}
 	}
 }
 
