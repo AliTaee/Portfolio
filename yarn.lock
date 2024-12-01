@@ -8085,10 +8085,15 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -8096,17 +8101,25 @@ source-map-js@^1.2.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
@@ -8116,20 +8129,29 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
@@ -8137,27 +8159,40 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3f44fe1 (fix static site generator build)
@@ -8189,10 +8224,6 @@ source-map-js@^1.2.0:
 =======
 =======
 >>>>>>> 6811579 (fix static site generator build)
-=======
->>>>>>> e70f382 (build(styles): remove scss and install daisyui)
->>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
-=======
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 >>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
@@ -8377,15 +8408,21 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -8393,24 +8430,35 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 6811579 (fix static site generator build)
@@ -8421,10 +8469,15 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -8432,17 +8485,25 @@ source-map-js@^1.2.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 =======
@@ -8451,39 +8512,56 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3336f50 (fix static site generator build)
 =======
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
@@ -8665,15 +8743,21 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -8681,24 +8765,35 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> cddefc4 (build(project setup): add configs for blog)
@@ -8758,10 +8853,15 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -8769,17 +8869,25 @@ source-map-js@^1.2.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 =======
@@ -8813,8 +8921,11 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -8828,8 +8939,13 @@ source-map-js@^1.2.0:
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+>>>>>>> 6271165 (fix static site generator build)
+>>>>>>> 7078ea5 (fix static site generator build)
+=======
+=======
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8838,6 +8954,10 @@ source-map-js@^1.2.0:
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -8858,8 +8978,11 @@ source-map-js@^1.2.0:
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -8873,6 +8996,7 @@ source-map-js@^1.2.0:
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
@@ -8883,6 +9007,10 @@ source-map-js@^1.2.0:
 >>>>>>> 3733fd3 (build(project setup): add configs for blog)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
@@ -14389,10 +14517,15 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -14400,17 +14533,25 @@ space-separated-tokens@^2.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
@@ -14420,20 +14561,29 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
@@ -14441,27 +14591,40 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3f44fe1 (fix static site generator build)
@@ -14493,10 +14656,6 @@ space-separated-tokens@^2.0.0:
 =======
 =======
 >>>>>>> 6811579 (fix static site generator build)
-=======
->>>>>>> e70f382 (build(styles): remove scss and install daisyui)
->>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
-=======
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 >>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
@@ -14681,15 +14840,21 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -14697,24 +14862,35 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 6811579 (fix static site generator build)
@@ -14725,10 +14901,15 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -14736,17 +14917,25 @@ space-separated-tokens@^2.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 =======
@@ -14755,39 +14944,56 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3336f50 (fix static site generator build)
 =======
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
@@ -14969,15 +15175,21 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -14985,24 +15197,35 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> cddefc4 (build(project setup): add configs for blog)
@@ -15062,10 +15285,15 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -15073,17 +15301,25 @@ space-separated-tokens@^2.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 =======
@@ -15117,8 +15353,11 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -15132,8 +15371,13 @@ space-separated-tokens@^2.0.0:
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+>>>>>>> 6271165 (fix static site generator build)
+>>>>>>> 7078ea5 (fix static site generator build)
+=======
+=======
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15142,6 +15386,10 @@ space-separated-tokens@^2.0.0:
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -15162,8 +15410,11 @@ space-separated-tokens@^2.0.0:
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -15177,6 +15428,7 @@ space-separated-tokens@^2.0.0:
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
@@ -15187,6 +15439,10 @@ space-separated-tokens@^2.0.0:
 >>>>>>> 3733fd3 (build(project setup): add configs for blog)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 stackback@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/stackback/-/stackback-0.0.2.tgz#1ac8a0d9483848d1695e418b6d031a3c3ce68e3b"
@@ -15264,11 +15520,15 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3733fd3 (build(project setup): add configs for blog)
@@ -15277,6 +15537,8 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 473f9fe (build(project setup): add configs for blog)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -15284,8 +15546,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
@@ -15306,6 +15571,7 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
@@ -15314,6 +15580,8 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3e78681 (build(project setup): add configs for blog)
@@ -15345,15 +15613,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -15374,8 +15648,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -15396,6 +15673,7 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
@@ -15404,6 +15682,8 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3f44fe1 (fix static site generator build)
 =======
 >>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
@@ -15460,15 +15740,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -15476,24 +15762,35 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3f44fe1 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
@@ -15503,20 +15800,29 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> cddefc4 (build(project setup): add configs for blog)
@@ -15549,15 +15855,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -15578,8 +15890,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -15600,6 +15915,7 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
@@ -15608,6 +15924,8 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 3336f50 (fix static site generator build)
@@ -15622,10 +15940,15 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -15633,17 +15956,25 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
@@ -15652,8 +15983,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -15666,6 +16000,10 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> 6271165 (fix static site generator build)
+>>>>>>> 7078ea5 (fix static site generator build)
+=======
 =======
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
@@ -15673,27 +16011,40 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 5c5d411 (build(project setup): add configs for blog)
@@ -15827,20 +16178,29 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
@@ -15849,34 +16209,49 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3f44fe1 (fix static site generator build)
 =======
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
@@ -15934,15 +16309,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -15964,6 +16345,10 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
+>>>>>>> 5403cb9 (fix static site generator build)
+>>>>>>> 6271165 (fix static site generator build)
+=======
+=======
 >>>>>>> 3f44fe1 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 <<<<<<< HEAD
@@ -15972,20 +16357,29 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 =======
 =======
@@ -16018,15 +16412,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -16047,8 +16447,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -16069,6 +16472,7 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
@@ -16077,6 +16481,8 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
@@ -21571,10 +21977,15 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -21582,17 +21993,25 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
@@ -21602,20 +22021,29 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
@@ -21623,27 +22051,40 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3f44fe1 (fix static site generator build)
@@ -21675,10 +22116,6 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 =======
 >>>>>>> 6811579 (fix static site generator build)
-=======
->>>>>>> e70f382 (build(styles): remove scss and install daisyui)
->>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
-=======
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 >>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
@@ -21863,15 +22300,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -21879,24 +22322,35 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 6811579 (fix static site generator build)
@@ -21907,10 +22361,15 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -21918,17 +22377,25 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 =======
@@ -21937,39 +22404,56 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3336f50 (fix static site generator build)
 =======
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
@@ -22151,15 +22635,21 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -22167,24 +22657,35 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> cddefc4 (build(project setup): add configs for blog)
@@ -22244,10 +22745,15 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -22255,17 +22761,25 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 =======
@@ -22299,8 +22813,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -22314,8 +22831,13 @@ string-width@^5.0.1, string-width@^5.1.2:
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+>>>>>>> 6271165 (fix static site generator build)
+>>>>>>> 7078ea5 (fix static site generator build)
+=======
+=======
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22324,6 +22846,10 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -22344,8 +22870,11 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -22359,6 +22888,7 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
@@ -22369,6 +22899,10 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> 3733fd3 (build(project setup): add configs for blog)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 stringify-entities@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-4.0.4.tgz#b3b79ef5f277cc4ac73caeb0236c5ba939b3a4f3"
@@ -27878,10 +28412,15 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -27889,17 +28428,25 @@ stringify-entities@^4.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 >>>>>>> 64bf440 (build(styles): remove scss and install daisyui)
@@ -27909,20 +28456,29 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
@@ -27930,27 +28486,40 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 3f44fe1 (fix static site generator build)
@@ -27982,10 +28551,6 @@ stringify-entities@^4.0.0:
 =======
 =======
 >>>>>>> 6811579 (fix static site generator build)
-=======
->>>>>>> e70f382 (build(styles): remove scss and install daisyui)
->>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
-=======
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 >>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
@@ -28170,15 +28735,21 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
@@ -28186,24 +28757,35 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 6811579 (fix static site generator build)
@@ -28214,10 +28796,15 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -28225,17 +28812,25 @@ stringify-entities@^4.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> e9e0941 (build(setup): change project config to use static site generator)
 >>>>>>> 77c7326 (build(setup): change project config to use static site generator)
 =======
@@ -28244,39 +28839,56 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 3336f50 (fix static site generator build)
 =======
 >>>>>>> e70f382 (build(styles): remove scss and install daisyui)
@@ -28458,15 +29070,21 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
 =======
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -28474,24 +29092,35 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 5403cb9 (fix static site generator build)
 >>>>>>> 6271165 (fix static site generator build)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7528090 (build(styles): remove scss and install daisyui)
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 04f85b9 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> cddefc4 (build(project setup): add configs for blog)
@@ -28551,10 +29180,15 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 =======
@@ -28562,17 +29196,25 @@ stringify-entities@^4.0.0:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 >>>>>>> 6811579 (fix static site generator build)
 =======
 =======
@@ -28606,8 +29248,11 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 6271165 (fix static site generator build)
 =======
@@ -28621,8 +29266,13 @@ stringify-entities@^4.0.0:
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
 =======
+>>>>>>> 6271165 (fix static site generator build)
+>>>>>>> 7078ea5 (fix static site generator build)
+=======
+=======
 >>>>>>> 6811579 (fix static site generator build)
 >>>>>>> 5403cb9 (fix static site generator build)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28631,6 +29281,10 @@ stringify-entities@^4.0.0:
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
 =======
@@ -28651,8 +29305,11 @@ stringify-entities@^4.0.0:
 >>>>>>> 6271165 (fix static site generator build)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0d584fd (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> dacc5e0 (fix static site generator build)
 =======
 =======
 >>>>>>> 542f1ce (build(styles): remove scss and install daisyui)
@@ -28666,6 +29323,7 @@ stringify-entities@^4.0.0:
 >>>>>>> b17b9a8 (build(setup): change project config to use static site generator)
 >>>>>>> f306db6 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7078ea5 (fix static site generator build)
 =======
@@ -28676,6 +29334,10 @@ stringify-entities@^4.0.0:
 >>>>>>> 3733fd3 (build(project setup): add configs for blog)
 =======
 >>>>>>> d49f712 (build(setup): change project config to use static site generator)
+=======
+=======
+>>>>>>> 7078ea5 (fix static site generator build)
+>>>>>>> dacc5e0 (fix static site generator build)
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
