@@ -82,33 +82,36 @@
 		<h2 class="resume__category">Experience</h2>
 		{#each experiences as experience}
 			<section class="resume-section">
-				{#if experience.title}
-					<h3 class="heading-title">{experience.title}</h3>
-				{/if}
+				<div class="flex flex-col xl:flex-row xl:items-center justify-between w-full">
+					<div class="flex flex-col xl:flex-row xl:items-center gap-2">
+						{#if experience.title}
+							<h3 class="heading-title">{experience.title}</h3>
+						{/if}
+						<span class="hidden xl:block">|</span>
+						<div class="resume-section__info">
+							{#if experience.companyName && experience.link}
+								<a
+									href={experience.link}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="resume-section__link"
+								>
+									<span class="resume-section__secondary-title">{experience.companyName}</span>
+								</a>
+							{:else}
+								<span class="resume-section__secondary-title resume-section__link">
+									{experience.companyName}
+								</span>
+							{/if}
 
-				<div class="resume-section__info">
-					{#if experience.companyName && experience.link}
-						<a
-							href={experience.link}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="resume-section__link"
-						>
-							<span class="resume-section__secondary-title">{experience.companyName}</span>
-						</a>
-					{:else}
-						<span class="resume-section__secondary-title resume-section__link">
-							{experience.companyName}
-						</span>
+							{' '}
+							- {experience.city}
+						</div>
+					</div>
+					{#if experience.time}
+						<time class="resume-section__time">{experience.time}</time>
 					{/if}
-
-					{' '}
-					- {experience.city}
 				</div>
-
-				{#if experience.time}
-					<time class="resume-section__time">{experience.time}</time>
-				{/if}
 
 				{#if experience.companyDescription}
 					<p class="resume-section__about">{experience.companyDescription}</p>
@@ -204,7 +207,6 @@
 	}
 	.resume-section__time {
 		display: block;
-		margin-top: var(--margin_sm);
 		color: var(--heading-color);
 		font-style: italic;
 		font-weight: 400;
