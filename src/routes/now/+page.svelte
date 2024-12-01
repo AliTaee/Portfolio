@@ -33,7 +33,6 @@
 		elements using Three.js and Svelte. Let's see what I can do with it in the future.
 	</p>
 	<br />
-	<br />
 	<p>
 		I inspired this page by my friends portfolio, take a look at his website at <a
 			href="https://www.alimo.dev/now"

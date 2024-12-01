@@ -2597,20 +2597,42 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 >>>>>>> ffa2597 (build(project setup): add configs for blog)
 =======
 >>>>>>> 58034bb (build(styles): remove scss and install daisyui)
@@ -2618,11 +2640,24 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> c71a892 (build(project setup): add configs for blog)
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
@@ -2634,16 +2669,33 @@ source-map-js@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
@@ -2651,16 +2703,35 @@ source-map-js@^1.2.0:
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 9cd9ca1 (fix static site generator build)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7105653 (build(styles): remove scss and install daisyui)
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 9580c81 (build(setup): change project config to use static site generator)
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
+=======
+>>>>>>> 3336f50 (fix static site generator build)
 space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
@@ -2679,20 +2750,42 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 >>>>>>> ffa2597 (build(project setup): add configs for blog)
 =======
 >>>>>>> 58034bb (build(styles): remove scss and install daisyui)
@@ -2700,11 +2793,24 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> c71a892 (build(project setup): add configs for blog)
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
@@ -2716,16 +2822,33 @@ space-separated-tokens@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
@@ -2733,16 +2856,35 @@ space-separated-tokens@^2.0.0:
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 9cd9ca1 (fix static site generator build)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7105653 (build(styles): remove scss and install daisyui)
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 9580c81 (build(setup): change project config to use static site generator)
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
+=======
+>>>>>>> 3336f50 (fix static site generator build)
 stackback@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/stackback/-/stackback-0.0.2.tgz#1ac8a0d9483848d1695e418b6d031a3c3ce68e3b"
@@ -2793,29 +2935,63 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
+=======
+>>>>>>> 3336f50 (fix static site generator build)
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
+<<<<<<< HEAD
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 =======
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> ffa2597 (build(project setup): add configs for blog)
 =======
 >>>>>>> 58034bb (build(styles): remove scss and install daisyui)
@@ -2823,11 +2999,24 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> c71a892 (build(project setup): add configs for blog)
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
@@ -2839,16 +3028,33 @@ string-width@^5.0.1, string-width@^5.1.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
@@ -2856,16 +3062,35 @@ string-width@^5.0.1, string-width@^5.1.2:
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 9cd9ca1 (fix static site generator build)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7105653 (build(styles): remove scss and install daisyui)
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 9580c81 (build(setup): change project config to use static site generator)
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
+=======
+>>>>>>> 3336f50 (fix static site generator build)
 stringify-entities@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/stringify-entities/-/stringify-entities-4.0.4.tgz#b3b79ef5f277cc4ac73caeb0236c5ba939b3a4f3"
@@ -2887,20 +3112,42 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 >>>>>>> ffa2597 (build(project setup): add configs for blog)
 =======
 >>>>>>> 58034bb (build(styles): remove scss and install daisyui)
@@ -2908,11 +3155,24 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> c71a892 (build(project setup): add configs for blog)
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
@@ -2924,16 +3184,33 @@ stringify-entities@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> fd1f1ad (build(project setup): add configs for blog)
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 2c3eec2 (build(styles): remove scss and install daisyui)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 =======
@@ -2941,16 +3218,35 @@ stringify-entities@^4.0.0:
 >>>>>>> 89bd1a0 (build(setup): change project config to use static site generator)
 >>>>>>> 3cb2541 (build(setup): change project config to use static site generator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 7105653 (build(styles): remove scss and install daisyui)
 =======
 =======
 >>>>>>> c71a892 (build(project setup): add configs for blog)
 >>>>>>> fd1f1ad (build(project setup): add configs for blog)
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9580c81 (build(setup): change project config to use static site generator)
 =======
 >>>>>>> 9cd9ca1 (fix static site generator build)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7105653 (build(styles): remove scss and install daisyui)
+>>>>>>> 104c2fa (build(styles): remove scss and install daisyui)
+=======
+>>>>>>> e860ae8 (build(project setup): add configs for blog)
+=======
+=======
+>>>>>>> 9580c81 (build(setup): change project config to use static site generator)
+>>>>>>> 63a733b (build(setup): change project config to use static site generator)
+=======
+>>>>>>> 3336f50 (fix static site generator build)
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
