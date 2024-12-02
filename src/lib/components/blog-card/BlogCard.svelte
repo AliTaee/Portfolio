@@ -7,7 +7,7 @@
 {#key post.slug}
 	<div class="card bg-primary shadow-xl">
 		{#if post.image}
-			<figure>
+			<figure class="h-60">
 				<img src={post.image} alt={post.imageAlt} />
 			</figure>
 		{/if}
