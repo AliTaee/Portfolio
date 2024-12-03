@@ -29,7 +29,7 @@
 		to implement them. I like to create new pages like About me, Projects, Contact. I'll write about
 		my thoughts on the blog, so stay tuned! I believe in taking things one step at a time and
 		improving each day, even if it's just 1%—whether that's reading a few pages of a book, spending
-		15 minutes on tutorials, or building something new. Also I lik to create a lot of interactive
+		15 minutes on learning, or building something new. Also I lik to create a lot of interactive
 		elements using Three.js and Svelte. Let's see what I can do with it in the future.
 	</p>
 	<br />
