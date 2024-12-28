@@ -28,6 +28,15 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
+		prerender: {
+			handleHttpError: ({ status, path }) => {
+				if (status === 404) {
+					console.warn(`404 error encountered: ${path}`)
+					return
+				}
+				throw new Error(`Prerendering failed for ${path} with status ${status}`)
+			}
+		},
 		adapter: adapter({
 			pages: 'public',
 			assets: 'public'
