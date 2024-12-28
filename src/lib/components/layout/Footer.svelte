@@ -1,10 +1,7 @@
 <script lang="ts">
-	import { me } from '$lib/resume-source'
 	import Emoji from '$lib/components/emoji/Emoji.svelte'
 
 	import GitHubLogo from '$lib/assets/icons/github-mark-white.svg'
-
-	const { name } = me
 </script>
 
 <footer class="footer mt-6 py-3">

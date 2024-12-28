@@ -1,34 +1,14 @@
+import { fetchMarkdownPosts } from "$lib/utils";
 import { json } from "@sveltejs/kit"
 
-async function getPosts() {
-    let posts: Post[] = []
-
-    const paths = import.meta.glob("/src/posts/**/*.md", { eager: true })
-
-    for (const path in paths) {
-        const file = paths[path]
-        const slug = path.split("/").at(-1)?.replace(".md", "")
-        const year = path.split("/").at(-2)
-
-        if (file && typeof file === "object" && "metadata" in file && slug) {
-            const metadata = file.metadata as Omit<Post, "slug">
-            const post = { ...metadata, slug: `${year}/${slug}` } satisfies Post
-            if (post.published) {
-                posts.push(post)
-            }
-        }
-    }
-
-    posts = posts.sort(
-        (first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
-    )
-
-    return posts
-}
-
 export async function GET() {
-    const posts = await getPosts()
-    return json(posts)
+    const allPosts = await fetchMarkdownPosts();
+
+    const sortedPosts = allPosts.sort((firstPost, secondPost) => {
+        return new Date(secondPost.meta.date).getTime() - new Date(firstPost.meta.date).getTime();
+    });
+
+    return json(sortedPosts)
 }
 
 export const prerender = true
