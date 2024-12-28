@@ -2,10 +2,12 @@
 	import { formatDate } from '$lib/utils.js'
 
 	export let post
-	const { slug, title, description, date, image, imageAlt } = post
+
+	const { path, meta } = post
+	const { title, description, date, image, imageAlt } = meta
 </script>
 
-{#key slug}
+{#key path}
 	<div class="card bg-primary shadow-xl">
 		{#if image}
 			<figure class="h-60">
@@ -23,7 +25,7 @@
 				</div>
 			</footer>
 			<div class="card-actions justify-end">
-				<a class="btn btn-secondary" href={`/blog/${slug}`}> Read More </a>
+				<a class="btn btn-secondary" href={`/blog/${path}`}> Read More </a>
 			</div>
 		</div>
 	</div>

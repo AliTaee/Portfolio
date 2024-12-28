@@ -3,13 +3,14 @@ import type { ServerLoadEvent } from "@sveltejs/kit"
 
 export const load = async ({ params }: ServerLoadEvent) => {
     try {
-        const post = await import(`../../../posts/${params.slug}.md`)
+        const post = await import(`../../../posts/${params.post}.md`)
 
         return {
             content: post.default,
-            meta: post.metadata,
+            meta: post.metadata as Post,
+            url: `/blog/${params.post}`
         }
     } catch (e) {
-        throw error(404, `Could not find ${params.slug}`)
+        throw error(404, `Could not find ${params.post}`)
     }
 }

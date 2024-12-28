@@ -3,8 +3,8 @@
 	import { url as siteURL, title as siteTitle } from '$lib/blog-config'
 	export let data
 
-	const { content, meta } = data
-	const { title, url, description, image, imageAlt, imageAppreciation, date, categories } = meta
+	const { content, meta, url } = data
+	const { title, description, image, imageAlt, imageAppreciation, date, categories } = meta
 </script>
 
 <svelte:head>

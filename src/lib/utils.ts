@@ -6,3 +6,22 @@ export function formatDate(date: string, dateStyle: DateStyle = "medium", locale
     const dateFormatter = new Intl.DateTimeFormat(locales, { dateStyle })
     return dateFormatter.format(dateToFormat)
 }
+
+export const fetchMarkdownPosts = async () => {
+    const allPostFiles = import.meta.glob('/src/posts/*.md');
+    const iterablePostFiles = Object.entries(allPostFiles);
+
+    const allPosts = await Promise.all(
+        iterablePostFiles.map(async ([path, resolver]) => {
+            const { metadata } = await resolver() as { metadata: Post };
+            const postPath = path.split("/").at(-1)?.replace(".md", "");
+
+            return {
+                meta: metadata,
+                path: postPath
+            };
+        })
+    );
+
+    return allPosts;
+};
