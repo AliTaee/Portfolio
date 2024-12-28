@@ -3,9 +3,7 @@ import type { ServerLoadEvent } from "@sveltejs/kit"
 
 export const load = async ({ params }: ServerLoadEvent) => {
     try {
-        const cleanSlug = params.slug?.replace(/\/$/, "")
-        const postUrl = `../../../posts/${cleanSlug}`
-        const post = await import(`${postUrl}.md`)
+        const post = await import(`../../../posts/${params.slug}.md`)
 
         return {
             content: post.default,

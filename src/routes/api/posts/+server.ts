@@ -8,11 +8,10 @@ async function getPosts() {
     for (const path in paths) {
         const file = paths[path]
         const slug = path.split("/").at(-1)?.replace(".md", "")
-        const year = path.split("/").at(-2)
 
         if (file && typeof file === "object" && "metadata" in file && slug) {
             const metadata = file.metadata as Omit<Post, "slug">
-            const post = { ...metadata, slug: `${year}/${slug}` } satisfies Post
+            const post = { ...metadata, slug } satisfies Post
             if (post.published) {
                 posts.push(post)
             }
