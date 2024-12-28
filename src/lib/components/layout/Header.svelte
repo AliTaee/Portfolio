@@ -33,6 +33,7 @@
 			<div class="dropdown md:hidden">
 				<button
 					tabindex="0"
+					aria-label="Open site menu"
 					class="btn btn-ghost btn-circle"
 					on:click={() => (dropdownOpen = !dropdownOpen)}
 				>
