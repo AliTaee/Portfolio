@@ -6,7 +6,7 @@
 
 	const { name, about, title, profileImage } = me
 	const {
-		home: { title: pageTitle, description: pageDescription }
+		home: { pageTitle, pageDescription }
 	} = seoTags
 </script>
 

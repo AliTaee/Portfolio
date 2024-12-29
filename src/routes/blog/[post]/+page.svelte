@@ -1,23 +1,25 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
-	import { url as siteURL, title as siteTitle } from '$lib/blog-config'
+	import { domain, me } from '$lib/resume-source'
+
 	export let data
 
-	const { content, meta, url } = data
+	const { name } = me
+	const { content, meta, postURL } = data
 	const { title, description, image, imageAlt, imageAppreciation, date, categories } = meta
 </script>
 
 <svelte:head>
 	<title>{title}</title>
 
-	<link rel="canonical" href={`${siteURL}${url}`} />
+	<link rel="canonical" href={`${domain}${postURL}`} />
 	<meta name="description" content={description} />
 
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content={`${siteURL}${url}`} />
+	<meta property="og:url" content={`${domain}${postURL}`} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:site_name" content={siteTitle} />
+	<meta property="og:site_name" content={`${name} portfolio`} />
 	<meta property="og:image" content={image} />
 
 	<meta name="twitter:site" content="@YouTwitterHandle" />

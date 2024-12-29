@@ -8,7 +8,7 @@ export const load = async ({ params }: ServerLoadEvent) => {
         return {
             content: post.default,
             meta: post.metadata as Post,
-            url: `/blog/${params.post}`
+            postURL: `/blog/${params.post}`
         }
     } catch (e) {
         throw error(404, `Could not find ${params.post}`)

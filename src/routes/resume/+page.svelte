@@ -15,7 +15,7 @@
 
 	const { name, about, title, profileImage } = me
 	const {
-		resume: { title: pageTitle, description: pageDescription }
+		resume: { pageTitle, pageDescription }
 	} = seoTags
 </script>
 

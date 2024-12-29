@@ -1,40 +1,43 @@
 import profileImage from '$lib/assets/images/profile-image.jpg'
 
-export const me = {
+const domain = 'https://www.alitaee.dev'
+
+const me = {
 	name: 'Ali Taee',
 	title: 'Senior Front-end Engineer',
 	profileImage,
 	about:
-		"I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel."
+		"I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel.",
+	shortAbout: "I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology."
 }
 
-export const seoTags = {
+const seoTags = {
 	home: {
-		title: `${me.name} | Portfolio`,
-		description:
-			"I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology."
+		pageTitle: `${me.name} | Portfolio`,
+		pageDescription: me.shortAbout
+
 	},
 	resume: {
-		title: `${me.name} | Resume`,
-		description: `${me.name} resume, including experience, educations, and skills`
+		pageTitle: `${me.name} | Resume`,
+		pageDescription: `${me.name} resume, including experience, educations, and skills`
 	},
 	blog: {
-		title: `${me.name} | Blog`,
-		description: `Latest blog posts by ${me.name}`
+		pageTitle: `${me.name} | Blog`,
+		pageDescription: `Latest blog posts by ${me.name}`
 	},
 	now: {
-		title: `${me.name} | Now`,
-		description: `What's happening now in ${me.name} life`
+		pageTitle: `${me.name} | Now`,
+		pageDescription: `What's happening now in ${me.name} life`
 	}
 }
 
-export const skills = [
+const skills = [
 	'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Svelte', 'Three.js', 'Next.Js', 'NodeJs', 'Code review', 'Team work', 'Critical thinking', 'SOLID', 'Redux',
 	'Redux-Toolkit', 'React-Query', 'Git', 'E2E Testing', 'Unit Testing', 'Jest', 'Testing Library', 'Cypress', 'Playwright', 'Storybook', 'Responsive Design',
 	'Jira', 'Scrum', 'Agile Development', 'Socket.IO', 'REST API', 'Parcel.Js', 'Webpack', 'Rollup', 'Vite', 'Yarn', 'NPM'
 ]
 
-export const experiences = [
+const experiences = [
 	{
 		title: 'Senior Front-end Engineer',
 		companyName: 'CLIQ Digital',
@@ -135,7 +138,7 @@ export const experiences = [
 	}
 ]
 
-export const socials = [
+const socials = [
 	{
 		href: 'mailto:ali.taei.semiromi@gmail.com',
 		icon: 'icon-envelope',
@@ -158,9 +161,9 @@ export const socials = [
 	}
 ]
 
-export const languages = ['Persian (native)', 'English']
+const languages = ['Persian (native)', 'English']
 
-export const educations = [
+const educations = [
 	{
 		time: '2014 – 2017',
 		fieldOfStudy: 'Computer Software Engineering',
@@ -168,3 +171,5 @@ export const educations = [
 		degree: "Associate's degree"
 	}
 ]
+
+export { me, seoTags, skills, experiences, socials, languages, educations, domain }

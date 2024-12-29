@@ -3,7 +3,7 @@
 	import Emoji from '$lib/components/emoji/Emoji.svelte'
 	import { formatDate } from '$lib/utils'
 	const {
-		now: { title: pageTitle, description: pageDescription }
+		now: { pageTitle, pageDescription }
 	} = seoTags
 </script>
 
