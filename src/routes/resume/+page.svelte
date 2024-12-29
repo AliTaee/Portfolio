@@ -24,8 +24,8 @@
 	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<article class="resume flex flex-col justify-items-center lg:flex-row">
-	<aside class="resume__sidebar w-full lg:w-1/3 lg:mr-10">
+<article class="my-7 mx-auto flex flex-col justify-items-center lg:flex-row">
+	<aside class="resume__sidebar max-[468px]:mb-7 w-full lg:w-1/3 lg:mr-10">
 		<img class="rounded-full resume__img" src={profileImage} alt={`profile image of ${name}`} />
 		<h1 class="resume__name">
 			{name} <br />
@@ -36,7 +36,7 @@
 		<h2 class="resume__category">contacts</h2>
 		<ul class="resume__contact list-none">
 			{#each socials as social}
-				<li>
+				<li class="my-2.5 mx-0">
 					<a href={social.href} target="_blank" rel="noopener noreferrer">
 						<span class={social.icon}></span>
 						{social.text}
@@ -45,23 +45,23 @@
 			{/each}
 		</ul>
 
-		<h2 class="resume__margin-top-lg resume__category">Skills</h2>
+		<h2 class="mt-7 resume__category">Skills</h2>
 		<section class="resume__skills">
 			{#each skills as skill}
 				<Chip title={skill} />
 			{/each}
 		</section>
 
-		<h2 class="resume__margin-top-lg resume__category">Languages</h2>
+		<h2 class="mt-7 resume__category">Languages</h2>
 		<section class="resume__skills">
 			{#each languages as language}
 				<Chip title={language} />
 			{/each}
 		</section>
 
-		<h2 class="resume__margin-top-lg resume__category">Education</h2>
+		<h2 class="mt-7 resume__category">Education</h2>
 		{#each educations as education}
-			<div class="resume-section">
+			<div class="resume-section mb-7">
 				{#if education.school}
 					<h3 class="heading-title">{education.school}</h3>
 				{/if}
@@ -81,7 +81,7 @@
 	<section class="resume__main w-full lg:w-2/3">
 		<h2 class="resume__category">Experience</h2>
 		{#each experiences as experience}
-			<section class="resume-section">
+			<section class="resume-section mb-7">
 				<div class="flex flex-col xl:flex-row xl:items-center justify-between w-full">
 					<div class="flex flex-col xl:flex-row xl:items-center gap-2">
 						{#if experience.title}
@@ -120,7 +120,7 @@
 				{#if experience.achievements}
 					<ul class="resume-section__work-list ml-12">
 						{#each experience.achievements as achievement}
-							<li>{achievement}</li>
+							<li class="my-2.5 mx-0">{achievement}</li>
 						{/each}
 					</ul>
 				{/if}
@@ -136,9 +136,6 @@
 </div>
 
 <style lang="css">
-	.resume {
-		margin: var(--margin_mx) auto;
-	}
 	.resume__name {
 		color: var(--heading-color);
 		text-transform: capitalize;
@@ -158,14 +155,8 @@
 		margin: 0;
 		padding: 0;
 	}
-	.resume__contact li {
-		margin: var(--margin_sm) 0;
-	}
 	.resume__contact a {
 		color: var(--heading-color);
-	}
-	.resume__margin-top-lg {
-		margin-top: var(--margin-lg);
 	}
 	.resume__category {
 		color: var(--heading-color);
@@ -181,7 +172,6 @@
 		padding-bottom: 0;
 	}
 	.resume-section {
-		margin-bottom: var(--margin-lg);
 		padding-bottom: 30px;
 		border-bottom: 3px solid var(--heading-color);
 	}
@@ -201,9 +191,7 @@
 		list-style-type: disc;
 		margin-bottom: 0;
 	}
-	.resume-section__work-list li {
-		margin: var(--margin_sm) 0;
-	}
+
 	.resume-section__link {
 		color: var(--heading-color);
 	}
@@ -220,10 +208,5 @@
 		text-transform: capitalize;
 		padding: 8px 16px;
 		border: 2px solid var(--primary);
-	}
-	@media only screen and (max-width: 486px) {
-		.resume__sidebar {
-			margin-bottom: var(--margin-lg);
-		}
 	}
 </style>
