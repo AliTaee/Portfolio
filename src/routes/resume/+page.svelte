@@ -130,7 +130,11 @@
 </article>
 
 <div class="flex justify-center">
-	<a class="download-resume rounded-md" href={ResumeFile} download={`Resume_${name}.pdf`}>
+	<a
+		class="border-primary border-solid border-2 text-white gradient-bg download-resume rounded-md"
+		href={ResumeFile}
+		download={`Resume_${name}.pdf`}
+	>
 		Download resume
 	</a>
 </div>
@@ -202,11 +206,8 @@
 		font-weight: 400;
 	}
 	.download-resume {
-		background: var(--gradient);
-		color: var(--white);
 		text-decoration: none;
 		text-transform: capitalize;
 		padding: 8px 16px;
-		border: 2px solid var(--primary);
 	}
 </style>

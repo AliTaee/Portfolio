@@ -35,7 +35,7 @@
 </script>
 
 <button
-	class="scroll-back-top"
+	class="scroll-back-top bg-primary"
 	on:click={handleGoToTop}
 	id={SCROLL_BACK_TO_TOP_ID}
 	title="Go to top"
@@ -46,7 +46,6 @@
 
 <style lang="css">
 	.scroll-back-top {
-		background: var(--primary);
 		display: none;
 		font-size: 18px;
 		position: fixed;

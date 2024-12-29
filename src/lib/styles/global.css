@@ -3,14 +3,6 @@
 @tailwind utilities;
 
 :root {
-	--primary: #003566;
-	--secondary: #ffd60a;
-	--primary_dark: #001d3d;
-	--white: #fff;
-	--grey: #ccc;
-
-	--gradient: linear-gradient(45deg, var(--primary_dark), var(--primary));
-
 	--icon-color: #003566;
 	--heading-color: #003566;
 	--badge-color: #fff;
@@ -110,4 +102,8 @@ body {
 
 .gradient-heading {
 	@apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500;
+}
+
+.gradient-bg {
+	background: linear-gradient(45deg, oklch(var(--n)), oklch(var(--p)));
 }
