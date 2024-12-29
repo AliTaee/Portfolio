@@ -41,7 +41,7 @@
 	title="Go to top"
 	type="button"
 >
-	<img src={ArrowUpIcon} alt="back to top icon" />
+	<img src={ArrowUpIcon} class="m-0 w-5 h-5" alt="back to top icon" />
 </button>
 
 <style lang="css">
@@ -62,11 +62,5 @@
 		height: 50px;
 		align-items: center;
 		justify-content: center;
-	}
-
-	.scroll-back-top img {
-		margin: 0;
-		width: 20px;
-		height: 20px;
 	}
 </style>

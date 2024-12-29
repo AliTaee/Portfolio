@@ -8,7 +8,7 @@
 	<div class="container mx-auto flex justify-center flex-wrap">
 		Made with <Emoji emoji="❤️" label="love" /> and
 		<a
-			class="footer__links flex justify-center"
+			class="footer__links font-medium flex justify-center"
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -24,7 +24,7 @@
 		</a>
 		<a
 			href="https://github.com/AliTaee/Portfolio"
-			class="footer__links flex justify-center"
+			class="footer__links font-medium flex justify-center"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
@@ -41,6 +41,5 @@
 	}
 	.footer__links {
 		color: var(--secondary);
-		font-weight: 500;
 	}
 </style>

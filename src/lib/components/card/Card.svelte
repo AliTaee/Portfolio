@@ -14,9 +14,9 @@
 </script>
 
 <div class="card">
-	<img class="card__img rounded-full" src={image} alt={`image of ${title}`} />
-	<h2 class="card__title">{title}</h2>
-	<p class="card__desc text-lg">{desc}</p>
+	<img class="w-[280px] h-auto rounded-full" src={image} alt={`image of ${title}`} />
+	<h2 class="card__title capitalize">{title}</h2>
+	<p class="text-lg m-0">{desc}</p>
 </div>
 
 <style lang="css">
@@ -29,15 +29,7 @@
 		text-align: center;
 		color: var(--white);
 	}
-	.card__img {
-		width: 280px;
-		height: auto;
-	}
 	.card__title {
-		text-transform: capitalize;
 		margin: var(--margin_sm) 0;
-	}
-	.card__desc {
-		margin: 0;
 	}
 </style>
