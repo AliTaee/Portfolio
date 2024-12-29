@@ -11,19 +11,7 @@
 
 	--gradient: linear-gradient(45deg, var(--primary_dark), var(--primary));
 
-	--container_width: 966px;
-	--border_radius: 6px;
-
-	--font_small: 16px;
-
-	--padding_xs: 5px;
-	--padding_sm: 10px;
-	--padding_me: 20px;
-	--padding_mx: 30px;
-
-	--margin_xs: 5px;
 	--margin_sm: 10px;
-	--margin_me: 20px;
 	--margin-lg: 26px;
 	--margin_mx: 30px;
 

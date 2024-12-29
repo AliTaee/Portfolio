@@ -13,7 +13,7 @@
 	export let image = ''
 </script>
 
-<div class="card">
+<div class="card rounded-md p-2.5">
 	<img class="w-[280px] h-auto rounded-full" src={image} alt={`image of ${title}`} />
 	<h2 class="card__title capitalize">{title}</h2>
 	<p class="text-lg m-0">{desc}</p>
@@ -23,8 +23,6 @@
 	.card {
 		width: 300px;
 		background: var(--gradient);
-		border-radius: var(--border_radius);
-		padding: var(--padding_sm);
 		margin-bottom: var(--margin-lg);
 		text-align: center;
 		color: var(--white);

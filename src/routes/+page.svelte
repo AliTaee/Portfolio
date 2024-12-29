@@ -15,10 +15,10 @@
 	<meta name="description" content={pageDescription} />
 </svelte:head>
 
-<div class="intro flex justify-center items-center">
+<div class="min-h-[inherit] flex justify-center items-center">
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
-		<section class="intro__welcome w-full mb-6 md:mb-0">
-			<h1 class="intro__title">
+		<section class="p-0 md:p-8 w-full mb-6 md:mb-0">
+			<h1 class="font-normal max-md:text-center max-md:text-2xl">
 				Hello World
 				<span class="hand-wave">
 					<Emoji emoji="👋" label="Hand waving" />
@@ -33,26 +33,6 @@
 </div>
 
 <style lang="css">
-	.intro {
-		min-height: inherit;
-	}
-	.intro__welcome {
-		padding: var(--padding_mx);
-	}
-	.intro__title {
-		font-weight: 400;
-	}
-
-	@media only screen and (max-width: 768px) {
-		.intro__welcome {
-			padding: 0;
-		}
-		.intro__title {
-			font-size: 24px;
-			text-align: center;
-		}
-	}
-
 	.hand-wave {
 		animation-name: wave-animation;
 		animation-duration: 2.5s;

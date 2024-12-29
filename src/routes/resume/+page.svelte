@@ -72,7 +72,7 @@
 					- {education.fieldOfStudy}
 				</div>
 				{#if education.time}
-					<time class="resume-section__time">{education.time}</time>
+					<time class="resume-section__time text-base">{education.time}</time>
 				{/if}
 			</div>
 		{/each}
@@ -109,7 +109,7 @@
 						</div>
 					</div>
 					{#if experience.time}
-						<time class="resume-section__time">{experience.time}</time>
+						<time class="resume-section__time text-base">{experience.time}</time>
 					{/if}
 				</div>
 
@@ -130,7 +130,9 @@
 </article>
 
 <div class="flex justify-center">
-	<a class="download-resume" href={ResumeFile} download={`Resume_${name}.pdf`}> Download resume </a>
+	<a class="download-resume rounded-md" href={ResumeFile} download={`Resume_${name}.pdf`}>
+		Download resume
+	</a>
 </div>
 
 <style lang="css">
@@ -210,12 +212,10 @@
 		color: var(--heading-color);
 		font-style: italic;
 		font-weight: 400;
-		font-size: var(--font_small);
 	}
 	.download-resume {
 		background: var(--gradient);
 		color: var(--white);
-		border-radius: var(--border_radius);
 		text-decoration: none;
 		text-transform: capitalize;
 		padding: 8px 16px;
