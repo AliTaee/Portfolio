@@ -9,8 +9,9 @@ I designed this portfolio to be dynamic for easy use. Here are the steps to use 
 3. Replace `src/lib/assets/images/profile-image.jpg` with your photo.
 4. Replace `src/lib/assets/resume.pdf` with your resume.
 5. Replace `src/static/favicon.png` with your favicon.
-6. Replace `src/posts` with your blog posts and please send me a link to read them!
+6. Replace or delete `src/posts` with your blog posts and please send me a link to read them!
 7. Replace or delete `src/routes/now` with your thoughts.
+8. Edit and customize theme of portfolio in `tailwind.config.cjs`. You can also use themes in [daisyUI themes](https://daisyui.com/docs/themes/)
 
 Your portfolio is now ready! You are welcome to:
 
