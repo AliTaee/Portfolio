@@ -2,8 +2,10 @@
 	import { onMount } from 'svelte'
 
 	const LOCAL_STORAGE_KEY = 'theme'
-	const NIGHT_KEY = 'dark'
-	const LIGHT_KEY = 'nord'
+	// Theme names, for more information please check at https://daisyui.com/docs/themes/
+	// tokio is our custom theme, please check tailwind.config.cjs
+	const NIGHT_KEY = 'tokioNight'
+	const LIGHT_KEY = 'tokio'
 	let nightTheme = true
 
 	onMount(() => {

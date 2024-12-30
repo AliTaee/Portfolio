@@ -25,81 +25,94 @@
 </svelte:head>
 
 <article class="my-7 mx-auto flex flex-col justify-items-center lg:flex-row">
-	<aside class="resume__sidebar max-[468px]:mb-7 w-full lg:w-1/3 lg:mr-10">
-		<img class="rounded-full resume__img" src={profileImage} alt={`profile image of ${name}`} />
-		<h1 class="resume__name">
+	<aside class="max-[468px]:mb-7 w-full lg:w-1/3 lg:mr-10">
+		<img
+			class="rounded-full w-[280px] h-[280px] mx-auto mb-4 ring-neutral ring-offset-base-100 ring ring-offset-2"
+			src={profileImage}
+			alt={`profile image of ${name}`}
+		/>
+		<h1 class="heading-title capitalize">
 			{name} <br />
-			<span class="resume__title">{title}</span>
+			<span class="text-[0.8em]">{title}</span>
 		</h1>
 		<p>{about}</p>
-
-		<h2 class="resume__category">contacts</h2>
-		<ul class="resume__contact list-none">
+		<h2 class="pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
+			contacts
+		</h2>
+		<ul class="p-0 m-0 list-none">
 			{#each socials as social}
 				<li class="my-2.5 mx-0">
-					<a href={social.href} target="_blank" rel="noopener noreferrer">
-						<span class={social.icon}></span>
+					<a class="heading-title" href={social.href} target="_blank" rel="noopener noreferrer">
+						<span class={`${social.icon} mr-2`}></span>
 						{social.text}
 					</a>
 				</li>
 			{/each}
 		</ul>
 
-		<h2 class="mt-7 resume__category">Skills</h2>
-		<section class="resume__skills">
+		<h2 class="mt-7 pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
+			Skills
+		</h2>
+		<section class="flex flex-wrap">
 			{#each skills as skill}
 				<Chip title={skill} />
 			{/each}
 		</section>
 
-		<h2 class="mt-7 resume__category">Languages</h2>
-		<section class="resume__skills">
+		<h2 class="mt-7 pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
+			Languages
+		</h2>
+		<section class="flex flex-wrap">
 			{#each languages as language}
 				<Chip title={language} />
 			{/each}
 		</section>
 
-		<h2 class="mt-7 resume__category">Education</h2>
+		<h2 class="mt-7 pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
+			Education
+		</h2>
 		{#each educations as education}
-			<div class="resume-section mb-7">
+			<div class="pb-[30px] section-underline mb-7">
 				{#if education.school}
 					<h3 class="heading-title">{education.school}</h3>
 				{/if}
-				<div class="resume-section__info">
+				<div class="my-[10px]">
 					{#if education.degree}
-						<span class="resume-section__secondary-title">{education.degree}</span>
+						<span class="font-medium">{education.degree}</span>
 					{/if}
 					- {education.fieldOfStudy}
 				</div>
 				{#if education.time}
-					<time class="resume-section__time text-base">{education.time}</time>
+					<time class="block italic font-normal heading-title text-base">{education.time}</time>
 				{/if}
 			</div>
 		{/each}
 	</aside>
 
-	<section class="resume__main w-full lg:w-2/3">
-		<h2 class="resume__category">Experience</h2>
+	<section class="w-full lg:w-2/3">
+		<h2 class="pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
+			Experience
+		</h2>
 		{#each experiences as experience}
-			<section class="resume-section mb-7">
+			<section class="pb-[30px] section-underline mb-7">
 				<div class="flex flex-col xl:flex-row xl:items-center justify-between w-full">
 					<div class="flex flex-col xl:flex-row xl:items-center gap-2">
 						{#if experience.title}
 							<h3 class="heading-title">{experience.title}</h3>
 						{/if}
 						<span class="hidden xl:block">|</span>
-						<div class="resume-section__info">
+						<div class="my-[10px]">
 							{#if experience.companyName && experience.link}
 								<a
 									href={experience.link}
 									target="_blank"
 									rel="noopener noreferrer"
-									class="resume-section__link"
+									class="heading-title"
 								>
-									<span class="resume-section__secondary-title">{experience.companyName}</span>
+									<span class="font-medium">{experience.companyName}</span>
 								</a>
 							{:else}
-								<span class="resume-section__secondary-title resume-section__link">
+								<span class="font-medium">
 									{experience.companyName}
 								</span>
 							{/if}
@@ -109,16 +122,16 @@
 						</div>
 					</div>
 					{#if experience.time}
-						<time class="resume-section__time text-base">{experience.time}</time>
+						<time class="block italic font-normal heading-title text-base">{experience.time}</time>
 					{/if}
 				</div>
 
 				{#if experience.companyDescription}
-					<p class="resume-section__about">{experience.companyDescription}</p>
+					<p class="my-[10px]">{experience.companyDescription}</p>
 				{/if}
 
 				{#if experience.achievements}
-					<ul class="resume-section__work-list ml-12">
+					<ul class="list-disc ml-12 mb-0">
 						{#each experience.achievements as achievement}
 							<li class="my-2.5 mx-0">{achievement}</li>
 						{/each}
@@ -131,83 +144,10 @@
 
 <div class="flex justify-center">
 	<a
-		class="border-primary border-solid border-2 text-white gradient-bg download-resume rounded-md"
+		class="border-primary border-solid border-2 text-white gradient-bg no-underline capitalize px-4 py-2 rounded-md"
 		href={ResumeFile}
 		download={`Resume_${name}.pdf`}
 	>
 		Download resume
 	</a>
 </div>
-
-<style lang="css">
-	.resume__name {
-		color: var(--heading-color);
-		text-transform: capitalize;
-	}
-	.resume__title {
-		font-size: 0.8em;
-	}
-	.resume__img {
-		width: 280px;
-		margin: 0 auto 1em;
-	}
-	.resume__skills {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.resume__contact {
-		margin: 0;
-		padding: 0;
-	}
-	.resume__contact a {
-		color: var(--heading-color);
-	}
-	.resume__category {
-		color: var(--heading-color);
-		border-bottom: 3px solid var(--heading-color);
-		padding-bottom: 10px;
-		margin: 1em 0;
-		text-transform: capitalize;
-		font-weight: 400;
-	}
-	.resume .resume-section:last-child {
-		border-bottom: none;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
-	.resume-section {
-		padding-bottom: 30px;
-		border-bottom: 3px solid var(--heading-color);
-	}
-	.resume-section__secondary-title {
-		font-weight: 500;
-	}
-	.resume-section__list-header {
-		margin: 0 0 10px;
-	}
-	.resume-section__info {
-		margin: 10px 0;
-	}
-	.resume-section__about {
-		margin: 10px 0;
-	}
-	.resume-section__work-list {
-		list-style-type: disc;
-		margin-bottom: 0;
-	}
-
-	.resume-section__link {
-		color: var(--heading-color);
-	}
-	.resume-section__time {
-		display: block;
-		color: var(--heading-color);
-		font-style: italic;
-		font-weight: 400;
-	}
-	.download-resume {
-		text-decoration: none;
-		text-transform: capitalize;
-		padding: 8px 16px;
-	}
-</style>

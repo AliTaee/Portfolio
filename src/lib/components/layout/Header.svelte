@@ -89,7 +89,7 @@
 		height: 2px;
 		bottom: 0;
 		left: 0;
-		background: white;
+		background: #fff;
 		transition: width 0.3s;
 	}
 	.header__link--active::before {

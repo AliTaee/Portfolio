@@ -35,7 +35,7 @@
 </script>
 
 <button
-	class="scroll-back-top bg-primary"
+	class="hidden text-lg fixed bottom-[60px] right-[30px] z-[999] cursor-pointer p-[15px] outline-none border-none rounded-full w-[50px] h-[50px] items-center justify-center bg-primary"
 	on:click={handleGoToTop}
 	id={SCROLL_BACK_TO_TOP_ID}
 	title="Go to top"
@@ -43,23 +43,3 @@
 >
 	<img src={ArrowUpIcon} class="m-0 w-5 h-5" alt="back to top icon" />
 </button>
-
-<style lang="css">
-	.scroll-back-top {
-		display: none;
-		font-size: 18px;
-		position: fixed;
-		bottom: 60px;
-		right: 30px;
-		z-index: 999;
-		cursor: pointer;
-		padding: 15px;
-		outline: none;
-		border: none;
-		border-radius: 100%;
-		width: 50px;
-		height: 50px;
-		align-items: center;
-		justify-content: center;
-	}
-</style>
