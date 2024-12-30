@@ -1,13 +1,13 @@
 <script lang="ts">
-	import { seoTags } from '$lib/resume-source'
-	import { title, description, url } from '$lib/blog-config'
+	import { seoTags, domain, me } from '$lib/resume-source'
 	import BlogCard from '$lib/components/blog-card/BlogCard.svelte'
 	import Emoji from '$lib/components/emoji/Emoji.svelte'
 	export let data
 
 	const {
-		blog: { title: pageTitle, description: pageDescription }
+		blog: { pageTitle, pageDescription }
 	} = seoTags
+	const { shortAbout: description, title } = me
 </script>
 
 <svelte:head>
@@ -15,7 +15,7 @@
 	<meta name="description" content={pageDescription} />
 
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content={`${url}/blog`} />
+	<meta property="og:url" content={`${domain}/blog`} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:site_name" content={title} />

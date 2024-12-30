@@ -8,10 +8,10 @@
 </script>
 
 {#key path}
-	<div class="card bg-primary shadow-xl">
+	<div class="card bg-primary drop-shadow-md">
 		{#if image}
 			<figure class="h-60">
-				<img src={image} alt={imageAlt} />
+				<img class="hover:scale-125 transition ease-in duration-300" src={image} alt={imageAlt} />
 			</figure>
 		{/if}
 		<div class="card-body">

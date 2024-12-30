@@ -8,12 +8,19 @@ export default {
 	daisyui: {
 		themes: [
 			{
+				tokioNight: {
+					primary: '#003566',
+					secondary: '#ffd60a',
+					accent: '#00cdb8',
+					neutral: '#001d3d',
+					'base-100': '#001d3d'
+				},
 				tokio: {
 					primary: '#003566',
 					secondary: '#ffd60a',
 					accent: '#00cdb8',
 					neutral: '#001d3d',
-					'base-100': '#ffffff'
+					'base-100': '#eceff4'
 				}
 			}
 		]

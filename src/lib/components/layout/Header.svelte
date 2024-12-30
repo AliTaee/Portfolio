@@ -27,7 +27,7 @@
 	})
 </script>
 
-<header class="header flex justify-center mb-6">
+<header class="bg-primary flex justify-center mb-6">
 	<div class="container mx-auto flex justify-between items-center p-4">
 		<nav class="main-nav flex flex-col justify-start md:flex-row md:items-center h-full">
 			<div class="dropdown md:hidden">
@@ -78,9 +78,6 @@
 </header>
 
 <style lang="css">
-	.header {
-		background: var(--primary);
-	}
 	.header__link {
 		position: relative;
 	}
@@ -92,7 +89,7 @@
 		height: 2px;
 		bottom: 0;
 		left: 0;
-		background: white;
+		background: #fff;
 		transition: width 0.3s;
 	}
 	.header__link--active::before {

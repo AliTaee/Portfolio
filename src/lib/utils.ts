@@ -22,6 +22,7 @@ export const fetchMarkdownPosts = async () => {
             };
         })
     );
+    const publishedPosts = allPosts.filter(post => post.meta.published);
 
-    return allPosts;
+    return publishedPosts;
 };

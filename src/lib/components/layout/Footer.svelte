@@ -4,11 +4,11 @@
 	import GitHubLogo from '$lib/assets/icons/github-mark-white.svg'
 </script>
 
-<footer class="footer mt-6 py-3">
+<footer class="footer text-white bg-primary mt-6 py-3">
 	<div class="container mx-auto flex justify-center flex-wrap">
 		Made with <Emoji emoji="❤️" label="love" /> and
 		<a
-			class="footer__links flex justify-center"
+			class="text-secondary font-medium flex justify-center"
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -24,7 +24,7 @@
 		</a>
 		<a
 			href="https://github.com/AliTaee/Portfolio"
-			class="footer__links flex justify-center"
+			class="text-secondary font-medium flex justify-center"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
@@ -33,14 +33,3 @@
 		</a>
 	</div>
 </footer>
-
-<style lang="css">
-	.footer {
-		background: var(--primary);
-		color: var(--white);
-	}
-	.footer__links {
-		color: var(--secondary);
-		font-weight: 500;
-	}
-</style>
