@@ -58,7 +58,7 @@ We can create a document in the GitHub wiki of the project to share these ideas 
 
 ## Some actions to improve code reviews in the long term
 
--Pair programming 💻
+Pair programming 💻
 
 - Depending on the team and company, we could have a weekly meeting to share knowledge with our teammates.
 - Share our learning resources on company communication messengers such as Slack, Teams, and Discord.
