@@ -1,8 +1,6 @@
-<h1 align="center">
-  Ali Taee Portfolio, You are welcome to use this project to build your portfolio site.
-</h1>
+# Ali Taee Portfolio v2.0.0, You are welcome to use this project to build your portfolio site.
 
-A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love ❤️ with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS.
+A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love ❤️ with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS and daisyUI.
 
 I designed this portfolio to be dynamic for easy use. Here are the steps to use this portfolio:
 
@@ -10,6 +8,9 @@ I designed this portfolio to be dynamic for easy use. Here are the steps to use 
 2. Replace `src/resume-source.ts` with your details such as name, about, skills, experiences, socials, languages, and education.
 3. Replace `src/lib/assets/images/profile-image.jpg` with your photo.
 4. Replace `src/lib/assets/resume.pdf` with your resume.
+5. Replace `src/static/favicon.png` with your favicon.
+6. Replace `src/posts` with your blog posts and please send me a link to read them!
+7. Replace or delete `src/routes/now` with your thoughts.
 
 Your portfolio is now ready! You are welcome to:
 
@@ -17,9 +18,14 @@ Your portfolio is now ready! You are welcome to:
 - Edit and modify it as you wish
 - Send a pull request to improve this portfolio
 
-There are still some SCSS styles that I plan to refactor into Tailwind CSS. Additionally, I plan to add DaisyUI, improve the design and style on the resume page, and add more pages such as "About Me", "Blog", etc. So, stay tuned.
+## 🛣️ Routes
 
-## Developing
+- Home: Displays basic title, description, and profile image.
+- Blog: Supports markdown files for blog posts.
+- Resume: Showcases your professional profile including name, about section, skills, experience, social links, languages, and education.
+- Now: Share your current thoughts.
+
+## 🧑‍💻 Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -30,7 +36,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## ⚙️ Building
 
 To create a production version of your app:
 
@@ -52,7 +58,7 @@ You can preview the production build with `npm run preview`.
 - [favicon-generator](https://favicon.io/favicon-generator/) - Text favicon
 - [icomoon.io](https://icomoon.io/) - Icon
 
-## Tools and Setup in this project: 🧰
+## 🧰 Tools and Setup in this project:
 
 - [Svelte](https://svelte.dev/): Svelte is a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript. It’s a love letter to web development.
 - [Sveltejs/kit](https://svelte.dev/docs/kit/@sveltejs-kit): SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte.
