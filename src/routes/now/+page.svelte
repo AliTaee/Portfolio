@@ -14,6 +14,20 @@
 
 <h1 class="mb-6">Now <Emoji emoji="📝" label="writing" /></h1>
 
+<h2>Published at: <time>{formatDate('2024-12-31')}</time></h2>
+<br />
+<div class="pl-4 mb-10">
+	<p>Happy new year! 🎄 🎉 🎊 🎆</p>
+	<br />
+	<p>
+		I Refactored SCSS to Tailwind and DaisyUI and Implemented a blog system using markdown. My next
+		goal is improving blog by adding comments, categories, and a reading progress indicator to show
+		readers how much of the post remains. I have a ton of ideas for the blog and this portfolio,
+		however I like to spend more time on writing blog posts and building a product with AI. Although
+		I'm not sure about my ideas with AI yet.
+	</p>
+</div>
+
 <h2>Published at: <time>{formatDate('2024-11-30')}</time></h2>
 <br />
 <div class="pl-4">
