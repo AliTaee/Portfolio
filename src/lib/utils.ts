@@ -22,7 +22,11 @@ export const fetchMarkdownPosts = async () => {
             };
         })
     );
-    const publishedPosts = allPosts.filter(post => post.meta.published);
+
+    let publishedPosts = allPosts.filter(post => post.meta.published);
+    publishedPosts = publishedPosts.sort((firstPost, secondPost) => {
+        return new Date(secondPost.meta.date).getTime() - new Date(firstPost.meta.date).getTime();
+    });
 
     return publishedPosts;
 };
