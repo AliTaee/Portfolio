@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import { domain, me } from '$lib/resume-source'
+	import ReadingPositionIndicator from '$lib/components/reading-Indicator/ReadingPositionIndicator.svelte'
 
 	export let data
 
@@ -33,6 +34,8 @@
 	<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
 	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
 </svelte:head>
+
+<ReadingPositionIndicator />
 
 <article class="mb-16">
 	<hgroup class="flex flex-col items-center">
