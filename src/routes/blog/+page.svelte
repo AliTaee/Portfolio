@@ -33,7 +33,7 @@
 	<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
 </svelte:head>
 
-<h1 class="mb-6">Latest Posts <Emoji emoji="📝" label="writing" /></h1>
+<h1 class="mb-6">Latest Posts <Emoji emoji="✍️" label="writing" /></h1>
 <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
 	{#each data.posts as post}
 		<BlogCard {post} />

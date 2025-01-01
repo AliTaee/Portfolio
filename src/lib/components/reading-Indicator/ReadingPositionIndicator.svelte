@@ -45,12 +45,12 @@
 	}
 
 	progress::-webkit-progress-value {
-		@apply bg-gradient-to-r from-pink-500 to-violet-500;
+		@apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
 		transition: all 0.2s ease-out;
 	}
 
 	progress::-moz-progress-bar {
-		@apply bg-gradient-to-r from-pink-500 to-violet-500;
+		@apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
 		transition: all 0.2s ease-out;
 	}
 </style>

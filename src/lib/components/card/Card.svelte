@@ -1,15 +1,6 @@
 <script lang="ts">
-	/**
-	 * @type {string}
-	 */
 	export let title = ''
-	/**
-	 * @type {string}
-	 */
 	export let desc = ''
-	/**
-	 * @type {string}
-	 */
 	export let image = ''
 </script>
 

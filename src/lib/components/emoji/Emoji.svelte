@@ -1,11 +1,5 @@
 <script lang="ts">
-	/**
-	 * @type {string}
-	 */
 	export let emoji = '🤔'
-	/**
-	 * @type {string}
-	 */
 	export let label = 'thinking face'
 </script>
 

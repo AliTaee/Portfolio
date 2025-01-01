@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils.js'
+	import ButtonLink from '$lib/components/button-link/ButtonLink.svelte'
 
 	export let post
 
@@ -25,7 +26,13 @@
 				</div>
 			</footer>
 			<div class="card-actions justify-end">
-				<a class="btn btn-secondary" href={`/blog/${path}`}> Read More </a>
+				<ButtonLink
+					href={`/blog/${path}`}
+					label="Read More"
+					darkBackground="dark:bg-primary"
+					lightBackground="bg-primary"
+					lightText="text-slate-100"
+				/>
 			</div>
 		</div>
 	</div>
