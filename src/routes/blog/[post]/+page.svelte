@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import { domain, me } from '$lib/resume-source'
+	import ButtonLink from '$lib/components/button-link/ButtonLink.svelte'
 	import ReadingPositionIndicator from '$lib/components/reading-Indicator/ReadingPositionIndicator.svelte'
 
 	export let data
@@ -58,12 +59,10 @@
 	<div class="prose dark:prose-invert mx-auto">
 		<!-- Tags -->
 		{#if categories}
+			<span class="mb-2 inline-block">Tags:</span>
 			<div class="flex flex-wrap gap-4 mb-6">
 				{#each categories as category}
-					<a
-						href={`/blog/categories/${category}`}
-						class="chip variant-filled-secondary no-underline">&num;{category}</a
-					>
+					<ButtonLink href={`/blog/categories/${category}`} label={category} />
 				{/each}
 			</div>
 		{/if}

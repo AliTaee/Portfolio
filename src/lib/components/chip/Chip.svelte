@@ -1,7 +1,4 @@
 <script lang="ts">
-	/**
-	 * @type {string}
-	 */
 	export let title = ''
 </script>
 

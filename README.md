@@ -1,4 +1,4 @@
-# Ali Taee Portfolio v2.0.0, You are welcome to use this project to build your portfolio site.
+# Ali Taee Portfolio v2.1.0, You are welcome to use this project to build your portfolio site.
 
 A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love ❤️ with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS and daisyUI.
 
