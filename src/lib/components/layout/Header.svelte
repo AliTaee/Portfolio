@@ -100,4 +100,12 @@
 		content: ':}';
 		opacity: 1;
 	}
+	@media (max-width: 767px) {
+		.header__link::before {
+			bottom: 2px;
+			left: unset;
+			transform: rotate(0deg);
+			right: -17px;
+		}
+	}
 </style>
