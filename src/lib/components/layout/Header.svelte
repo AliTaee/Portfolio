@@ -85,17 +85,19 @@
 		position: absolute;
 		content: '';
 		display: inline-block;
-		width: 0;
-		height: 2px;
-		bottom: 0;
-		left: 0;
-		background: #fff;
-		transition: width 0.3s;
+		bottom: -20px;
+		left: 35%;
+		transform: rotate(90deg);
+		font-size: 1.4em;
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
 	}
 	.header__link--active::before {
-		width: 100%;
+		content: ':}';
+		opacity: 1;
 	}
 	.header__link:hover::before {
-		width: 100%;
+		content: ':}';
+		opacity: 1;
 	}
 </style>
