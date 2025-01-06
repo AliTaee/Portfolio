@@ -10,6 +10,8 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
+	<meta name="twitter:image:src" content="/favicon.png" />
+	<meta property="og:image" content="/favicon.png" />
 </svelte:head>
 
 <h1 class="mb-6">Now <Emoji emoji="📝" label="writing" /></h1>

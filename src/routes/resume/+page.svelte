@@ -14,6 +14,8 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
+	<meta name="twitter:image:src" content="/favicon.png" />
+	<meta property="og:image" content="/favicon.png" />
 </svelte:head>
 
 <article class="my-7 mx-auto flex flex-col justify-items-center lg:flex-row">
