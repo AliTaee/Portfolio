@@ -35,7 +35,7 @@
 			{name} <br />
 			<span class="text-[0.8em]">{title}</span>
 		</h1>
-		<p>{about}</p>
+		<p class="mt-4">{@html about}</p>
 		<h2 class="pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
 			contacts
 		</h2>
