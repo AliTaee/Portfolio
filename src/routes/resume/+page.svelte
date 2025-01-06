@@ -1,19 +1,11 @@
 <script>
-	import {
-		me,
-		socials,
-		skills,
-		languages,
-		educations,
-		experiences,
-		seoTags
-	} from '$lib/resume-source'
+	import { me, skills, languages, educations, experiences, seoTags } from '$lib/resume-source'
 
 	import Chip from '$lib/components/chip/Chip.svelte'
 
 	import ResumeFile from '$lib/assets/resume.pdf'
 
-	const { name, about, title, profileImage } = me
+	const { name, title, profileImage } = me
 	const {
 		resume: { pageTitle, pageDescription }
 	} = seoTags
@@ -22,6 +14,8 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
+	<meta name="twitter:image:src" content="/favicon.png" />
+	<meta property="og:image" content="/favicon.png" />
 </svelte:head>
 
 <article class="my-7 mx-auto flex flex-col justify-items-center lg:flex-row">
@@ -35,20 +29,6 @@
 			{name} <br />
 			<span class="text-[0.8em]">{title}</span>
 		</h1>
-		<p class="mt-4">{@html about}</p>
-		<h2 class="pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
-			contacts
-		</h2>
-		<ul class="p-0 m-0 list-none">
-			{#each socials as social}
-				<li class="my-2.5 mx-0">
-					<a class="heading-title" href={social.href} target="_blank" rel="noopener noreferrer">
-						<span class={`${social.icon} mr-2`}></span>
-						{social.text}
-					</a>
-				</li>
-			{/each}
-		</ul>
 
 		<h2 class="mt-7 pb-[10px] my-[1em] capitalize font-normal heading-title section-underline">
 			Skills

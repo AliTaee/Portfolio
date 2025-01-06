@@ -13,6 +13,8 @@
 <svelte:head>
 	<title>{pageTitle}</title>
 	<meta name="description" content={pageDescription} />
+	<meta name="twitter:image:src" content="/favicon.png" />
+	<meta property="og:image" content="/favicon.png" />
 </svelte:head>
 
 <div class="min-h-[inherit] flex justify-center items-center">

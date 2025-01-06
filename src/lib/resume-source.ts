@@ -142,22 +142,17 @@ const socials = [
 	{
 		href: 'mailto:ali.taei.semiromi@gmail.com',
 		icon: 'icon-envelope',
-		text: 'Ali.taei.semiromi@gmail.com'
+		label: 'Ali.taei.semiromi@gmail.com'
 	},
 	{
 		href: 'https://www.linkedin.com/in/alitaee/',
 		icon: 'icon-linkedin',
-		text: 'Linkedin'
-	},
-	{
-		href: 'https://stackoverflow.com/users/9218227/ali-taee',
-		icon: 'icon-stack-overflow',
-		text: 'Stack overflow'
+		label: 'Linkedin'
 	},
 	{
 		href: 'https://github.com/AliTaee',
 		icon: 'icon-github',
-		text: 'Github'
+		label: 'Github'
 	}
 ]
 
