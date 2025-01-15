@@ -20,13 +20,13 @@
 <div class="min-h-[inherit] flex justify-center items-center">
 	<div class="flex flex-col items-center w-full lg:flex-row-reverse 2xl:w-8/12 mx-auto">
 		<section class="p-0 md:p-8 w-full mb-6 md:mb-0">
-			<h1 class="font-normal max-md:text-center max-md:text-2xl">
+			<h1 class="font-normal max-md:text-2xl">
 				Hello World
 				<span class="hand-wave">
 					<Emoji emoji="👋" label="Hand waving" />
 				</span>
 			</h1>
-			<p class="text-wrap">{@html about}</p>
+			<p class="text-wrap mt-4">{@html about}</p>
 		</section>
 		<section>
 			<Card desc={title} title={name} image={profileImage} />
