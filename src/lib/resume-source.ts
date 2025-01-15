@@ -7,8 +7,8 @@ const me = {
 	title: 'Senior Front-end Engineer',
 	profileImage,
 	about:
-		"<span class='text-6xl float-left pr-4'>:}</span> it's my symbol. The bracket } represents code, and combined with colon : it shows happy smiling face of passionate developer, who have a self-taught spirit for Front-end Development, which I see as a perfect blend of art and technology. While I've primarily worked with JavaScript and React throughout my career, I'm always open to learning new technologies. I've successfully mentored developers, helping them grow professionally. I've initiated projects to drive innovation, maintain a keen eye for detail, and consistently stay updated with new technologies and best practices in the field. I enjoy Music, Books, Photography, Board games, Running, and Travel.",
-	shortAbout: "I'm a Senior Front-end Engineer with more than 9 years of experience. I have a self-taught spirit and a passion for Front-end Development, which I see as a perfect blend of art and technology."
+		"<span class='text-6xl float-left pr-4'>:}</span> it's my symbol. The bracket } represents code, and combined with colon : it shows happy smiling face of simple developer with 9 years of experience, who admire simple, clean and well-tested code in Front-end development, which I see as a perfect blend of art and technology. While I've primarily worked with React throughout my career, I’m not married to it. In fact HTML, CSS and JavaScript are my main sides of a prism in front-end development, and I'm always open and eager to learn new technologies such as Svelte. I have a keen eye for detail, passion for knowledge sharing, entrepreneur spirit for innovation. I love creating meaningful, interactive user experiences. I enjoy Music, Books, Photography, Board games, Running, and Travel.",
+	shortAbout: "I'm a Senior Front-end Engineer with more than 9 years of experience. who admire simple, clean and well-tested code in Front-end development, which I see as a perfect blend of art and technology."
 }
 
 const seoTags = {
