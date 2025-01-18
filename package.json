@@ -1,6 +1,6 @@
 {
 	"name": "portfolio",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
@@ -44,5 +44,8 @@
 		"vite": "^6.0.1",
 		"vitest": "^1.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@giscus/svelte": "^3.1.0"
+	}
 }
