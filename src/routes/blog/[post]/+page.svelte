@@ -3,12 +3,16 @@
 	import { domain, me } from '$lib/resume-source'
 	import ButtonLink from '$lib/components/button-link/ButtonLink.svelte'
 	import ReadingPositionIndicator from '$lib/components/reading-Indicator/ReadingPositionIndicator.svelte'
+	import Giscus from '@giscus/svelte'
 
 	export let data
 
 	const { name } = me
 	const { content, meta, postURL } = data
 	const { title, description, image, imageAlt, imageAppreciation, date, categories } = meta
+
+	const GISCUS_REPO_ID = import.meta.env.VITE_GISCUS_REPO_ID
+	const GISCUS_CATEGORY_ID = import.meta.env.VITE_GISCUS_CATEGORY_ID
 </script>
 
 <svelte:head>
@@ -69,5 +73,21 @@
 
 		<!-- Post -->
 		<svelte:component this={content} />
+
+		<Giscus
+			id="comments"
+			repo="AliTaee/Portfolio"
+			repoId={GISCUS_REPO_ID}
+			category="Announcements"
+			categoryId={GISCUS_CATEGORY_ID}
+			mapping="specific"
+			term={postURL}
+			reactionsEnabled="1"
+			emitMetadata="0"
+			inputPosition="top"
+			theme="dark"
+			lang="en"
+			loading="lazy"
+		/>
 	</div>
 </article>

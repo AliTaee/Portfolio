@@ -1,4 +1,4 @@
-# Ali Taee Portfolio v2.1.0, You are welcome to use this project to build your portfolio site.
+# Ali Taee Portfolio v2.2.0, You are welcome to use this project to build your portfolio site.
 
 A few years ago, I built a portfolio with React, GatsbyJs, and SCSS. Recently, I decided to refactor my portfolio with NextJs. During my refactor, I attended a SvelteKit workshop at the DevWorld conference and fell in love ❤️ with Svelte. So, I decided to delete NextJs and refactor it again with SvelteKit. This time, for styles, I chose Tailwind CSS and daisyUI.
 
@@ -12,6 +12,7 @@ I designed this portfolio to be dynamic for easy use. Here are the steps to use 
 6. Replace or delete `src/posts` with your blog posts and please send me a link to read them!
 7. Replace or delete `src/routes/now` with your thoughts.
 8. Edit and customize theme of portfolio in `tailwind.config.cjs`. You can also use themes in [daisyUI themes](https://daisyui.com/docs/themes/)
+9. Copy `.env.example` to `.env` and insert your [GISCUS](https://giscus.app/) IDs for comment system base on Github discussions.
 
 Your portfolio is now ready! You are welcome to:
 
@@ -22,7 +23,10 @@ Your portfolio is now ready! You are welcome to:
 ## 🛣️ Routes
 
 - Home: Displays basic title, description, and profile image.
-- Blog: Supports markdown files for blog posts.
+- Blog:
+  - Supports markdown files for blog posts
+  - Giscus for comment system
+  - Image appreciation tag for link to photographers account if you like to use photo service like [unsplash](https://unsplash.com/) and becuase it's nice thing to support talented photographers.
 - Resume: Showcases your professional profile including name, about section, skills, experience, social links, languages, and education.
 - Now: Share your current thoughts.
 
